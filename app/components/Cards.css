@@ -1,0 +1,25 @@
+/* .cardsContainer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .cards {
+    width: 50%;
+} */
+
+.cont {
+    display: flex;
+    justify-content: end;
+}
+
+.pad {
+    padding-top: 2rem;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .cards {
+        width: 100%; 
+    }
+    
+}
