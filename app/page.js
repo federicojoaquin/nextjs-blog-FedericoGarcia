@@ -6,13 +6,13 @@ import './Styles.css'
 import ParticleBackground from './components/ParticleBackground'
 import Link from 'next/link'
 import Image from 'next/image'
-import retrait from './Federico.jpg'
+import federico from './Federico.jpg'
 
 export default function Home() {
   return (
     <div className='App'>
       <div className="text" style={{position: 'relative', overflow: 'hidden'}}>
-          <Image className='portrait' src={retrait} width={150} height={150}/>
+          <Image className='portrait' src={federico} width={150} height={150}/>
           <h1 className='mainTitle'><b className='mainTitle'>Federico Garcia</b></h1>
           <h2 className='subTitle'>{'<Full-stack developer/>'}</h2>
           <div className='iconsContainer'>
