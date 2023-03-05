@@ -6,7 +6,7 @@ import './Styles.css'
 import ParticleBackground from './components/ParticleBackground'
 import Link from 'next/link'
 import Image from 'next/image'
-import retrait from './retrato.JPG'
+import retrait from './Federico.jpg'
 
 export default function Home() {
   return (
