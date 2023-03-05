@@ -1,9 +1,6 @@
 import React from 'react'
 import Card from './Card'
 // import Tool from '../assets/Icons/Tool.PNG'
-import Team from '../assets/Icons/Team.PNG'
-import Change from '../assets/Icons/Change.PNG'
-import Books from '../assets/Icons/Books.PNG'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function cards() {
@@ -18,19 +15,19 @@ function cards() {
           </div>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer'>
-              <Card image={Team} title='Trabajo en equipo'/>
+              <Card title='Trabajo en equipo'/>
             </div>
           </div>
         </div>
         <div className='row justify-content-center'>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer cont pad'>
-              <Card image={Change} title='Adaptación al cambio'/>
+              <Card title='Adaptación al cambio'/>
             </div>
           </div>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer pad'>
-              <Card image={Books} title='Aprendizaje constante'/>
+              <Card title='Aprendizaje constante'/>
             </div>
           </div>
         </div>
