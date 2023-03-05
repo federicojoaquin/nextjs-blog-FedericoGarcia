@@ -6,15 +6,14 @@ import './Styles.css'
 import ParticleBackground from './components/ParticleBackground'
 import Link from 'next/link'
 import Image from 'next/image'
-// import retrait from './assets/Portrait.JPG'
-
+import retrait from './retrato.JPG'
 
 export default function Home() {
   return (
     <div className='App'>
       <div className="text" style={{position: 'relative', overflow: 'hidden'}}>
-          {/* <Image className='portrait' src={retrait} width={150} height={150}/> */}
-          <h1 className='title'><b>Federico Garcia</b></h1>
+          <Image className='portrait' src={retrait} width={150} height={150}/>
+          <h1 className='mainTitle'><b className='mainTitle'>Federico Garcia</b></h1>
           <h2 className='subTitle'>{'<Full-stack developer/>'}</h2>
           <div className='iconsContainer'>
             <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8"></a>
@@ -28,14 +27,6 @@ export default function Home() {
         <ParticleBackground />
       </div>
       
-      {/* <main className='principal'>
-        <div className="text">
-          <h1><b>Federico Garcia</b></h1>
-          <h2>Full-stack developer</h2>
-          <button type="button" class="btn btn-outline-dark more"><b>Show more</b></button>
-        </div>
-      </main> */}
-    
     </div>
     
   )

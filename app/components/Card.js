@@ -6,11 +6,11 @@ import Image from 'next/image'
 function Card({title, text, image}) {
   return (
     <div className='card'>
-      <div className='image'> 
+      <div className='imageCard'> 
         <Image src={image} width={50} height={50}></Image>
-        <h1 className='title'>{title}</h1>
+        <h1 className='titleCard'>{title}</h1>
       </div>
-      <div className='text'>
+      <div className='textCard'>
         
         <p>{text}</p>
       </div>

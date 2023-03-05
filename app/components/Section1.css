@@ -1,0 +1,31 @@
+.firstSec { 
+    margin: auto;
+}
+
+#download {
+    width: 30%;
+}
+
+.imageDev {
+    z-index: 3;
+}
+
+.titleAboutMe {
+    color: #000; 
+    font-size: 2rem;
+}
+.paragraph {
+    color: #000;
+}
+
+.textContainer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 400px) and (max-height: 700px) {
+    .content {
+        min-height: 110vh;
+    }
+}

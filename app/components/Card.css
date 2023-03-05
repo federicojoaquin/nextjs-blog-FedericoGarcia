@@ -19,7 +19,7 @@
     /* animation: up 0.5s; */
 }
 
-.image {
+.imageCard {
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -34,7 +34,8 @@
     padding-top: 2rem;
 }
 
-.title {
+.titleCard {
+    color: #000; 
     font-size: 1.2rem;
     margin-left: 10px;
 }

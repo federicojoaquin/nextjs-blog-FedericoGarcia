@@ -498,18 +498,21 @@
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\page": [
+      "static/css/_app-client_app_components_Tecnologies_css.css",
       "static/css/_app-client_app_components_Card_css.css",
-      "static/css/_app-client_app_About_Styles_css.css",
+      "static/css/_app-client_app_components_burbles_css.css",
+      "static/css/_app-client_app_components_Section1_css.css",
       "static/css/_app-client_node_modules_bootstrap-icons_font_bootstrap-icons_css.css",
+      "static/css/_app-client_app_About_Styles_css.css",
       "static/css/app/About/page.css"
-    ],
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\layout": [
-      "static/css/_app-client_app_globals_css.css"
     ],
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\page": [
       "static/css/_app-client_app_Styles_css.css",
       "static/css/_app-client_node_modules_bootstrap-icons_font_bootstrap-icons_css.css",
       "static/css/_app-client_node_modules_bootstrap_dist_css_bootstrap_min_css.css"
+    ],
+    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\layout": [
+      "static/css/_app-client_app_globals_css.css"
     ]
   },
   "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\client\\components\\app-router.js": {
@@ -1181,6 +1184,15 @@
       "async": false
     }
   },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\Styles.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_About_Styles_css.css"
+      ]
+    }
+  },
   "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap-icons\\font\\bootstrap-icons.css": {
     "default": {
       "id": "null",
@@ -1190,12 +1202,21 @@
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\Styles.css": {
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Section1.css": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/_app-client_app_About_Styles_css.css"
+        "static/css/_app-client_app_components_Section1_css.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\burbles.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_components_burbles_css.css"
       ]
     }
   },
@@ -1208,12 +1229,12 @@
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\globals.css": {
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Tecnologies.css": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/_app-client_app_globals_css.css"
+        "static/css/_app-client_app_components_Tecnologies_css.css"
       ]
     }
   },
@@ -1223,6 +1244,15 @@
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_Styles_css.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_globals_css.css"
       ]
     }
   }
