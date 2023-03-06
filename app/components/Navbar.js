@@ -64,13 +64,16 @@ function Navbar() {
               <a className="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
+              <a className="nav-link" href="#">Sobre mí</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+              <a className="nav-link" href="#">Proyectos</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
+              <a className="nav-link" href="#">Habilidades</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Contacto</a>
             </li>
           </ul>
         </div>

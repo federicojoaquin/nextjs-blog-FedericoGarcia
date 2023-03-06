@@ -71,6 +71,21 @@ footer {
 margin: auto;
 }
 
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boxIcon {
+    padding: 0.5rem;
+}
+
+.icono {
+    color: #000;
+    font-size: 1.5rem;
+}
+
 @keyframes appear { 
  
     100% { 

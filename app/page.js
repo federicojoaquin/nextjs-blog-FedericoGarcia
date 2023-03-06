@@ -15,13 +15,18 @@ export default function Home() {
           <Image className='portrait' src={federico} width={150} height={150}/>
           <h1 className='mainTitle'><b className='mainTitle'>Federico Garcia</b></h1>
           <h2 className='subTitle'>{'<Full-stack developer/>'}</h2>
-          <div className='iconsContainer'>
-            <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8"></a>
-            <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-github fs-8"></a>
+          <div className='iconsContactContainer'>
+            <div>
+              <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8 iconoContacto"></a>
+            </div>
+            <div>
+              <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-github fs-8 iconoContacto"></a>
+            </div>
+            
           </div>
           {/* <BsGithub size={100}/>
           <BsLinkedin size={100}/> */}
-          <Link className="btn btn-outline-dark more" href={'/About'}><b>Show more</b></Link>
+          <Link className="btn btn-outline-dark showMore" href={'/About'}><b>Show more</b></Link>
       </div>
       <div style={{position: 'absolute'}}>
         <ParticleBackground />
