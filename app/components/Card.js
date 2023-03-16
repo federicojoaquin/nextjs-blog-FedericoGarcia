@@ -19,7 +19,7 @@ function Card({title, icon}) {
       setMyElementIsVisible(entry.isIntersecting)
     }, {
       root: null,
-      rootMargin: '-220px 0px -220px 0px', 
+      rootMargin: '-170px 0px -170px 0px', 
       threshold: 1,
     })
     observer.observe(myRef.current); 

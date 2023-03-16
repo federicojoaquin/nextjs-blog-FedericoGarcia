@@ -40,8 +40,10 @@ function Navbar() {
     }
 
     if (screen.width < 990) {
-      let backgroundTransparacyVar = 1 
-      let imgOpacity = 1 
+      let backgroundTransparacyVar = 1
+      let paddingVar = 15; 
+      let imgOpacity = 1;
+      setPadding(paddingVar);
       setBackgroundTransparacy(backgroundTransparacyVar); 
       setImgOpacity(imgOpacity); 
     }

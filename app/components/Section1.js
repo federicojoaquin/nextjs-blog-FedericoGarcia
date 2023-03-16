@@ -4,10 +4,8 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './Styles/Section1.css'
 import developer from '../assets/sysadmin_03.png'
 import Link from 'next/link'
-import {Secular_One} from 'next/font/google'
 import {Alata} from 'next/font/google'
 
-const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 const alata = Alata({ subsets: ['latin'],  weight: ['400'] })
 
 function Section1() {
@@ -15,7 +13,7 @@ function Section1() {
     <div className='firstSec container' id='sobreMi'>
         <div className='row'>
             <div className='col-md-6 col-sm-12 textContainer'>
-            <h1 className={`${secular.className} titleAboutMe`}><b>Sobre mí</b></h1>
+            <h1 className={`titleAboutMe`}><b>Sobre mí</b></h1>
             <p className={`${alata.className} paragraph`} style={{marginTop: '1rem'}}>Estudiante de Ingeniería en Sistemas, <b>desarrollador y diseñador web autodidacta</b>. En constante aprendizaje y simpre mejorando mis habilidades. 
                 <b> Diseño páginas web a medida</b>, así como también aplicaciones CRUD.
                 </p>
