@@ -1,19 +1,18 @@
 import {React} from 'react'
 import Proyect from './Proyect'
-import image1 from '../assets/Administrador.JPG'
-import image2 from '../assets/images/Agronix.JPG'
+import proyectImage from '../assets/Projects.PNG'
 
 function Proyects() {
 
   return (
     <div className='proysContainer'>
       {/* Map */}
-      <Proyect proy={image1} 
+      <Proyect proy={proyectImage} 
       titleProy='Administrador Personal' 
       descProy={`En desarrollo, gestor de gastos, finanzas, y tiempos para uso personal. Tecnologías: React, Node.Js, Express y PostgreSql`}
       linkProy='https://github.com/federicojoaquin/Administrador-Personal'/> 
       
-      <Proyect proy={image2} 
+      <Proyect proy={proyectImage} 
       titleProy='Agronix S.R.L'
       descProy={`En desarrollo, Página web estática de presentación de empresa Agronix S.R.L dedicada a venta de insumos tecnológicos para el campo. Html, Css y Javascript vanilla.`}
       linkProy='https://github.com/federicojoaquin/Agronix-S.R.L'/>

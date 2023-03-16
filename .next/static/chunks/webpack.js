@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "1225bdefb649de21"; }
+/******/ 		__webpack_require__.h = function() { return "f449abeedecc64dd"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -798,7 +798,7 @@
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = function(chunkId, promises) {
-/******/ 			var cssChunks = {"_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe":1,"_app-client_app_About_pageStyles_css":1,"_app-client_node_modules_next_font_google_target_css_path_app_components_Section1_js_import_S-e258f1":1,"_app-client_node_modules_next_font_google_target_css_path_app_components_Section1_js_import_A-dd4e17":1,"_app-client_app_components_Styles_Section1_css":1,"_app-client_app_components_Styles_Burbles_css":1,"_app-client_app_globals_css":1,"_app-client_node_modules_bootstrap_dist_css_bootstrap_min_css":1,"_app-client_node_modules_bootstrap-icons_font_bootstrap-icons_css":1,"_app-client_app_Styles_css":1};
+/******/ 			var cssChunks = {"_app-client_node_modules_bootstrap_dist_css_bootstrap_min_css":1,"_app-client_node_modules_bootstrap-icons_font_bootstrap-icons_css":1,"_app-client_app_Styles_css":1,"_app-client_app_globals_css":1,"_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe":1,"_app-client_app_About_pageStyles_css":1,"_app-client_node_modules_next_font_google_target_css_path_app_components_Section1_js_import_S-e258f1":1,"_app-client_node_modules_next_font_google_target_css_path_app_components_Section1_js_import_A-dd4e17":1,"_app-client_app_components_Styles_Section1_css":1,"_app-client_app_components_Styles_Burbles_css":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(function() {
