@@ -1,4 +1,4 @@
-.card {
+.cardPresOne {
     display: flex; 
     flex-direction: column;
     background-color: #fff;
@@ -11,23 +11,28 @@
 .cardContainer {
     padding-top: 2rem;
 }
+.cards {
+    padding-bottom: 3rem;
+}
 
 .card:hover {
     box-shadow: 1px 1px 10px #254dff;
     top: -10px;
-    /* transition: appear 0.5s; */
-    /* animation: up 0.5s; */
 }
 
 .imageCard {
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .cont {
     display: flex;
     justify-content: end;
+}
+
+#icons {
+    font-size: 2rem;
 }
 
 .pad {
@@ -37,7 +42,7 @@
 .titleCard {
     color: #000; 
     font-size: 1.2rem;
-    margin-left: 10px;
+    margin-left: 1.5rem;
 }
 
 /* .cardContainer {
@@ -57,6 +62,17 @@
         justify-content: center;
     }
     
+}
+
+@media only screen and (max-width: 767px) {
+    .cardPresOne {
+        transition: box-shadow, top 1s;
+    }
+
+    .ligth {
+        box-shadow: 1px 1px 10px #254dff;
+        top: -10px;
+    }
 }
 
 @keyframes appear { 

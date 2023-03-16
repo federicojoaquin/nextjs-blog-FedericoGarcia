@@ -16,7 +16,7 @@
 
 footer {
     height: 20vh;
-    background-color: #d3e5f1;
+    background-color: #efffff;
 }
 
 .footerTitle {
@@ -25,15 +25,24 @@ footer {
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 70px;
+}
+
 .content2 {
-    display: flex;
-    align-items: center;
+    /* display: flex; 
+    justify-content: center;  */
+    /* flex-direction: column;  */
     background: rgb(211,229,241);
     background: linear-gradient(180deg, rgba(211,229,241,1) 0%, rgba(226,238,246,1) 33%, rgba(239,245,250,1) 47%, rgba(246,249,252,1) 64%, rgba(249,251,253,1) 82%, rgba(255,255,255,1) 100%);
     /* background: rgb(211,229,241);
     background: linear-gradient(180deg, rgba(211,229,241,1) 1%, rgba(217,232,243,1) 5%, rgba(221,235,245,1) 21%, rgba(225,237,246,1) 30%, rgba(233,242,248,1) 36%, rgba(238,245,250,1) 45%, rgba(243,248,251,1) 52%, rgba(246,250,252,1) 55%, rgba(255,255,255,1) 61%, rgba(255,255,255,1) 72%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 85%); */
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .content3 {
@@ -41,11 +50,19 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #fff;
+    background-image: url(../assets/waveSec.JPG);
+    background-size: cover;
     /* background: rgb(211,229,241);
     background: linear-gradient(180deg, rgba(211,229,241,1) 1%, rgba(217,232,243,1) 5%, rgba(221,235,245,1) 21%, rgba(225,237,246,1) 30%, rgba(233,242,248,1) 36%, rgba(238,245,250,1) 45%, rgba(243,248,251,1) 52%, rgba(246,250,252,1) 55%, rgba(255,255,255,1) 61%, rgba(255,255,255,1) 72%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 85%); */
     width: 100%;
-    min-height: 150vh;
+    min-height: 110vh;
+}
+
+.contentProy {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
 }
 
 .wave {
@@ -63,9 +80,6 @@ footer {
     color:#000;
 }
 
-#download {
-    width: 30%;
-}
 
 .firstSec { 
 margin: auto;
@@ -84,6 +98,23 @@ margin: auto;
 .icono {
     color: #000;
     font-size: 1.5rem;
+}
+
+.titleProyects {
+    color: #000; 
+    text-align: center;
+} 
+
+.boxProyCont {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.titleTec {
+    text-align: center;
+    padding: 2rem;
+    color: #000; 
 }
 
 @keyframes appear { 
@@ -106,5 +137,8 @@ margin: auto;
     }
 }
 
-
-
+@media only screen and (max-width: 980px) {
+    .content3 {
+        min-height: 130vh;
+    }
+}

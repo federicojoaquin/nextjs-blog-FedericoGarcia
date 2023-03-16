@@ -1,5 +1,7 @@
-import React from 'react'
-import './Tecnologies.css'
+"use client"
+
+import React, { useEffect, useState, useRef } from 'react'
+import './Styles/Tecnologies.css'
 import Image from 'next/image'
 import image1 from '../assets/Icons/CSS.png'
 import image2 from '../assets/Icons/HTML.png'
@@ -68,10 +70,24 @@ const Icons = [
 
 
 function Tecnologies() {
+  const myRef = useRef(); 
+  const [myElementIsVisible, setMyElementIsVisible] = useState(); 
+  
+  useEffect(() => {
+    
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0]; 
+      setMyElementIsVisible(entry.isIntersecting)
+    })
+    observer.observe(myRef.current); 
+   
+  }, [])
+
+
   return (
     <div className='container tecnologies'>
               
-        <div className='iconsContainer'>
+        <div className={`iconsContainer ${myElementIsVisible ? 'vis izq' : 'notVis'}`} ref={myRef}>
         {
             Icons.map((icon) => (
             <div className='iconBox'>  

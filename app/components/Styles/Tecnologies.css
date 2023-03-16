@@ -15,6 +15,19 @@
     padding: 0.5rem;
     justify-content: space-around;
     width: 40%;
+
+    transform: scale(1) translateX(-100px);
+    transition: 1.2s ease-in-out all;
+
+}
+
+.vis {
+    opacity: 1; 
+    transform: scale(1) translateX(0);
+}
+
+.notVis {
+    opacity: 0;
 }
 
 .tecIcons:hover {
@@ -26,7 +39,7 @@
 .tecnologies {
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
 .iconBox {
@@ -37,7 +50,6 @@
     .iconBox {
         padding: 0.5rem; 
     }
-
 }
 
 @media only screen and (max-width: 435px) and (max-height: 790) {
@@ -52,4 +64,17 @@
         padding: 0.5rem; 
     }
 
+}
+
+@keyframes appearCont { 
+    0% {
+        opacity: 0; 
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        /* bottom: 100vh;  */
+        opacity: 1;
+    }
 }

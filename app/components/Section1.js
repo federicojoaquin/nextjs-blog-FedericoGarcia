@@ -1,19 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import './Section1.css'
+import './Styles/Section1.css'
 import developer from '../assets/sysadmin_03.png'
+import Link from 'next/link'
+import {Secular_One} from 'next/font/google'
+import {Alata} from 'next/font/google'
+
+const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
+const alata = Alata({ subsets: ['latin'],  weight: ['400'] })
 
 function Section1() {
   return (
-    <section className='firstSec container'>
+    <div className='firstSec container' id='sobreMi'>
         <div className='row'>
             <div className='col-md-6 col-sm-12 textContainer'>
-            <h1 className='titleAboutMe'><b>Sobre mí</b></h1>
-            <p className='paragraph'>Estudiante de Ingeniería en Sistemas, desarrollador y diseñador web autodidacta. En constante aprendizaje y simpre mejorando mis habilidades. 
-                Diseño páginas web a medida, así como también aplicaciones CRUD.
+            <h1 className={`${secular.className} titleAboutMe`}><b>Sobre mí</b></h1>
+            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem'}}>Estudiante de Ingeniería en Sistemas, <b>desarrollador y diseñador web autodidacta</b>. En constante aprendizaje y simpre mejorando mis habilidades. 
+                <b> Diseño páginas web a medida</b>, así como también aplicaciones CRUD.
                 </p>
-                <button type="button" class="btn btn-light" id='download'>Descargar CV   <i class="bi bi-arrow-down"></i></button>
+                <Link class="btnNeon" target="_blank" href={'../Pdf'} id='download' style={{marginTop: '1rem'}}><b>Descargar CV</b> <i class="bi bi-arrow-down"></i></Link>
             {/* <p className='text-description'><b>Hola soy Federico Garcia, full-stack developer</b></p> */}
             </div>
             <div className='col-md-6 col-sm-12'>
@@ -24,7 +30,7 @@ function Section1() {
             </div>
         </div>
             
-    </section>
+    </div>
   )
 }
 

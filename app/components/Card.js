@@ -1,19 +1,41 @@
-import React from 'react'
-import './Card.css'
+"use client"
+
+import {React, useEffect, useRef, useState} from 'react'
+import './Styles/Card.css'
 import Image from 'next/image'
+import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
+import {Secular_One} from 'next/font/google'
+const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 
+function Card({title, icon}) {
 
-function Card({title, text, image}) {
+  const myRef = useRef(); 
+  const [myElementIsVisible, setMyElementIsVisible] = useState(); 
+  
+  useEffect(() => {
+    
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0]; 
+      setMyElementIsVisible(entry.isIntersecting)
+    }, {
+      root: null,
+      rootMargin: '-220px 0px -220px 0px', 
+      threshold: 1,
+    })
+    observer.observe(myRef.current); 
+   
+  }, [])
+
   return (
-    <div className='card'>
+    <div className={`card cardPresOne ${myElementIsVisible ? 'ligth' : ''}`} ref={myRef}>
       <div className='imageCard'> 
-        <Image src={image} width={50} height={50}></Image>
-        <h1 className='titleCard'>{title}</h1>
+        <i class={icon} id='icons'></i>
+        {/* <Image src={image} width={50} height={50}></Image> */}
+        <h1 className={`${secular.className} titleCard`}>{title}</h1>
       </div>
-      <div className='textCard'>
-        
+      {/* <div className='textCard'>    
         <p>{text}</p>
-      </div>
+      </div> */}
     </div>
   )
 }

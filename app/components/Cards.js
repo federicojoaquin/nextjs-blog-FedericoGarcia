@@ -1,9 +1,5 @@
 import React from 'react'
 import Card from './Card'
-import first from '../assets/Icons/First.PNG'
-import second from '../assets/Icons/Second.PNG'
-import third from '../assets/Icons/Third.PNG'
-import fourth from '../assets/Icons/Fourth.PNG'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 function cards() {
@@ -13,24 +9,24 @@ function cards() {
         <div className='row justify-content-center'>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer cont'>
-              <Card title='Resolución de conflictos' image={first}/>
+              <Card title='Resolución de conflictos' icon="bi bi-wrench"/>
             </div>
           </div>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer'>
-              <Card title='Trabajo en equipo' image={second}/>
+              <Card title='Trabajo en equipo' icon="bi bi-people-fill"/>
             </div>
           </div>
         </div>
         <div className='row justify-content-center'>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer cont pad'>
-              <Card title='Adaptación al cambio' image={third}/>
+              <Card title='Adaptación al cambio' icon="bi bi-arrow-clockwise"/>
             </div>
           </div>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer pad'>
-              <Card title='Aprendizaje constante' image={fourth}/>
+              <Card title='Aprendizaje constante' icon="bi bi-book"/>
             </div>
           </div>
         </div>

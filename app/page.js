@@ -20,13 +20,13 @@ export default function Home() {
               <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8 iconoContacto"></a>
             </div>
             <div>
-              <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-github fs-8 iconoContacto"></a>
+              <a href='https://github.com/federicojoaquin?tab=repositories' className="bi bi-github fs-8 iconoContacto"></a>
             </div>
             
           </div>
           {/* <BsGithub size={100}/>
           <BsLinkedin size={100}/> */}
-          <Link className="btn btn-outline-dark showMore" href={'/About'}><b>Show more</b></Link>
+          <Link className="btn btn-outline-dark showMore" href={'/About'}><b>Conocer sobre mí</b></Link>
       </div>
       <div style={{position: 'absolute'}}>
         <ParticleBackground />

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Burbles.css'
+import './Styles/Burbles.css'
 
 function Burbles() {
   return (

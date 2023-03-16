@@ -1,0 +1,110 @@
+
+.titleProy {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.textProy {
+    font-size: 0.9rem;
+}
+
+.imageContainer {
+    height: 10rem;
+}
+
+.textContainer {
+    margin-top: 0.5rem;
+}
+
+.nameProy {
+    color: #000; 
+    text-align: center;
+}
+
+.proysContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* flex-flow: column; */
+}
+
+.descriptionProy {
+    color: #000; 
+    font-size: 0.8rem;
+}
+
+.proyectContainer:hover {
+    box-shadow: 1px 1px 10px #254dff;
+    top: -10px;
+    /* transition: appear 0.5s; */
+    /* animation: up 0.5s; */
+}
+
+.btnNeonCard {
+    font-size: 0.8rem;
+    background-color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: darkblue; 
+    transition: .4 ease;
+    border-radius: 25px;
+    border: 0.5px solid #000;
+}
+
+.btnNeonCard:hover {
+    box-shadow: 0 0 10px rgb(235, 235, 255),
+                0 0 30px rgb(235, 235, 255),
+                0 0 70px rgb(235, 235, 255), 
+                0 0 130px rgb(235, 235, 255); 
+
+    color: #000; 
+    background-color: rgb(235, 235, 255);
+}
+
+#visit {
+    font-size: 0.6rem;
+}
+
+.buttonCont {
+    display: flex;
+    justify-content: center;
+}
+
+.contBtnNeon {
+    display: flex;
+    justify-content: center;
+}
+
+.cardPersTwo {
+    width: 18rem;
+    margin: 3rem;
+    transition: box-shadow, top 0.4s;
+    border: 1px solid #254dff;
+    top: 0px; 
+    transition: box-shadow, top 0.4s;
+}
+
+
+.card-title {
+    color: #000;
+}
+
+.card-text { 
+    color: #000;
+}
+
+@media only screen and (max-width: 762px) {
+    .proyectContainer {
+        width: 100%;
+        height: 12rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  
+    .ligthProy {
+        box-shadow: 1px 1px 10px #254dff;
+        top: -10px;
+    }
+}
