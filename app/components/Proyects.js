@@ -1,7 +1,7 @@
 import {React} from 'react'
 import Proyect from './Proyect'
-import image1 from '../../public/images/Administrador.JPG'
-import image2 from '../../public/images/Agronix.JPG'
+import image1 from '../assets/Administrador.JPG'
+import image2 from '../assets/images/Agronix.JPG'
 
 function Proyects() {
 
