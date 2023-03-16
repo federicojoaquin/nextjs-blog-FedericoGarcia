@@ -1,6 +1,6 @@
 import {React} from 'react'
 import Proyect from './Proyect'
-import proyectImage from '../assets/Projects.PNG'
+import proyectImage from '../assets/code_think.svg'
 
 function Proyects() {
 

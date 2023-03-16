@@ -55,7 +55,7 @@ function Proyect({proy, titleProy, descProy, linkProy}) {
 
   return (
     <div class={`card cardPersTwo ${myElementIsVisible ? 'ligthProy' : ''}`} ref={myRef}>
-      <Image src={proy} class="card-img-top" layout='responsive' width={700} height={200}/>
+      <Image src={proy} class="card-img-top my-3" layout='responsive' width={700} height={200}/>
       <div class="card-body">
         <h5 class={`${secular.className} card-title titleProy`}>{titleProy}</h5>
         <p class={`${alata.className} card-text textProy`}>{descProy}</p>
