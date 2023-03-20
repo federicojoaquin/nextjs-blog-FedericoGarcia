@@ -19,8 +19,8 @@ function Section1() {
             <div className='col-md-6 col-sm-12 textContainer'>
             <h1 className={`titleAboutMe`}><b>Sobre mí</b></h1>
             <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}}><b>Desarrollador y diseñador web autodidacta</b>, estudiante de Ingeniería en Sistemas. 
-                Siempre me encuentro en constante aprendizaje y mejorando mis habilidades para afrontar cualquier desafío en el mundo del desarrollo web, y 
-                en el mundo IT en general, <b>desempeñando roles de desarrollo y soporte</b> en otro tipo de sistemas. 
+                Desde hace dos años, me encuentro aprendiendo y mejorando mis habilidades para afrontar cualquier desafío en el <b>mundo del desarrollo web</b> y en el <b>mundo IT</b> en general. 
+                Cuento con más de 3 años aprendiendo diversas tecologías y he desempeñando <b>roles de desarrollo y soporte</b> en otro tipo de sistemas. 
                 <b> Diseño páginas web estáticas a medida</b>, además de desarrollar aplicaciones CRUD con tecnologías como React.js, Next.js y Node.js.
                 </p>
                 {/* <Link class="btnNeon" target="_blank" href={'../Pdf'} id='download' style={{marginTop: '1rem'}}><b>Descargar CV</b> <i class="bi bi-arrow-down"></i></Link> */}
