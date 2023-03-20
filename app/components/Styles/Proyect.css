@@ -27,6 +27,16 @@
     justify-content: center;
     flex-wrap: wrap;
     /* flex-flow: column; */
+    
+}
+
+.proysVis {
+    animation: appearCont 1.2s linear;
+    opacity: 1; 
+}
+
+.proysNotsVis {
+    opacity: 0;
 }
 
 .descriptionProy {
@@ -106,5 +116,20 @@
     .ligthProy {
         box-shadow: 1px 1px 10px #254dff;
         top: -10px;
+    }
+}
+
+@keyframes appearCont { 
+    0% {
+        opacity: 0; 
+        margin-top: 30px;
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        /* bottom: 100vh;  */
+        margin-top: 0px; 
+        opacity: 1;
     }
 }

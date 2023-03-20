@@ -1,11 +1,31 @@
-import {React} from 'react'
+"use client"
+
+import {React, useState, useEffect, useRef} from 'react'
 import Proyect from './Proyect'
 import proyectImage from '../assets/code_think.svg'
+import './Styles/Proyect.css'
 
 function Proyects() {
 
+  const myRef = useRef(); 
+  const [myElementIsVisible, setMyElementIsVisible] = useState(); 
+  
+  useEffect(() => {
+    
+    const observer = new IntersectionObserver((entries) => {
+      const entry = entries[0]; 
+      setMyElementIsVisible(entry.isIntersecting)
+    }, {
+      root: null,
+      rootMargin: '0px 0px 0px 0px', 
+      threshold: 0,
+    })
+    observer.observe(myRef.current); 
+   
+  }, [])
+
   return (
-    <div className='proysContainer'>
+    <div className={`proysContainer ${myElementIsVisible ? 'proysVis' : 'proysNotVis'}`} ref={myRef}>
       {/* Map */}
       <Proyect proy={proyectImage} 
       titleProy='Administrador Personal' 

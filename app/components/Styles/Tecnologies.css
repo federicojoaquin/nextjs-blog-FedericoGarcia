@@ -66,15 +66,3 @@
 
 }
 
-@keyframes appearCont { 
-    0% {
-        opacity: 0; 
-    }
-    50%{
-        opacity: .5;
-    }
-    100% {
-        /* bottom: 100vh;  */
-        opacity: 1;
-    }
-}

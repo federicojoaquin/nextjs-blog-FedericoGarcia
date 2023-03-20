@@ -89,8 +89,8 @@ function Tecnologies() {
               
         <div className={`iconsContainer ${myElementIsVisible ? 'vis izq' : 'notVis'}`} ref={myRef}>
         {
-            Icons.map((icon) => (
-            <div className='iconBox'>  
+            Icons.map((icon, i) => (
+            <div className='iconBox' key={i}>  
                 <Image className='tecIcons' src={icon.path} width={40} height={40}></Image>
             </div>  
             )

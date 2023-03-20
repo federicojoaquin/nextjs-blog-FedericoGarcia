@@ -14,7 +14,7 @@ export default function Home() {
       <div className='App'>
         
         <div className="text" style={{position: 'relative', overflow: 'hidden'}}>
-            <Image className='portrait' src={federico} width={150} height={150}/>
+            <Image className='portrait' src={federico} width={150} height={150} alt='Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer'/>
             <h1 className='mainTitle'><b className='mainTitle'>Federico Garcia</b></h1>
             <h2 className='subTitle'>{'<Full-stack developer/>'}</h2>
             <div className='iconsContactContainer'>

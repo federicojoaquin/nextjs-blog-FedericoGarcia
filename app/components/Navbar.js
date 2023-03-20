@@ -60,7 +60,7 @@ function Navbar() {
     id='navDef'>
       <div className="container-fluid">
         
-        <Image src={reatraitNav} width={40} height={40} className='retraitNav' style={{opacity: `${imgOpacity}`}} />
+        <Image src={reatraitNav} width={40} height={40} className='retraitNav' style={{opacity: `${imgOpacity}`}} alt='Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer' />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

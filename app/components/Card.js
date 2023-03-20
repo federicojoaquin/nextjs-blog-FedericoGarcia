@@ -3,6 +3,7 @@
 import {React, useEffect, useRef, useState} from 'react'
 import './Styles/Card.css'
 import Image from 'next/image'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import {Secular_One} from 'next/font/google'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })

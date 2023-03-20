@@ -1,28 +1,36 @@
 self.__RSC_CSS_MANIFEST={
   "__entry_css_mods__": {
+    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\page": [
+      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap-icons\\font\\bootstrap-icons.css",
+      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\Styles.css",
+      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\globals.css"
+    ],
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\page": [
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\pageStyles.css",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap-icons\\font\\bootstrap-icons.css",
-      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Section1.css",
-      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Section1.js\",\"import\":\"Alata\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"alata\"}",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Burbles.css",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\globals.css",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Navbar.css",
+      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Section1.css",
+      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Section1.js\",\"import\":\"Alata\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"alata\"}",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Card.css",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Card.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Tecnologies.css",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Proyect.css",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Proyect.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}",
       "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Proyect.js\",\"import\":\"Alata\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"alata\"}"
-    ],
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\page": [
-      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap-icons\\font\\bootstrap-icons.css",
-      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\Styles.css",
-      "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\globals.css"
     ]
   },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\page.js": [
+    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap-icons\\font\\bootstrap-icons.css",
+    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\Styles.css"
+  ],
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\layout.js": [
+    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\globals.css"
+  ],
   "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\page.js": [
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\About\\\\page.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}",
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\pageStyles.css",
@@ -43,13 +51,5 @@ self.__RSC_CSS_MANIFEST={
   ],
   "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\layout.js": [
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\pageStyles.css"
-  ],
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\layout.js": [
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\globals.css"
-  ],
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\page.js": [
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap-icons\\font\\bootstrap-icons.css",
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\Styles.css"
   ]
 }

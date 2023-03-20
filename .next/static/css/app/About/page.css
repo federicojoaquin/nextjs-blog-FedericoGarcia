@@ -38,6 +38,141 @@
 }
 
 
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/components/Styles/Section1.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.firstSec { 
+    margin: auto;
+}
+
+
+.imageDev {
+    z-index: 3;
+    animation: movement 2.5s linear infinite;
+}
+
+.titleAboutMe {
+    color: #000; 
+    font-size: 2.5rem;
+    animation: title 0.7s linear;
+}
+.paragraph {
+    color: #000;
+    animation: text 0.7s linear;
+}
+
+.btnNeon {
+    font-size: 0.76rem;
+    background-color: #fff;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: darkblue; 
+    transition: .4 ease;
+    border-radius: 25px;
+    width: 45%;
+    text-align: center;
+}
+
+.btnNeon:hover {
+    box-shadow: 0 0 10px rgb(154, 154, 190),
+                0 0 30px rgb(154, 154, 190),
+                0 0 70px rgb(154, 154, 190), 
+                0 0 130px rgb(154, 154, 190); 
+
+    color: #fff; 
+    background-color: rgb(154, 154, 190);
+}
+
+.textContainer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes movement {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 400px) and (max-height: 700px) {
+    .content {
+        min-height: 110vh;
+    }
+}
+
+@media only screen and (max-width: 1024px) { 
+    #download {
+        width: 45%;
+    }
+}
+
+@keyframes title { 
+    0% {
+        opacity: 0; 
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        /* bottom: 100vh;  */
+        opacity: 1;
+    }
+}
+
+@keyframes text {
+    0% {
+        opacity: 0; 
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        /* bottom: 100vh;  */
+        opacity: 1;
+    }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[3].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[2].oneOf[3].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\components\\Section1.js","import":"Alata","arguments":[{"subsets":["latin"],"weight":["400"]}],"variableName":"alata"} ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* vietnamese */
+@font-face {
+  font-family: '__Alata_c7b9ab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/993d3833e4c595dd-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: '__Alata_c7b9ab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/9a949ae638ae2ec9-s.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: '__Alata_c7b9ab';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/7de844a8ad2906ea-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Alata_Fallback_c7b9ab';src: local("Arial");ascent-override: 106.97%;descent-override: 27.23%;line-gap-override: 0.00%;size-adjust: 102.83%
+}.__className_c7b9ab {font-family: '__Alata_c7b9ab', '__Alata_Fallback_c7b9ab';font-weight: 400;font-style: normal
+}
+
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/components/Styles/Card.css ***!
   \**************************************************************************************************************************************************************************************************************************************************************************/
@@ -2264,18 +2399,7 @@ url(/_next/static/media/bootstrap-icons.cb4c7c05.woff) format("woff");
 
 }
 
-@keyframes appearCont { 
-    0% {
-        opacity: 0; 
-    }
-    50%{
-        opacity: .5;
-    }
-    100% {
-        /* bottom: 100vh;  */
-        opacity: 1;
-    }
-}
+
 /*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[13].use[3]!./app/components/Styles/Proyect.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************/
@@ -2308,6 +2432,16 @@ url(/_next/static/media/bootstrap-icons.cb4c7c05.woff) format("woff");
     justify-content: center;
     flex-wrap: wrap;
     /* flex-flow: column; */
+    
+}
+
+.proysVis {
+    animation: appearCont 1.2s linear;
+    opacity: 1; 
+}
+
+.proysNotsVis {
+    opacity: 0;
 }
 
 .descriptionProy {
@@ -2387,6 +2521,21 @@ url(/_next/static/media/bootstrap-icons.cb4c7c05.woff) format("woff");
     .ligthProy {
         box-shadow: 1px 1px 10px #254dff;
         top: -10px;
+    }
+}
+
+@keyframes appearCont { 
+    0% {
+        opacity: 0; 
+        margin-top: 30px;
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        /* bottom: 100vh;  */
+        margin-top: 0px; 
+        opacity: 1;
     }
 }
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\

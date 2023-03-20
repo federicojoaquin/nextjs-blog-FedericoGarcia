@@ -9,31 +9,6 @@ import {Secular_One} from 'next/font/google'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 const alata = Alata({ subsets: ['latin'],  weight: ['400'] })
 
-// function Proyect({proy}) {
-    
-//   return (
-//     <div className='proyectContainer' style={{position: 'relative'}} >
-//       <div className='imageContainer' style={{position: 'relative'}}>
-//         <Image src={proy}
-//         fill
-//         style={{objectFit: 'contain', borderRadius: 15}}
-//         />
-//       </div>
-//       <div className='textContainer' style={{position: 'relative'}}>
-//         <h4 className='nameProy'>Proyecto</h4>
-//         <p className='descriptionProy'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu lorem nec leo consequat laoreet. Ut posuere porta nisl in placerat. 
-//           Phasellus sed ante eu risus volutpat porttitor.</p>
-//       </div>
-//       <div className='buttonCont'>
-//         <Link class="btnNeon" target="_blank" href={'../Pdf'}><b>Visitar</b> <i class="bi bi-github fs-8 icono" id="visit"></i></Link>
-//       </div>
-    
-//     </div>
-//   )
-// }
-
-// export default Proyect
-
 function Proyect({proy, titleProy, descProy, linkProy}) {
 
   const myRef = useRef(); 
@@ -46,8 +21,8 @@ function Proyect({proy, titleProy, descProy, linkProy}) {
       setMyElementIsVisible(entry.isIntersecting)
     }, {
       root: null,
-      rootMargin: '-100px 0px -100px 0px', 
-      threshold: 1,
+      rootMargin: '0px 0px 0px 0px', 
+      threshold: 0,
     })
     observer.observe(myRef.current); 
    
@@ -55,7 +30,7 @@ function Proyect({proy, titleProy, descProy, linkProy}) {
 
   return (
     <div class={`card cardPersTwo ${myElementIsVisible ? 'ligthProy' : ''}`} ref={myRef}>
-      <Image src={proy} class="card-img-top my-3" layout='responsive' width={700} height={200}/>
+      <Image src={proy} class="card-img-top my-3" layout='responsive' width={700} height={200} alt='Imagen proyecto, portafolio Federico Garcia Full Stack developer'/>
       <div class="card-body">
         <h5 class={`${secular.className} card-title titleProy`}>{titleProy}</h5>
         <p class={`${alata.className} card-text textProy`}>{descProy}</p>

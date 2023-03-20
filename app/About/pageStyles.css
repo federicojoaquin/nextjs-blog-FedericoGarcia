@@ -138,7 +138,21 @@ margin: auto;
 }
 
 @media only screen and (max-width: 980px) {
+    .content {
+        min-height: 120vh;
+    }
+    
     .content3 {
         min-height: 150vh;
+    }
+}
+
+@media only screen and (max-height: 738px) and (max-width: 980px) {
+    .content {
+        min-height: 140vh;
+    }
+    
+    .content3 {
+        min-height: 170vh;
     }
 }
