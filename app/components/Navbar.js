@@ -74,10 +74,11 @@ function Navbar() {
               <a className="nav-link" href="#sobreMi"><b>Sobre mí</b></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#proyectos"><b>Proyectos</b></a>
+              <a className="nav-link" href="#tecnologias"><b>Habilidades</b></a>
+              
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#tecnologias"><b>Habilidades</b></a>
+              <a className="nav-link" href="#proyectos"><b>Proyectos</b></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contacto"><b>Contacto</b></a>

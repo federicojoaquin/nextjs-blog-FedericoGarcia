@@ -22,7 +22,7 @@ function Proyect({proy, titleProy, descProy, linkProy}) {
     }, {
       root: null,
       rootMargin: '0px 0px 0px 0px', 
-      threshold: 0,
+      threshold: 1,
     })
     observer.observe(myRef.current); 
    

@@ -18,10 +18,10 @@ function Section1() {
         <div className='row'>
             <div className='col-md-6 col-sm-12 textContainer'>
             <h1 className={`titleAboutMe`}><b>Sobre mí</b></h1>
-            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}}><b>Desarrollador y diseñador web autodidacta</b>, estudiante de Ingeniería en Sistemas. 
+            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}}><b>Desarrollador, diseñador web autodidacta</b> y estudiante de Ingeniería en Sistemas. 
                 Desde hace dos años, me encuentro aprendiendo y mejorando mis habilidades para afrontar cualquier desafío en el <b>mundo del desarrollo web</b> y en el <b>mundo IT</b> en general. 
-                Cuento con más de 3 años aprendiendo diversas tecologías y he desempeñando <b>roles de desarrollo y soporte</b> en otro tipo de sistemas. 
-                <b> Diseño páginas web estáticas a medida</b>, además de desarrollar aplicaciones CRUD con tecnologías como React.js, Next.js y Node.js.
+                Cuento con más de tres años aprendiendo diversas tecologías y he desempeñando <b>rol de desarrollo y soporte</b> en un sistema <b>ERP. </b> 
+                  Diseño <b>páginas web estáticas</b> a medida, además de desarrollar aplicaciones CRUD con tecnologías como <b>REACT.JS, NEXT.JS y NODE.JS</b>. 
                 </p>
                 {/* <Link class="btnNeon" target="_blank" href={'../Pdf'} id='download' style={{marginTop: '1rem'}}><b>Descargar CV</b> <i class="bi bi-arrow-down"></i></Link> */}
                 <a className="btnNeon" href='/pdfs/FedericoGarcia.pdf' id="enlaceDescargarPdf" download="FedericoGarcia.pdf"><b>Descargar CV</b> <i class="bi bi-arrow-down"></i></a>

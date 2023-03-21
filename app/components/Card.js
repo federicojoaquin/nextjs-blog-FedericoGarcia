@@ -8,7 +8,7 @@ import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import {Secular_One} from 'next/font/google'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 
-function Card({title, icon}) {
+function Card({title, cardImage, cardText}) {
 
   const myRef = useRef(); 
   const [myElementIsVisible, setMyElementIsVisible] = useState(); 
@@ -30,13 +30,10 @@ function Card({title, icon}) {
   return (
     <div className={`card cardPresOne ${myElementIsVisible ? 'ligth' : ''}`} ref={myRef}>
       <div className='imageCard'> 
-        <i class={icon} id='icons'></i>
-        {/* <Image src={image} width={50} height={50}></Image> */}
+        <Image src={cardImage} width={35} height={35}></Image>
         <h1 className={`${secular.className} titleCard`}>{title}</h1>
       </div>
-      {/* <div className='textCard'>    
-        <p>{text}</p>
-      </div> */}
+      <p>{cardText}</p>
     </div>
   )
 }
