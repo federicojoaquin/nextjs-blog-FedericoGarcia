@@ -18,10 +18,13 @@ function Section1() {
         <div className='row'>
             <div className='col-md-6 col-sm-12 textContainer'>
             <h1 className={`titleAboutMe`}><b>Sobre mí</b></h1>
-            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}}><b>Desarrollador web autodidacta</b> y estudiante de Ingeniería en Sistemas.  
-                Cuento con tres años aprendiendo diversas tecologías y he desempeñando <b>rol de desarrollo y soporte</b> en un sistema <b>ERP</b>, en donde me familiaricé con <b>SQL. </b> 
-                  Actualemente, me encuentro mejorando mis habilidades en <b>desarrollo web</b> desde hace dos años. 
-                  Desarrollo <b>páginas web estáticas</b> a medida, además implementé nuevas prácticas para el desarrollo de aplicaciones <b>CRUD</b> con tecnologías como <b>REACT.JS, NEXT.JS y NODE.JS</b></p>. 
+            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}}>Desarrollador web autodidacta y estudiante de Ingeniería en Sistemas. 
+            Durante los últimos tres años, he trabajando con una variedad de tecnologías. 
+            En un sistema <b>ERP</b>, desempeñé el rol de desarrollo y soporte con <b>PL/SQL</b>. 
+            Actualmente, me estoy enfocando en mejorar mis habilidades en desarrollo web, 
+            desarrollando <b>páginas web estáticas a medida</b> como blogs hechos con <b>NEXT.JS</b>. 
+            Además, estoy implementando nuevas prácticas para el desarrollo de aplicaciones <b>CRUD</b>, 
+            trabajando con <b>REACT y NEXT</b> en front-end, <b>NODE.JS y EXPRESS</b> en back-end y <b>PostgreSQL</b> para la base de datos</p>. 
                 {/* <Link class="btnNeon" target="_blank" href={'../Pdf'} id='download' style={{marginTop: '1rem'}}><b>Descargar CV</b> <i class="bi bi-arrow-down"></i></Link> */}
                 <a className="btnNeon" href='/pdfs/FedericoGarcia.pdf' id="enlaceDescargarPdf" download="FedericoGarcia.pdf"><b>Descargar CV</b> <i class="bi bi-arrow-down"></i></a>
             {/* <p className='text-description'><b>Hola soy Federico Garcia, full-stack developer</b></p> */}
