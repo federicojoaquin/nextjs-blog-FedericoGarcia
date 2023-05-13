@@ -18,7 +18,7 @@ function Section1() {
         <div className='row'>
             <div className='col-md-6 col-sm-12 textContainer'>
             <h1 className={`titleAboutMe`}><b>Sobre mí</b></h1>
-            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}}>Desarrollador web autodidacta y estudiante de Ingeniería en Sistemas. 
+            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}}>Desarrollador web y estudiante de Ingeniería en Sistemas. 
             Durante los últimos tres años, he trabajando con una variedad de tecnologías. 
             En un sistema <b>ERP</b>, desempeñé el rol de desarrollo y soporte con <b>PL/SQL</b>. 
             Actualmente, me estoy enfocando en mejorar mis habilidades en desarrollo web, 

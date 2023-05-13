@@ -654,9 +654,9 @@ self.__RSC_MANIFEST={
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\page": [
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css",
       "static/css/_app-client_app_components_Styles_Burbles_css.css",
       "static/css/_app-client_app_About_pageStyles_css.css",
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css",
       "static/css/app/About/page.css"
     ],
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\layout": [
@@ -1062,6 +1062,15 @@ self.__RSC_MANIFEST={
       ]
     }
   },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Proyects.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/About/page.css"
+      ]
+    }
+  },
   "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Section1.css": {
     "default": {
       "id": "null",
@@ -1097,6 +1106,42 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/About/page.css",
         "static/css/_app-client_node_modules_bootstrap_dist_css_bootstrap_min_css.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\swiper\\modules\\effect-coverflow\\effect-coverflow.min.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/About/page.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\swiper\\modules\\navigation\\navigation.min.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/About/page.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\swiper\\modules\\pagination\\pagination.min.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/About/page.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\swiper\\swiper.min.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/About/page.css"
       ]
     }
   },
@@ -1588,21 +1633,21 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\About\\\\page.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css"
-      ]
-    }
-  },
   "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Burbles.css": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_components_Styles_Burbles_css.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\About\\\\page.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css"
       ]
     }
   },

@@ -1,0 +1,25 @@
+.contSwp {
+    width: 40%;
+}
+
+
+.swiper-slide {
+  height: 100% ;
+  /* position: relative; */
+}
+
+/* .slider-controler .slider-arrow {
+    background: var(--white);
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    left: 42%;
+    transform: translateX(-42%);
+    filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+  } */
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+  

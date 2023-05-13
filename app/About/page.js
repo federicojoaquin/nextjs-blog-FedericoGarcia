@@ -37,12 +37,10 @@ function page({children}) {
         </section>
         <section className='content3' id='proyectos'>
           {/* <Cards /> */}
-          <div className='container contentProy'>
-            <h1 className='titleProyects'><b>Proyectos</b></h1>
+          
             <Proyects />
             
             
-          </div>
           <div className='wave'></div>
           
         </section>
