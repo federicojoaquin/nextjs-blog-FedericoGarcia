@@ -6,12 +6,11 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './Styles/Section1.css'
 import developer from '../assets/sysadmin_03.png'
 import Link from 'next/link'
-import {Alata} from 'next/font/google'
+import {Alata} from 'next/font'
 
 const alata = Alata({ subsets: ['latin'],  weight: ['400'] })
 
 function Section1() {
-
   
   return (
     <div className='firstSec container' id='sobreMi'>
