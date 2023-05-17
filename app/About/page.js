@@ -37,7 +37,7 @@ function page({children}) {
         </section>
         <section className='content3' id='proyectos'>
           {/* <Cards /> */}
-          
+            <h1 className='titleTec'><b>Proyectos</b></h1>
             <Proyects />
             
             
