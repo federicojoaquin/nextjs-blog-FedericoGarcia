@@ -9,7 +9,7 @@ import {Secular_One} from 'next/font/google'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 const alata = Alata({ subsets: ['latin'],  weight: ['400'] })
 
-function Proyect({proy, titleProy, descProy, linkProy}) {
+function Proyect({proy, titleProy, descProy, linkProy, btn1, btn2, link1, link2, textBtn1, textBtn2}) {
 
   const myRef = useRef(); 
   const [myElementIsVisible, setMyElementIsVisible] = useState(); 
@@ -34,8 +34,10 @@ function Proyect({proy, titleProy, descProy, linkProy}) {
       <div class="card-body">
         <h5 class={`${secular.className} card-title titleProy`}>{titleProy}</h5>
         <p class={`${alata.className} card-text textProy`}>{descProy}</p>
-        <div className='contBtnNeon'>
-          <a href={linkProy} target='_blank' class="btnNeonCard" >Visitar    <i class="bi bi-github fs-8 icono" id="visit"></i></a>
+        <div className={btn1 || btn2 ? 'contBtnNeon2' : 'contBtnNeon'}>
+          <a href={linkProy} target='_blank' className={btn1 || btn2 ? 'btnNeonCard2' : 'btnNeonCard'} >{textBtn1}    <i class="bi bi-github fs-8 icono" id="visit"></i></a>
+          <a href={link1} target='_blank' className={btn1 ? 'btnNeonCard2' : 'btnFalse'} >{textBtn2}    <i class="bi bi-github fs-8 icono" id="visit"></i></a>
+          <a href={link2} target='_blank' className={btn2 ? 'btnNeonCard2' : 'btnFalse'} >Deploy    <i class="bi bi-arrow-down-right-square"></i></a>
         </div>
         
       </div>

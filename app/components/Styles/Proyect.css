@@ -26,8 +26,8 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    /* flex-flow: column; */
-    
+    width: 80%;
+    /* flex-flow: column; */    
 }
 
 .proysVis {
@@ -54,7 +54,7 @@
 .btnNeonCard {
     font-size: 0.8rem;
     background-color: #fff;
-    padding: 10px 30px;
+    padding: 15px 25px;
     text-decoration: none;
     color: darkblue; 
     transition: .4 ease;
@@ -62,7 +62,32 @@
     border: 0.5px solid #000;
 }
 
+.btnNeonCard2 {
+    font-size: 0.8rem;
+    background-color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: darkblue; 
+    transition: .4 ease;
+    border-radius: 25px;
+    border: 0.5px solid #000;
+}
+
+.btnFalse {
+    display: none;
+}
+
 .btnNeonCard:hover {
+    box-shadow: 0 0 10px rgb(235, 235, 255),
+                0 0 30px rgb(235, 235, 255),
+                0 0 70px rgb(235, 235, 255), 
+                0 0 130px rgb(235, 235, 255); 
+
+    color: #000; 
+    background-color: rgb(235, 235, 255);
+}
+
+.btnNeonCard2:hover {
     box-shadow: 0 0 10px rgb(235, 235, 255),
                 0 0 30px rgb(235, 235, 255),
                 0 0 70px rgb(235, 235, 255), 
@@ -84,6 +109,11 @@
 .contBtnNeon {
     display: flex;
     justify-content: center;
+}
+
+.contBtnNeon2 {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .cardPersTwo {
