@@ -44,8 +44,8 @@ function Proyects() {
       link1={'https://github.com/federicojoaquin/gastosdemo_api'}
       textBtn1='Front'
       textBtn2='API'
-      // btn2={true}
-      // link2={'https://nextjs-gastos.vercel.app/'}
+      btn2={true}
+      link2={'https://nextjs-gastos.vercel.app/'}
       />
 
       <Proyect proy={"https://i.ibb.co/KWJdr26/Administrador.jpg"} 
