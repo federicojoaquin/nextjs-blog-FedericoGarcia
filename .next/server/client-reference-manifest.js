@@ -208,32 +208,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/About/layout.js": {
-      "": {
-        "id": "(sc_client)/./app/About/layout.js",
-        "name": "",
-        "chunks": [
-          "app/About/layout:app/About/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/About/layout.js",
-        "name": "*",
-        "chunks": [
-          "app/About/layout:app/About/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/About/layout.js",
-        "name": "default",
-        "chunks": [
-          "app/About/layout:app/About/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/assets/Icons/CSS.png": {
       "": {
         "id": "(sc_client)/./app/assets/Icons/CSS.png",
@@ -649,18 +623,44 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./app/About/layout.js": {
+      "": {
+        "id": "(sc_client)/./app/About/layout.js",
+        "name": "",
+        "chunks": [
+          "app/About/layout:app/About/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/About/layout.js",
+        "name": "*",
+        "chunks": [
+          "app/About/layout:app/About/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/About/layout.js",
+        "name": "default",
+        "chunks": [
+          "app/About/layout:app/About/layout"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\layout": [
-      "static/css/app/About/layout.css"
-    ],
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\page": [
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css",
       "static/css/_app-client_app_components_Styles_Burbles_css.css",
       "static/css/_app-client_app_About_pageStyles_css.css",
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css",
       "static/css/app/About/page.css"
+    ],
+    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\layout": [
+      "static/css/app/About/layout.css"
     ],
     "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\layout": [
       "static/css/_app-client_app_globals_css.css"
@@ -1031,42 +1031,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/About/page:app/About/page"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\pageStyles.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/About/layout.css",
-        "static/css/_app-client_app_About_pageStyles_css.css"
-      ]
-    }
-  },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\layout.js": {
-    "": {
-      "id": "(app-client)/./app/About/layout.js",
-      "name": "",
-      "chunks": [
-        "app/About/layout:app/About/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/About/layout.js",
-      "name": "*",
-      "chunks": [
-        "app/About/layout:app/About/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/About/layout.js",
-      "name": "default",
-      "chunks": [
-        "app/About/layout:app/About/layout"
       ],
       "async": false
     }
@@ -1588,13 +1552,40 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Burbles.css": {
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\pageStyles.css": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/_app-client_app_components_Styles_Burbles_css.css"
+        "static/css/app/About/layout.css",
+        "static/css/_app-client_app_About_pageStyles_css.css"
       ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\layout.js": {
+    "": {
+      "id": "(app-client)/./app/About/layout.js",
+      "name": "",
+      "chunks": [
+        "app/About/layout:app/About/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/About/layout.js",
+      "name": "*",
+      "chunks": [
+        "app/About/layout:app/About/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/About/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/About/layout:app/About/layout"
+      ],
+      "async": false
     }
   },
   "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\About\\\\page.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
@@ -1603,6 +1594,15 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css"
+      ]
+    }
+  },
+  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Burbles.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_components_Styles_Burbles_css.css"
       ]
     }
   },
