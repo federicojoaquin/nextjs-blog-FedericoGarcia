@@ -1,4 +1,4 @@
-
+"use client"
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
@@ -7,6 +7,7 @@ import ParticleBackground from './components/ParticleBackground'
 import Link from 'next/link'
 import Image from 'next/image'
 import federico from './Federico.jpg'
+import LanguageDropdown from './components/LanguagesDropdown'
 
 export default function Home() {
   return (
