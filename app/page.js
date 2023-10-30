@@ -9,7 +9,34 @@ import Image from 'next/image'
 import federico from './Federico.jpg'
 import LanguageDropdown from './components/LanguagesDropdown'
 
+import global_en from './translations/en/global.json';
+import global_es from './translations/en/global.json';
+import i18next from 'i18next'
+
+import { useTranslation } from 'react-i18next'
+
+i18next.init({
+  interpolation: { escapeValue:false }, 
+  lng: "eng",
+  resources: {
+    en: { 
+      global: global_en, 
+    },
+    es: { 
+      global: global_es, 
+    } 
+    
+  }
+})
+
 export default function Home() {
+
+  const [t, i18n] = useTranslation("global");
+
+  const HandleChangeLenguaje = (lang) => { 
+    i18n.changeLanguage(lang)
+  }
+
   return (
     <body> 
       <div className='App'>
@@ -27,9 +54,13 @@ export default function Home() {
               </div>
               
             </div>
+            <div>
+              <button onClick={() => HandleChangeLenguaje("en")}>EN</button>
+              <button onClick={() => HandleChangeLenguaje("en")}>EN</button>
+            </div>
             {/* <BsGithub size={100}/>
             <BsLinkedin size={100}/> */}
-            <Link className="btn btn-outline-dark showMore" href={'/About'}><b>Conocer sobre mí</b></Link>
+            <Link className="btn btn-outline-dark showMore" href={'/About'}>{t("firstButton")}</Link>
         </div>
         <div style={{position: 'absolute'}}>
           <ParticleBackground />
