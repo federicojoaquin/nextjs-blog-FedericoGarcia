@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import './pageStyles.css'
 import Navbar from '../components/Navbar'
@@ -10,10 +12,13 @@ import Tecnologies from '../components/Tecnologies'
 import Image from 'next/image'
 import Proyects from '../components/Proyects'
 import {Secular_One} from 'next/font/google'
+import { useTranslation } from 'react-i18next'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 
 
 function page({children}) {
+
+  const { t } = useTranslation("global");
   
   return (
     <body>

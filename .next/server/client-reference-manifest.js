@@ -156,32 +156,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/assets/Icons/CSS.png": {
       "": {
         "id": "(sc_client)/./app/assets/Icons/CSS.png",
@@ -468,9 +442,9 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/components/Card.js": {
+    "(app-client)/./app/About/page.js": {
       "": {
-        "id": "(sc_client)/./app/components/Card.js",
+        "id": "(sc_client)/./app/About/page.js",
         "name": "",
         "chunks": [
           "app/About/page:app/About/page"
@@ -478,7 +452,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/components/Card.js",
+        "id": "(sc_client)/./app/About/page.js",
         "name": "*",
         "chunks": [
           "app/About/page:app/About/page"
@@ -486,111 +460,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/components/Card.js",
-        "name": "default",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/components/Navbar.js": {
-      "": {
-        "id": "(sc_client)/./app/components/Navbar.js",
-        "name": "",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/components/Navbar.js",
-        "name": "*",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/Navbar.js",
-        "name": "default",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/components/Proyects.js": {
-      "": {
-        "id": "(sc_client)/./app/components/Proyects.js",
-        "name": "",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/components/Proyects.js",
-        "name": "*",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/Proyects.js",
-        "name": "default",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/components/Section1.js": {
-      "": {
-        "id": "(sc_client)/./app/components/Section1.js",
-        "name": "",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/components/Section1.js",
-        "name": "*",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/Section1.js",
-        "name": "default",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/components/Tecnologies.js": {
-      "": {
-        "id": "(sc_client)/./app/components/Tecnologies.js",
-        "name": "",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/components/Tecnologies.js",
-        "name": "*",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/components/Tecnologies.js",
+        "id": "(sc_client)/./app/About/page.js",
         "name": "default",
         "chunks": [
           "app/About/page:app/About/page"
@@ -631,9 +501,6 @@ self.__RSC_MANIFEST={
       "static/css/app/page.css"
     ],
     "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/page": [
-      "static/css/_app-client_app_components_Styles_Burbles_css.css",
-      "static/css/_app-client_app_About_pageStyles_css.css",
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css",
       "static/css/app/About/page.css"
     ],
     "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/layout": [
@@ -932,56 +799,23 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/pageStyles.css": {
     "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
+        "static/css/app/About/page.css",
+        "static/css/app/About/layout.css"
+      ]
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/esm/client/image.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Burbles.css": {
     "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
+        "static/css/app/About/page.css"
+      ]
     }
   },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Card.css": {
@@ -1351,9 +1185,9 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Card.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/page.js": {
     "": {
-      "id": "(app-client)/./app/components/Card.js",
+      "id": "(app-client)/./app/About/page.js",
       "name": "",
       "chunks": [
         "app/About/page:app/About/page"
@@ -1361,7 +1195,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/components/Card.js",
+      "id": "(app-client)/./app/About/page.js",
       "name": "*",
       "chunks": [
         "app/About/page:app/About/page"
@@ -1369,126 +1203,12 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/components/Card.js",
+      "id": "(app-client)/./app/About/page.js",
       "name": "default",
       "chunks": [
         "app/About/page:app/About/page"
       ],
       "async": false
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Navbar.js": {
-    "": {
-      "id": "(app-client)/./app/components/Navbar.js",
-      "name": "",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/Navbar.js",
-      "name": "*",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/Navbar.js",
-      "name": "default",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Proyects.js": {
-    "": {
-      "id": "(app-client)/./app/components/Proyects.js",
-      "name": "",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/Proyects.js",
-      "name": "*",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/Proyects.js",
-      "name": "default",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Section1.js": {
-    "": {
-      "id": "(app-client)/./app/components/Section1.js",
-      "name": "",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/Section1.js",
-      "name": "*",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/Section1.js",
-      "name": "default",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Tecnologies.js": {
-    "": {
-      "id": "(app-client)/./app/components/Tecnologies.js",
-      "name": "",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/Tecnologies.js",
-      "name": "*",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/Tecnologies.js",
-      "name": "default",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/pageStyles.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/About/layout.css",
-        "static/css/_app-client_app_About_pageStyles_css.css"
-      ]
     }
   },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/layout.js": {
@@ -1515,24 +1235,6 @@ self.__RSC_MANIFEST={
         "app/About/layout:app/About/layout"
       ],
       "async": false
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"path\":\"app/About/page.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css"
-      ]
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Burbles.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_components_Styles_Burbles_css.css"
-      ]
     }
   },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/globals.css": {
