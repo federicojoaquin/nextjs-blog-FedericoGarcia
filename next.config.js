@@ -27,6 +27,10 @@ const nextConfig = {
     // disable static imports for image files
     disableStaticImages: false,
   },
+  i18n: {
+    locales: ['en', 'es'],
+    defaultLocale: 'en',
+  },
 }
 
 module.exports = nextConfig

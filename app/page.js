@@ -10,8 +10,9 @@ import federico from './Federico.jpg'
 import LanguageDropdown from './components/LanguagesDropdown'
 
 import global_en from './translations/en/global.json';
-import global_es from './translations/en/global.json';
+import global_es from './translations/es/global.json';
 import i18next from 'i18next'
+import i18n from './Js/i18n'
 
 import { useTranslation } from 'react-i18next'
 
@@ -31,10 +32,10 @@ i18next.init({
 
 export default function Home() {
 
-  const [t, i18n] = useTranslation("global");
+  const [t, i18next] = useTranslation("global");
 
   const HandleChangeLenguaje = (lang) => { 
-    i18n.changeLanguage(lang)
+    i18next.changeLanguage(lang)
   }
 
   return (
@@ -56,11 +57,11 @@ export default function Home() {
             </div>
             <div>
               <button onClick={() => HandleChangeLenguaje("en")}>EN</button>
-              <button onClick={() => HandleChangeLenguaje("en")}>EN</button>
+              <button onClick={() => HandleChangeLenguaje("es")}>ES</button>
             </div>
             {/* <BsGithub size={100}/>
             <BsLinkedin size={100}/> */}
-            <Link className="btn btn-outline-dark showMore" href={'/About'}>{t("firstButton")}</Link>
+            <Link className="btn btn-outline-dark showMore" href={'/About'} dangerouslySetInnerHTML={{ __html: t("firstButton") }} />
         </div>
         <div style={{position: 'absolute'}}>
           <ParticleBackground />
