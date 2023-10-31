@@ -130,6 +130,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/assets/Icons/language.png": {
+      "": {
+        "id": "(sc_client)/./app/assets/Icons/language.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/assets/Icons/language.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/assets/Icons/language.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/page.js": {
       "": {
         "id": "(sc_client)/./app/page.js",
@@ -727,6 +753,15 @@ self.__RSC_MANIFEST={
       ]
     }
   },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/LanguagesDropdown.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/bootstrap-icons/font/bootstrap-icons.css": {
     "default": {
       "id": "null",
@@ -769,6 +804,32 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/About/page:app/About/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/language.png": {
+    "": {
+      "id": "(app-client)/./app/assets/Icons/language.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/assets/Icons/language.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/assets/Icons/language.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }
