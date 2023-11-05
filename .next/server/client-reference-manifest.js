@@ -130,12 +130,38 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/assets/Icons/Python.png": {
+      "": {
+        "id": "(sc_client)/./app/assets/Icons/Python.png",
+        "name": "",
+        "chunks": [
+          "app/About/page:app/About/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/assets/Icons/Python.png",
+        "name": "*",
+        "chunks": [
+          "app/About/page:app/About/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/assets/Icons/Python.png",
+        "name": "default",
+        "chunks": [
+          "app/About/page:app/About/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/assets/Icons/language.png": {
       "": {
         "id": "(sc_client)/./app/assets/Icons/language.png",
         "name": "",
         "chunks": [
-          "app/page:app/page"
+          "app/About/page:app/About/page"
         ],
         "async": false
       },
@@ -143,7 +169,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/assets/Icons/language.png",
         "name": "*",
         "chunks": [
-          "app/page:app/page"
+          "app/About/page:app/About/page"
         ],
         "async": false
       },
@@ -151,7 +177,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/assets/Icons/language.png",
         "name": "default",
         "chunks": [
-          "app/page:app/page"
+          "app/About/page:app/About/page"
         ],
         "async": false
       }
@@ -383,32 +409,6 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./app/assets/Icons/Postgresql.png",
-        "name": "default",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/assets/Icons/Python.png": {
-      "": {
-        "id": "(sc_client)/./app/assets/Icons/Python.png",
-        "name": "",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/assets/Icons/Python.png",
-        "name": "*",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/assets/Icons/Python.png",
         "name": "default",
         "chunks": [
           "app/About/page:app/About/page"
@@ -758,7 +758,8 @@ self.__RSC_MANIFEST={
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/page.css"
+        "static/css/app/page.css",
+        "static/css/app/About/page.css"
       ]
     }
   },
@@ -808,12 +809,38 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Python.png": {
+    "": {
+      "id": "(app-client)/./app/assets/Icons/Python.png",
+      "name": "",
+      "chunks": [
+        "app/About/page:app/About/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/assets/Icons/Python.png",
+      "name": "*",
+      "chunks": [
+        "app/About/page:app/About/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/assets/Icons/Python.png",
+      "name": "default",
+      "chunks": [
+        "app/About/page:app/About/page"
+      ],
+      "async": false
+    }
+  },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/language.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/language.png",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/About/page:app/About/page"
       ],
       "async": false
     },
@@ -821,7 +848,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/assets/Icons/language.png",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/About/page:app/About/page"
       ],
       "async": false
     },
@@ -829,7 +856,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/assets/Icons/language.png",
       "name": "default",
       "chunks": [
-        "app/page:app/page"
+        "app/About/page:app/About/page"
       ],
       "async": false
     }
@@ -1161,32 +1188,6 @@ self.__RSC_MANIFEST={
     },
     "default": {
       "id": "(app-client)/./app/assets/Icons/Postgresql.png",
-      "name": "default",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Python.png": {
-    "": {
-      "id": "(app-client)/./app/assets/Icons/Python.png",
-      "name": "",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/assets/Icons/Python.png",
-      "name": "*",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/assets/Icons/Python.png",
       "name": "default",
       "chunks": [
         "app/About/page:app/About/page"

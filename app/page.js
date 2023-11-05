@@ -9,6 +9,7 @@ import Image from 'next/image';
 import federico from './Federico.jpg';
 import LanguageDropdown from './components/LanguagesDropdown';
 import { useTranslation } from 'react-i18next';
+import pyIcon from './assets/Icons/Python.png'
 
 import global_en from './translations/en/global.json';
 import global_es from './translations/es/global.json';
@@ -41,10 +42,11 @@ export default function Home() {
         <div className="text" style={{ position: 'relative', overflow: 'hidden' }}>
           <Image className="portrait" src={federico} width={150} height={150} alt="Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer" />
           <h1 className="mainTitle">
-            <b className="mainTitle">Federico Garcia</b>
+            <b className="mainTitle" style={{letterSpacing: '2px'}}>Federico Garcia</b>
           </h1>
           <h2 className="subTitle">{'Python backend developer'}</h2>
-          {t("language")}
+          <Image className='tecPyIcon' src={pyIcon} width={25} height={25}></Image>
+          <h4 style={{marginTop: '10px', fontSize: '1rem'}}>{t("language")}</h4>
           <LanguageDropdown onLanguageChange={HandleChangeLenguaje} /> {/* Pass the function to LanguageDropdown */}
           <div className="iconsContactContainer">
             <div>
