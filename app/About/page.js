@@ -53,7 +53,7 @@ function page({children}) {
       </div>
       <footer id='contacto'>
         
-        <h1 className='footerTitle'>Contacto</h1>
+        <h1 className='footerTitle' dangerouslySetInnerHTML={{ __html: t('contact') }}></h1>
         <div className='contactContainer'>
           <div className='boxIcon'>
             <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8 icono"></a>

@@ -7,5 +7,9 @@
         "skills": "<b>Skills</b>",
         "proyects": "<b>Proyects</b>",
         "contact": "<b>Contact</b>"
-        }
+        },
+    "about": "<b>About me</b>",
+
+
+    "contact": "<b>Contact</b>"
 }

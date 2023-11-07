@@ -7,5 +7,9 @@
         "skills": "<b>Habilidades</b>",
         "proyects": "<b>Proyectos</b>",
         "contact": "<b>Contacto</b>"
-        }
+        },
+    "about": "<b>Sobre mí</b>",
+
+
+    "contact": "<b>Contacto</b>"
 }
