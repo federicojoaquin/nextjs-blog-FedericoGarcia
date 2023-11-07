@@ -1,4 +1,11 @@
 {
     "firstButton": "<b>About me</b>", 
-    "language": "Language: "
+    "language": "Language: ", 
+    "nav": {
+        "home": "<b>Home</b>", 
+        "about": "<b>About me</b>", 
+        "skills": "<b>Skills</b>",
+        "proyects": "<b>Proyects</b>",
+        "contact": "<b>Contact</b>"
+        }
 }

@@ -1,4 +1,11 @@
 {
     "firstButton": "<b>Sobre mi</b>", 
-    "language": "Idioma: "
+    "language": "Idioma: ", 
+    "nav": {
+        "home": "<b>Inicio</b>", 
+        "about": "<b>Sobre mi</b>", 
+        "skills": "<b>Habilidades</b>",
+        "proyects": "<b>Proyectos</b>",
+        "contact": "<b>Contacto</b>"
+        }
 }

@@ -7,6 +7,9 @@ import Link from 'next/link'
 import './Styles/Navbar.css'
 import reatraitNav from '../Federico.jpg'
 import LanguageDropdown from './LanguagesDropdown'
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
+
 
 function Navbar() {
 
@@ -16,7 +19,11 @@ function Navbar() {
   const [padding, setPadding] = useState(30);
   const [boxShadow, setBoxShadow] = useState(0);
   const [imgOpacity, setImgOpacity] = useState(0); 
+  const [t, i18next] = useTranslation('global');
 
+  const HandleChangeLenguaje = (lang) => {
+    i18next.changeLanguage(lang);
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -62,7 +69,7 @@ function Navbar() {
       <div className="container-fluid">
         
         <Image src={reatraitNav} width={45} height={45} className='retraitNav' style={{opacity: `${imgOpacity}`}} alt='Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer' />
-        <LanguageDropdown />
+        <LanguageDropdown initialLanguage={i18next.language} onLanguageChange={HandleChangeLenguaje}/>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -70,62 +77,26 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" href={'/'}><b>Home</b></Link>
+              <Link className="nav-link" aria-current="page" href={'/'} dangerouslySetInnerHTML={{ __html: t('nav.home') }}></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#sobreMi"><b>Sobre mí</b></a>
+              <a className="nav-link" href="#sobreMi" dangerouslySetInnerHTML={{ __html: t('nav.about') }}></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#tecnologias"><b>Habilidades</b></a>
+              <a className="nav-link" href="#tecnologias" dangerouslySetInnerHTML={{ __html: t('nav.skills') }}></a>
               
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#proyectos"><b>Proyectos</b></a>
+              <a className="nav-link" href="#proyectos" dangerouslySetInnerHTML={{ __html: t('nav.proyects') }}></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contacto"><b>Contacto</b></a>
+              <a className="nav-link" href="#contacto" dangerouslySetInnerHTML={{ __html: t('nav.contact') }}></a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    // <nav className="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-    //   <div className="container">
-    //     <button
-    //       className="navbar-toggler"
-    //       type="button"
-    //       data-bs-toggle="collapse"
-    //       data-bs-target="#navbarNav"
-    //       aria-controls="navbarNav"
-    //       aria-expanded="false"
-    //       aria-label="Toggle navigation"
-    //     >
-    //       <span className="navbar-toggler-icon"></span>
-    //     </button>
-
-    //     <div className="collapse navbar-collapse" id="navbarNav">
-    //       <div className="mx-auto"></div>
-    //       <ul className="navbar-nav">
-    //         <li className="nav-item">
-    //           <a className="nav-link text-white links" href="#">Home</a>
-    //         </li>
-    //         <li className="nav-item">
-    //           <a className="nav-link text-white links" href="#">About</a>
-    //         </li>
-    //         <li className="nav-item">
-    //           <a className="nav-link text-white links" href="#">Blog</a>
-    //         </li>
-    //         <li className="nav-item">
-    //           <a className="nav-link text-white links" href="#">Pricing</a>
-    //         </li>
-    //         <li className="nav-item">
-    //           <a className="nav-link text-white links" href="#">Contact</a>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </div>
-    // </nav>
 
   )
 }
