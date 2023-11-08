@@ -8,8 +8,8 @@
         "proyects": "<b>Proyects</b>",
         "contact": "<b>Contact</b>"
         },
-    "about": "<b>About me</b>",
-
+    "about_title": "<b>About me</b>",
+    "about_me": "Backend developer and systems engineering student. With almost 3 years of experience as a software developer and more than 4 programming,\ni have been working with several technologies and making technological solutions.\nMy first experience was at 2GSoft maintaining an ERP software and making some web apps, using Oracle Technologies: PL/SQL, Oracle Apex, Oracle Forms, Reports, React and Python. My roles were: developer, sysadmin, database administrator and user support.\nThen, i moved to another company called Servicios & consultoría, where i specialized in Python backend development, using Django rest framework with a bunch of python libraries, combined with amazon web services. We successfully deployed some of our projects for governments of different states from Argentina.",
 
     "contact": "<b>Contact</b>"
 }

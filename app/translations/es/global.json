@@ -8,8 +8,7 @@
         "proyects": "<b>Proyectos</b>",
         "contact": "<b>Contacto</b>"
         },
-    "about": "<b>Sobre mí</b>",
-
-
+    "about_title": "<b>Sobre mí</b>",
+    "about_me": "Backend developer y estudiante de ingeriería en sistemas.Con casi 3 años de experiencia y más de 4 años programando,\nestuve trabajando con una variedad de  tecnologias e implementando soluciones tecnologicas para companias.\nMi primera experiencia fue en una compañía llamada 2GSoft manteniendo un software ERP y haciendo pequeñas apps web para acoplar al sistema, trabajando con tecnologías Oracle: PL/SQL, Oracle Apex, Oracle Forms, Reports y React con Python para las apps. Mis roles fueron: developer, sysadmin, database administrator y soporte a usuarios.\nLuego, cambié de compañía a una llamada  Servicios & consultoría, donde me specializé con Python en desarrollo backend, utilizando principalmente Django rest framework con muchas librerías, junto con amazon web services. Hemos puesto en marcha en producción importantes proyectos para varios municipios en provincias de Argentina, como Corrientes y Berazategui (Buenos Aires).",
     "contact": "<b>Contacto</b>"
 }
