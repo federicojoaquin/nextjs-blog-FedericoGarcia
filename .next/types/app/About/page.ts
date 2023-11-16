@@ -1,4 +1,4 @@
-// File: C:\Users\Usuario\Desktop\Web ideas\Carta de presentacion - next js\a ver\prueba\app\About\page.js
+// File: /home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/page.js
 import * as entry from '../../../../app/About/page'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface'
 

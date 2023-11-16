@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+
+import React, { useEffect, useState } from 'react'
 import './pageStyles.css'
 import Navbar from '../components/Navbar'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -10,10 +12,20 @@ import Tecnologies from '../components/Tecnologies'
 import Image from 'next/image'
 import Proyects from '../components/Proyects'
 import {Secular_One} from 'next/font/google'
+import i18n from 'i18next';
+import { useTranslation } from 'react-i18next'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 
 
 function page({children}) {
+
+  // const [language, setLanguage] = useState('en');
+  const { t } = useTranslation("global");
+
+  // useEffect(() => {
+  //   setLanguage('en');
+  //   i18n.changeLanguage(language);
+  //  }, [language]);
   
   return (
     <body>
@@ -29,7 +41,7 @@ function page({children}) {
           </section> 
         </div>
         <section className='content2' id='tecnologias'>
-          <h1 className='titleTec'><b>Habilidades</b></h1>   
+          <h1 className='titleTec' dangerouslySetInnerHTML={{ __html: t('skills') }}></h1>   
           <Tecnologies />
           <Cards />
           
@@ -37,7 +49,7 @@ function page({children}) {
         </section>
         <section className='content3' id='proyectos'>
           {/* <Cards /> */}
-            <h1 className='titleTec'><b>Proyectos</b></h1>
+            <h1 className='titleTec' dangerouslySetInnerHTML={{ __html: t('proyects') }}></h1>
             <Proyects />
             
             
@@ -48,7 +60,7 @@ function page({children}) {
       </div>
       <footer id='contacto'>
         
-        <h1 className='footerTitle'>Contacto</h1>
+        <h1 className='footerTitle' dangerouslySetInnerHTML={{ __html: t('contact') }}></h1>
         <div className='contactContainer'>
           <div className='boxIcon'>
             <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8 icono"></a>

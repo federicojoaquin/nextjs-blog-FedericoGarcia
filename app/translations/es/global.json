@@ -1,0 +1,41 @@
+{
+    "firstButton": "<b>Sobre mi</b>", 
+    "language": "Idioma: ", 
+    "nav": {
+        "home": "<b>Inicio</b>", 
+        "about": "<b>Sobre mi</b>", 
+        "skills": "<b>Habilidades</b>",
+        "proyects": "<b>Proyectos</b>",
+        "contact": "<b>Contacto</b>"
+        },
+    "about_title": "<b>Sobre mí</b>",
+    "about_me": "Backend developer y estudiante de ingeriería en sistemas.Con casi 3 años de experiencia y más de 4 años programando,\nestuve trabajando con una variedad de  tecnologias e implementando soluciones tecnologicas para companias.\nMi primera experiencia fue en una compañía llamada 2GSoft manteniendo un software ERP y haciendo pequeñas apps web para acoplar al sistema, trabajando con tecnologías Oracle: PL/SQL, Oracle Apex, Oracle Forms, Reports y React con Python para las apps. Mis roles fueron: developer, sysadmin, database administrator y soporte a usuarios.\nLuego, cambié de compañía a una llamada  Servicios & consultoría, donde me specializé con Python en desarrollo backend, utilizando principalmente Django rest framework con muchas librerías, junto con amazon web services. Hemos puesto en marcha en producción importantes proyectos para varios municipios en provincias de Argentina, como Corrientes y Berazategui (Buenos Aires).",
+    "download_button": "<b>Descargar CV</b> <i class='bi bi-arrow-down'></i>",
+    "contact": "<b>Contacto</b>", 
+    "skills": "<b>Habilidades</b>", 
+    "cards": {
+        "1": "Resolución de conflictos", 
+        "2": "Trabajo en equipo", 
+        "3": "Adaptación al cambio",
+        "4": "Aprendizaje constante"
+    }, 
+    "proyects": "<b>Proyectos</b>", 
+    "proyect": {
+        "1": {
+            "title": "Módulo gastos", 
+            "des": "CRUD para carga de gastos, front-end con React, Next.js, Bootstrap. Back-end con Node.js, Express y PostgreSQL. Deploys: Front en Vercel, API en Render.com y base de datos en Neon."
+        }, 
+        "2": {
+            "title": "Mauricio Pereyra blog", 
+            "des": "Página web estática de presentación de músico Mauricio Pereyra, con sus álbumes, biografía y contacto. Plantilla HTML editada, Next.js y deploy en Vercel."
+        }, 
+        "3": {
+            "title": "Agronix S.R.L", 
+            "des": "Página web estática de presentación de empresa Agronix S.R.L dedicada a venta de insumos tecnológicos para el campo. Html, Css y Javascript vanilla."
+        }, 
+        "4":{
+            "title": "Administrador Personal", 
+            "des": "En desarrollo, gestor de gastos, finanzas, y tiempos para uso personal. Tecnologías: React, Node.Js, Express y PostgreSql."
+        }
+    }
+}
