@@ -30,10 +30,10 @@ function Section1() {
         <div className='row'>
             <div className='col-md-6 col-sm-12 textContainer'>
             <h1 className={`titleAboutMe`} dangerouslySetInnerHTML={{ __html: t('about_title') }}></h1>
-            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}} dangerouslySetInnerHTML={{ __html: t('about_me') }}></p>. 
+            <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}} dangerouslySetInnerHTML={{ __html: t('about_me') }}></p>
                 {/* <Link class="btnNeon" target="_blank" href={'../Pdf'} id='download' style={{marginTop: '1rem'}}><b>Descargar CV</b> <i class="bi bi-arrow-down"></i></Link> */}
-                <a className="btnNeon" href={downloadLink} id="enlaceDescargarPdf" download="FedericoGarcia.pdf">
-                  <b>Descargar CV</b> <i class="bi bi-arrow-down"></i>
+                <a className="btnNeon" href={downloadLink} id="enlaceDescargarPdf" download="FedericoGarcia.pdf" dangerouslySetInnerHTML={{ __html: t('download_button') }}>
+                  {/* <i class="bi bi-arrow-down"></i> */}
                 </a>
             {/* <p className='text-description'><b>Hola soy Federico Garcia, full-stack developer</b></p> */}
             </div>

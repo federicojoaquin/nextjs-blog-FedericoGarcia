@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './pageStyles.css'
 import Navbar from '../components/Navbar'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -12,13 +12,20 @@ import Tecnologies from '../components/Tecnologies'
 import Image from 'next/image'
 import Proyects from '../components/Proyects'
 import {Secular_One} from 'next/font/google'
+import i18n from 'i18next';
 import { useTranslation } from 'react-i18next'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 
 
 function page({children}) {
 
+  // const [language, setLanguage] = useState('en');
   const { t } = useTranslation("global");
+
+  // useEffect(() => {
+  //   setLanguage('en');
+  //   i18n.changeLanguage(language);
+  //  }, [language]);
   
   return (
     <body>
@@ -34,7 +41,7 @@ function page({children}) {
           </section> 
         </div>
         <section className='content2' id='tecnologias'>
-          <h1 className='titleTec'><b>Habilidades</b></h1>   
+          <h1 className='titleTec' dangerouslySetInnerHTML={{ __html: t('skills') }}></h1>   
           <Tecnologies />
           <Cards />
           
@@ -42,7 +49,7 @@ function page({children}) {
         </section>
         <section className='content3' id='proyectos'>
           {/* <Cards /> */}
-            <h1 className='titleTec'><b>Proyectos</b></h1>
+            <h1 className='titleTec' dangerouslySetInnerHTML={{ __html: t('proyects') }}></h1>
             <Proyects />
             
             

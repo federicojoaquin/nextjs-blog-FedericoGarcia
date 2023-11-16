@@ -27,6 +27,9 @@ i18next.init({
       global: global_es,
     },
   },
+  react: {
+    useSuspense: true,
+  }
 });
 
 export default function Home() {

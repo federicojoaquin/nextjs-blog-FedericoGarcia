@@ -531,9 +531,6 @@ self.__RSC_MANIFEST={
     ],
     "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/layout": [
       "static/css/app/About/layout.css"
-    ],
-    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/layout": [
-      "static/css/_app-client_app_globals_css.css"
     ]
   },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/components/app-router.js": {
@@ -1297,15 +1294,6 @@ self.__RSC_MANIFEST={
         "app/About/layout:app/About/layout"
       ],
       "async": false
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/globals.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_globals_css.css"
-      ]
     }
   }
 }
