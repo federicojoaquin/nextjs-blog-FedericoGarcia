@@ -16,7 +16,7 @@ export default function Home() {
         <div className="text" style={{position: 'relative', overflow: 'hidden'}}>
             <Image className='portrait' src={federico} width={150} height={150} alt='Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer'/>
             <h1 className='mainTitle'><b className='mainTitle'>Federico Garcia</b></h1>
-            <h2 className='subTitle'>{'<Full-stack developer/>'}</h2>
+            <h2 className='subTitle'>{'Python backend developer'}</h2>
             <div className='iconsContactContainer'>
               <div>
                 <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8 iconoContacto"></a>

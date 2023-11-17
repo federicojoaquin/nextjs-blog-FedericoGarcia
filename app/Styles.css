@@ -1,3 +1,11 @@
+@keyframes gradientAnimation {
+    0% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 .App {
     background-color: #fff;
@@ -8,8 +16,26 @@
     color: #000; 
 }
 
-.subTitle { 
-    color: #e05e00; 
+/* .subTitle {
+    background: linear-gradient(-120deg, #ffde57, #4584b6, #646464);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientAnimation 3s linear infinite;
+} */
+
+/* .subTitle {
+    position: relative;
+    font-size: 24px; 
+} */
+
+.subTitle {
+    background: linear-gradient(90deg, #ffde57, #4584b6, #646464, #ffde57, #4584b6);
+	background-size: 400%;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	animation: gradientAnimation 4s linear infinite;
+    font-size: 1.8rem;
 }
 
 .main-section { 
@@ -78,6 +104,15 @@
     height: 100vh;
     width: 100%;
 } 
+
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    } 
+    100%{
+        background-position: 400%;
+    }
+}
 
 @media only screen and (max-width: 435px) {
     .mainTitle {

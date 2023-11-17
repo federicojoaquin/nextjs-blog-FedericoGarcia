@@ -653,25 +653,25 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\page": [
+    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/page": [
+      "static/css/_app-client_node_modules_next_font_google_target_css_arguments_subsets_latin_weight_400_impor-446031.css",
       "static/css/_app-client_app_components_Styles_Burbles_css.css",
       "static/css/_app-client_app_About_pageStyles_css.css",
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css",
       "static/css/app/About/page.css"
     ],
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\layout": [
+    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/layout": [
       "static/css/app/About/layout.css"
     ],
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\layout": [
+    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/layout": [
       "static/css/_app-client_app_globals_css.css"
     ],
-    "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\page": [
+    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/page": [
       "static/css/_app-client_app_Styles_css.css",
       "static/css/_app-client_node_modules_bootstrap-icons_font_bootstrap-icons_css.css",
       "static/css/_app-client_node_modules_bootstrap_dist_css_bootstrap_min_css.css"
     ]
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/components/app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -697,7 +697,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/esm/client/components/app-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
@@ -723,7 +723,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/components/error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -749,7 +749,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/esm/client/components/error-boundary.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
@@ -775,7 +775,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/components/layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -801,7 +801,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/esm/client/components/layout-router.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
@@ -827,7 +827,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/components/render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -853,7 +853,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
@@ -879,7 +879,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\Federico.jpg": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/Federico.jpg": {
     "": {
       "id": "(app-client)/./app/Federico.jpg",
       "name": "",
@@ -905,7 +905,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\ParticleBackground.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/ParticleBackground.js": {
     "": {
       "id": "(app-client)/./app/components/ParticleBackground.js",
       "name": "",
@@ -931,7 +931,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\client\\image.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/image.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
@@ -957,7 +957,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\esm\\client\\image.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/esm/client/image.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
@@ -983,7 +983,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\client\\link.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/link.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
@@ -1009,7 +1009,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\dist\\esm\\client\\link.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/esm/client/link.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
@@ -1035,7 +1035,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Card.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Card.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1044,7 +1044,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Navbar.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Navbar.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1053,7 +1053,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Proyect.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Proyect.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1062,7 +1062,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Section1.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Section1.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1071,7 +1071,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Tecnologies.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Tecnologies.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1080,7 +1080,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap-icons\\font\\bootstrap-icons.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/bootstrap-icons/font/bootstrap-icons.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1090,7 +1090,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\bootstrap\\dist\\css\\bootstrap.min.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/bootstrap/dist/css/bootstrap.min.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1100,7 +1100,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Card.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Alata\",\"path\":\"app/components/Proyect.js\",\"variableName\":\"alata\"}": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1109,7 +1109,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Proyect.js\",\"import\":\"Alata\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"alata\"}": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Alata\",\"path\":\"app/components/Section1.js\",\"variableName\":\"alata\"}": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1118,7 +1118,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Proyect.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Secular_One\",\"path\":\"app/components/Card.js\",\"variableName\":\"secular\"}": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1127,7 +1127,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\components\\\\Section1.js\",\"import\":\"Alata\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"alata\"}": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Secular_One\",\"path\":\"app/components/Proyect.js\",\"variableName\":\"secular\"}": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1136,7 +1136,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\CSS.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/CSS.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/CSS.png",
       "name": "",
@@ -1162,7 +1162,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\HTML.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/HTML.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/HTML.png",
       "name": "",
@@ -1188,7 +1188,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\JS.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/JS.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/JS.png",
       "name": "",
@@ -1214,7 +1214,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\Next.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Next.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/Next.png",
       "name": "",
@@ -1240,7 +1240,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\Node.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Node.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/Node.png",
       "name": "",
@@ -1266,7 +1266,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\Oracle.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Oracle.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/Oracle.png",
       "name": "",
@@ -1292,7 +1292,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\PLSQL.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/PLSQL.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/PLSQL.png",
       "name": "",
@@ -1318,7 +1318,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\Postgresql.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Postgresql.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/Postgresql.png",
       "name": "",
@@ -1344,7 +1344,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\Python.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Python.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/Python.png",
       "name": "",
@@ -1370,7 +1370,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\Icons\\React.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/React.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/React.png",
       "name": "",
@@ -1396,7 +1396,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\assets\\sysadmin_03.png": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/sysadmin_03.png": {
     "": {
       "id": "(app-client)/./app/assets/sysadmin_03.png",
       "name": "",
@@ -1422,7 +1422,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Card.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Card.js": {
     "": {
       "id": "(app-client)/./app/components/Card.js",
       "name": "",
@@ -1448,7 +1448,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Navbar.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Navbar.js": {
     "": {
       "id": "(app-client)/./app/components/Navbar.js",
       "name": "",
@@ -1474,7 +1474,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Proyects.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Proyects.js": {
     "": {
       "id": "(app-client)/./app/components/Proyects.js",
       "name": "",
@@ -1500,7 +1500,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Section1.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Section1.js": {
     "": {
       "id": "(app-client)/./app/components/Section1.js",
       "name": "",
@@ -1526,7 +1526,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Tecnologies.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Tecnologies.js": {
     "": {
       "id": "(app-client)/./app/components/Tecnologies.js",
       "name": "",
@@ -1552,7 +1552,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\pageStyles.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/pageStyles.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1562,7 +1562,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\About\\layout.js": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/layout.js": {
     "": {
       "id": "(app-client)/./app/About/layout.js",
       "name": "",
@@ -1588,16 +1588,7 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\About\\\\page.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css"
-      ]
-    }
-  },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\components\\Styles\\Burbles.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Burbles.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1606,7 +1597,16 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\globals.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Secular_One\",\"path\":\"app/About/page.js\",\"variableName\":\"secular\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_arguments_subsets_latin_weight_400_impor-446031.css"
+      ]
+    }
+  },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/globals.css": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1615,7 +1615,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "C:\\Users\\Usuario\\Desktop\\Web ideas\\Carta de presentacion - next js\\a ver\\prueba\\app\\Styles.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/Styles.css": {
     "default": {
       "id": "null",
       "name": "default",
