@@ -130,6 +130,84 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/assets/Icons/Python.png": {
+      "": {
+        "id": "(sc_client)/./app/assets/Icons/Python.png",
+        "name": "",
+        "chunks": [
+          "app/About/page:app/About/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/assets/Icons/Python.png",
+        "name": "*",
+        "chunks": [
+          "app/About/page:app/About/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/assets/Icons/Python.png",
+        "name": "default",
+        "chunks": [
+          "app/About/page:app/About/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/assets/Icons/language.png": {
+      "": {
+        "id": "(sc_client)/./app/assets/Icons/language.png",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/assets/Icons/language.png",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/assets/Icons/language.png",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/LanguagesDropdown.js": {
+      "": {
+        "id": "(sc_client)/./app/components/LanguagesDropdown.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/components/LanguagesDropdown.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/LanguagesDropdown.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/components/ParticleBackground.js": {
       "": {
         "id": "(sc_client)/./app/components/ParticleBackground.js",
@@ -204,6 +282,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/About/page:app/About/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/About/layout.js": {
+      "": {
+        "id": "(sc_client)/./app/About/layout.js",
+        "name": "",
+        "chunks": [
+          "app/About/layout:app/About/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/About/layout.js",
+        "name": "*",
+        "chunks": [
+          "app/About/layout:app/About/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/About/layout.js",
+        "name": "default",
+        "chunks": [
+          "app/About/layout:app/About/layout"
         ],
         "async": false
       }
@@ -416,32 +520,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/assets/Icons/Python.png": {
-      "": {
-        "id": "(sc_client)/./app/assets/Icons/Python.png",
-        "name": "",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/assets/Icons/Python.png",
-        "name": "*",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/assets/Icons/Python.png",
-        "name": "default",
-        "chunks": [
-          "app/About/page:app/About/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./app/assets/Icons/React.png": {
       "": {
         "id": "(sc_client)/./app/assets/Icons/React.png",
@@ -623,52 +701,27 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./app/About/layout.js": {
-      "": {
-        "id": "(sc_client)/./app/About/layout.js",
-        "name": "",
-        "chunks": [
-          "app/About/layout:app/About/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/About/layout.js",
-        "name": "*",
-        "chunks": [
-          "app/About/layout:app/About/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/About/layout.js",
-        "name": "default",
-        "chunks": [
-          "app/About/layout:app/About/layout"
-        ],
-        "async": false
-      }
     }
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/page": [
-      "static/css/_app-client_node_modules_next_font_google_target_css_arguments_subsets_latin_weight_400_impor-446031.css",
-      "static/css/_app-client_app_components_Styles_Burbles_css.css",
-      "static/css/_app-client_app_About_pageStyles_css.css",
-      "static/css/app/About/page.css"
+    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/page": [
+      "static/css/_app-client_app_Styles_css.css",
+      "static/css/_app-client_node_modules_bootstrap-icons_font_bootstrap-icons_css.css",
+      "static/css/_app-client_node_modules_bootstrap_dist_css_bootstrap_min_css.css",
+      "static/css/app/page.css"
     ],
     "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/layout": [
       "static/css/app/About/layout.css"
     ],
+    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/page": [
+      "static/css/_app-client_app_components_Styles_Burbles_css.css",
+      "static/css/_app-client_app_About_pageStyles_css.css",
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css",
+      "static/css/app/About/page.css"
+    ],
     "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/layout": [
       "static/css/_app-client_app_globals_css.css"
-    ],
-    "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/page": [
-      "static/css/_app-client_app_Styles_css.css",
-      "static/css/_app-client_node_modules_bootstrap-icons_font_bootstrap-icons_css.css",
-      "static/css/_app-client_node_modules_bootstrap_dist_css_bootstrap_min_css.css"
     ]
   },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/dist/client/components/app-router.js": {
@@ -879,6 +932,15 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/LanguagesDropdown.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/Federico.jpg": {
     "": {
       "id": "(app-client)/./app/Federico.jpg",
@@ -901,6 +963,84 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/About/page:app/About/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Python.png": {
+    "": {
+      "id": "(app-client)/./app/assets/Icons/Python.png",
+      "name": "",
+      "chunks": [
+        "app/About/page:app/About/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/assets/Icons/Python.png",
+      "name": "*",
+      "chunks": [
+        "app/About/page:app/About/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/assets/Icons/Python.png",
+      "name": "default",
+      "chunks": [
+        "app/About/page:app/About/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/language.png": {
+    "": {
+      "id": "(app-client)/./app/assets/Icons/language.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/assets/Icons/language.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/assets/Icons/language.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/LanguagesDropdown.js": {
+    "": {
+      "id": "(app-client)/./app/components/LanguagesDropdown.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/components/LanguagesDropdown.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/components/LanguagesDropdown.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -1035,6 +1175,42 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/pageStyles.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/About/layout.css",
+        "static/css/_app-client_app_About_pageStyles_css.css"
+      ]
+    }
+  },
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/layout.js": {
+    "": {
+      "id": "(app-client)/./app/About/layout.js",
+      "name": "",
+      "chunks": [
+        "app/About/layout:app/About/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/About/layout.js",
+      "name": "*",
+      "chunks": [
+        "app/About/layout:app/About/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/About/layout.js",
+      "name": "default",
+      "chunks": [
+        "app/About/layout:app/About/layout"
+      ],
+      "async": false
+    }
+  },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Card.css": {
     "default": {
       "id": "null",
@@ -1100,7 +1276,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Alata\",\"path\":\"app/components/Proyect.js\",\"variableName\":\"alata\"}": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"path\":\"app/components/Card.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1109,7 +1285,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Alata\",\"path\":\"app/components/Section1.js\",\"variableName\":\"alata\"}": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"path\":\"app/components/Proyect.js\",\"import\":\"Alata\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"alata\"}": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1118,7 +1294,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Secular_One\",\"path\":\"app/components/Card.js\",\"variableName\":\"secular\"}": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"path\":\"app/components/Proyect.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1127,7 +1303,7 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Secular_One\",\"path\":\"app/components/Proyect.js\",\"variableName\":\"secular\"}": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"path\":\"app/components/Section1.js\",\"import\":\"Alata\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"alata\"}": {
     "default": {
       "id": "null",
       "name": "default",
@@ -1344,32 +1520,6 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/Python.png": {
-    "": {
-      "id": "(app-client)/./app/assets/Icons/Python.png",
-      "name": "",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/assets/Icons/Python.png",
-      "name": "*",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/assets/Icons/Python.png",
-      "name": "default",
-      "chunks": [
-        "app/About/page:app/About/page"
-      ],
-      "async": false
-    }
-  },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/assets/Icons/React.png": {
     "": {
       "id": "(app-client)/./app/assets/Icons/React.png",
@@ -1552,40 +1702,13 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/pageStyles.css": {
+  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"path\":\"app/About/page.js\",\"import\":\"Secular_One\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"variableName\":\"secular\"}": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/About/layout.css",
-        "static/css/_app-client_app_About_pageStyles_css.css"
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_app_About_page_js_import_Secular_On-e140fe.css"
       ]
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/About/layout.js": {
-    "": {
-      "id": "(app-client)/./app/About/layout.js",
-      "name": "",
-      "chunks": [
-        "app/About/layout:app/About/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/About/layout.js",
-      "name": "*",
-      "chunks": [
-        "app/About/layout:app/About/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/About/layout.js",
-      "name": "default",
-      "chunks": [
-        "app/About/layout:app/About/layout"
-      ],
-      "async": false
     }
   },
   "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/app/components/Styles/Burbles.css": {
@@ -1594,15 +1717,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_components_Styles_Burbles_css.css"
-      ]
-    }
-  },
-  "/home/fedegarcia/Desktop/Porta & mauri/a ver/prueba/node_modules/next/font/google/target.css?{\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\"]}],\"import\":\"Secular_One\",\"path\":\"app/About/page.js\",\"variableName\":\"secular\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_arguments_subsets_latin_weight_400_impor-446031.css"
       ]
     }
   },
