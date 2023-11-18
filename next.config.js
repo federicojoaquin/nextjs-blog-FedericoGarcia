@@ -30,6 +30,18 @@ const nextConfig = {
   i18n: {
     locales: ['en', 'es'],
     defaultLocale: 'en',
+    domains: [
+      {
+        domain: 'fgarciadev.com',
+        defaultLocale: 'en-US',
+        http: true,
+      },
+      {
+        domain: 'fgarciadev.com.ar',
+        defaultLocale: 'es',
+        http: true,
+      },
+    ],
   },
 }
 
