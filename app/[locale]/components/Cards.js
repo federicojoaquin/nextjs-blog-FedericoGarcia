@@ -4,8 +4,8 @@ import tool from '../assets/Icons/tool.svg'
 import team from '../assets/Icons/team.svg'
 import change from '../assets/Icons/change.svg'
 import book from '../assets/Icons/book.svg'
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
 function cards() {
   return (

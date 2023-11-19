@@ -2,7 +2,7 @@
 
 import {React, useState} from 'react'
 import Image from 'next/image'
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './Styles/Section1.css'
 import developer from '../assets/sysadmin_03.png'
 import Link from 'next/link'

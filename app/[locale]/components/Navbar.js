@@ -1,7 +1,7 @@
 "use client"
 
 import {React, useState, useEffect} from 'react'
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import './Styles/Navbar.css'
