@@ -8,20 +8,31 @@
  */
 (self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/layout"],{
 
-/***/ "(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Ffedegarcia%2FDesktop%2FPorta%20%26%20mauri%2Fa%20ver%2Fprueba%2Fapp%2Fglobals.css&server=false!":
-/*!***********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Ffedegarcia%2FDesktop%2FPorta%20%26%20mauri%2Fa%20ver%2Fprueba%2Fapp%2Fglobals.css&server=false! ***!
-  \***********************************************************************************************************************************************************************************************************/
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Ffedegarcia%2FDesktop%2FPorta%20%26%20mauri%2Fa%20ver%20-%20translation-i18-next%2Fprueba%2Fapp%2Fglobals.css&server=false!":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Ffedegarcia%2FDesktop%2FPorta%20%26%20mauri%2Fa%20ver%20-%20translation-i18-next%2Fprueba%2Fapp%2Fglobals.css&server=false! ***!
+  \**************************************************************************************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
-eval(__webpack_require__.ts("(() => __webpack_require__.e(/*! import() */ \"_app-client_app_globals_css\").then(__webpack_require__.bind(__webpack_require__, /*! ./app/globals.css */ \"(app-client)/./app/globals.css\")))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1jbGllbnQpLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9idWlsZC93ZWJwYWNrL2xvYWRlcnMvbmV4dC1mbGlnaHQtY2xpZW50LWVudHJ5LWxvYWRlci5qcz9tb2R1bGVzPSUyRmhvbWUlMkZmZWRlZ2FyY2lhJTJGRGVza3RvcCUyRlBvcnRhJTIwJTI2JTIwbWF1cmklMkZhJTIwdmVyJTJGcHJ1ZWJhJTJGYXBwJTJGZ2xvYmFscy5jc3Mmc2VydmVyPWZhbHNlIS5qcyIsIm1hcHBpbmdzIjoiQUFBQSxPQUFPLG1MQUF1RyIsInNvdXJjZXMiOlsid2VicGFjazovL19OX0UvPzAyYzAiXSwic291cmNlc0NvbnRlbnQiOlsiKCgpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJsYXp5XCIgKi8gXCIvaG9tZS9mZWRlZ2FyY2lhL0Rlc2t0b3AvUG9ydGEgJiBtYXVyaS9hIHZlci9wcnVlYmEvYXBwL2dsb2JhbHMuY3NzXCIpKSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Ffedegarcia%2FDesktop%2FPorta%20%26%20mauri%2Fa%20ver%2Fprueba%2Fapp%2Fglobals.css&server=false!\n"));
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/globals.css */ \"(app-pages-browser)/./app/globals.css\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lMkZob21lJTJGZmVkZWdhcmNpYSUyRkRlc2t0b3AlMkZQb3J0YSUyMCUyNiUyMG1hdXJpJTJGYSUyMHZlciUyMC0lMjB0cmFuc2xhdGlvbi1pMTgtbmV4dCUyRnBydWViYSUyRmFwcCUyRmdsb2JhbHMuY3NzJnNlcnZlcj1mYWxzZSEiLCJtYXBwaW5ncyI6IkFBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLz9jZDNmIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL2hvbWUvZmVkZWdhcmNpYS9EZXNrdG9wL1BvcnRhICYgbWF1cmkvYSB2ZXIgLSB0cmFuc2xhdGlvbi1pMTgtbmV4dC9wcnVlYmEvYXBwL2dsb2JhbHMuY3NzXCIpIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Ffedegarcia%2FDesktop%2FPorta%20%26%20mauri%2Fa%20ver%20-%20translation-i18-next%2Fprueba%2Fapp%2Fglobals.css&server=false!\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./app/globals.css":
+/*!*************************!*\
+  !*** ./app/globals.css ***!
+  \*************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"370e0fb1c138\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2FwcC9nbG9iYWxzLmNzcyIsIm1hcHBpbmdzIjoiO0FBQUEsK0RBQWUsY0FBYztBQUM3QixJQUFJLElBQVUsSUFBSSxpQkFBaUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vYXBwL2dsb2JhbHMuY3NzPzg5N2YiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCIzNzBlMGZiMWMxMzhcIlxuaWYgKG1vZHVsZS5ob3QpIHsgbW9kdWxlLmhvdC5hY2NlcHQoKSB9XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./app/globals.css\n"));
 
 /***/ })
 
 },
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-client)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Ffedegarcia%2FDesktop%2FPorta%20%26%20mauri%2Fa%20ver%2Fprueba%2Fapp%2Fglobals.css&server=false!"); });
+/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2Fhome%2Ffedegarcia%2FDesktop%2FPorta%20%26%20mauri%2Fa%20ver%20-%20translation-i18-next%2Fprueba%2Fapp%2Fglobals.css&server=false!"); });
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
