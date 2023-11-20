@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import ArgentinaFlag from '../assets/Icons/argentina.svg';
 import USAFlag from '../assets/Icons/usa.svg';
@@ -11,6 +11,7 @@ import {Link} from '../../../navigation';
 function LanguageDropdown(props) {
  const [selectedLanguage, setSelectedLanguage] = useState(props.initialLanguage); // Initialize with the selected language from props
  const [isDropdownOpen, setDropdownOpen] = useState(false);
+ const dropdownRef = useRef(null);
 
  const handleLanguageChange = (language) => {
   // You can implement logic here to change the language in your app
@@ -28,10 +29,24 @@ function LanguageDropdown(props) {
   setSelectedLanguage(props.initialLanguage);
  }, [props.initialLanguage]);
 
+ useEffect(() => {
+  const handleOutsideClick = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setDropdownOpen(false);
+    }
+  };
+
+    window.addEventListener('click', handleOutsideClick);
+
+    return () => {
+      window.removeEventListener('click', handleOutsideClick);
+    };
+  }, []);
+
  return (
-  <div className="language-dropdown">
+  <div className={`language-dropdown ${isDropdownOpen ? 'open' : ''}`} ref={dropdownRef}>
     <div
-      className={`language-selector-icon ${isDropdownOpen ? 'open' : ''}`}
+      className="language-selector-icon"
       onClick={() => setDropdownOpen(!isDropdownOpen)}
     >
       <Image src={language} alt="Flag" className="flag-icon" width={50} height={50} />
