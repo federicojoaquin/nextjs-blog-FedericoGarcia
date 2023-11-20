@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import './Styles/Navbar.css'
 import reatraitNav from '../Federico.jpg'
+import LanguageDropdown from './LanguagesDropdown'
 
 function Navbar() {
 
@@ -61,6 +62,7 @@ function Navbar() {
       <div className="container-fluid">
         
         <Image src={reatraitNav} width={40} height={40} className='retraitNav' style={{opacity: `${imgOpacity}`}} alt='Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer' />
+        <LanguageDropdown />
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
