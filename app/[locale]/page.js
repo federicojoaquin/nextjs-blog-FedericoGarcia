@@ -2,13 +2,16 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import './Styles.css'
 import ParticleBackground from './components/ParticleBackground'
-import Link from 'next/link'
+// import Link from 'next/link'
 import Image from 'next/image'
 import federico from './Federico.jpg'
 import pyIcon from './assets/Icons/Python.png'
 import LanguageDropdown from './components/LanguagesDropdown';
+import { useRouter } from 'next-intl';
+import {Link} from '../../navigation';
 
 export default function Home() {
+  
   return (
     <body> 
       <div className='App'>
