@@ -22,7 +22,7 @@ export default function Home() {
             <h2 className='subTitle'>{'Python backend developer'}</h2>
             <Image className='tecPyIcon' src={pyIcon} width={25} height={25}></Image>
             <h4 style={{marginTop: '10px', fontSize: '1rem'}}>language</h4>
-            <LanguageDropdown />
+            <LanguageDropdown reflink='/'/>
             <div className='iconsContactContainer'>
               <div>
                 <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8 iconoContacto"></a>

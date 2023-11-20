@@ -54,7 +54,7 @@ function LanguageDropdown(props) {
     {isDropdownOpen && (
       <div className="language-options">
         <Link
-            href='/' locale='en'
+            href={props.reflink} locale='en'
             className={`language-link ${selectedLanguage === 'en' ? 'selected' : ''}`}
             onClick={() => handleLanguageChange('en')}
           >
@@ -63,7 +63,7 @@ function LanguageDropdown(props) {
         </Link>
         
         <Link
-          href='/' locale='es'
+          href={props.reflink} locale='es'
           className={`language-link ${selectedLanguage === 'es' ? 'selected' : ''}`}
           onClick={() => handleLanguageChange('en')}
         >
