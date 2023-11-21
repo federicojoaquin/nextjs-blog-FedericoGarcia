@@ -11,10 +11,15 @@ import Image from 'next/image'
 import Proyects from '../components/Proyects'
 import {Secular_One} from 'next/font/google'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
+import { NextIntlClientProvider } from 'next-intl';
+import {useTranslations} from 'next-intl'
 
 
 function page({children}) {
   
+  const t = useTranslations('about');
+  const messages = (import(`../../../messages/en.json`)).default;
+
   return (
     <body>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
@@ -24,7 +29,11 @@ function page({children}) {
         
         <div className='content'>
           <section id='sobreMi'>
-            <Section1 />
+           
+            <Section1 title={t.markup('about_me', {
+              b: (chunks) => `<b>${chunks}</b>`
+            })}/>
+           
             <Burbles />
           </section> 
         </div>

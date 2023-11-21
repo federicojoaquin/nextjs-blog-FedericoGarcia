@@ -9,8 +9,11 @@ import pyIcon from './assets/Icons/Python.png'
 import LanguageDropdown from './components/LanguagesDropdown';
 import { useRouter } from 'next-intl';
 import {Link} from '../../navigation';
+import {useTranslations} from 'next-intl'
 
 export default function Home() {
+
+  const t = useTranslations('main');
   
   return (
     <body> 
@@ -21,7 +24,9 @@ export default function Home() {
             <h1 className='mainTitle'><b className='mainTitle'>Federico Garcia</b></h1>
             <h2 className='subTitle'>{'Python backend developer'}</h2>
             <Image className='tecPyIcon' src={pyIcon} width={25} height={25}></Image>
-            <h4 style={{marginTop: '10px', fontSize: '1rem'}}>language</h4>
+            <h4 style={{marginTop: '10px', fontSize: '1rem'}}>
+              {t('language')}
+            </h4>
             <LanguageDropdown reflink='/'/>
             <div className='iconsContactContainer'>
               <div>
@@ -34,7 +39,11 @@ export default function Home() {
             </div>
             {/* <BsGithub size={100}/>
             <BsLinkedin size={100}/> */}
-            <Link className="btn btn-outline-dark showMore" href={'/About'}><b>Sobre mí</b></Link>
+            <Link className="btn btn-outline-dark showMore" href={'/About'}>
+              <b>
+                {t('firstButton')}
+              </b> 
+            </Link>
         </div>
         <div style={{position: 'absolute'}}>
           <ParticleBackground />
