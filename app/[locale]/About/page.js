@@ -24,30 +24,58 @@ function page({children}) {
     <body>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-      <Navbar/>
+      <Navbar 
+      home={t('nav.home')}
+      about={t('nav.about')}
+      skills={t('nav.skills')}
+      proyects={t('nav.proyects')}
+      contact={t('nav.contact')}
+      
+      />
       <div className='About'>
         
         <div className='content'>
           <section id='sobreMi'>
            
-            <Section1 title={t.markup('about_me', {
+            <Section1 title={t.markup('about_title', {
               b: (chunks) => `<b>${chunks}</b>`
-            })}/>
+            })} 
+            about= {t.markup('about_me', {
+              b: (chunks) => `<b>${chunks}</b>`
+            })} 
+            download={t.markup('download_button', {
+              b: (chunks) => `<b>${chunks}</b>`,
+            })} 
+            />
            
             <Burbles />
           </section> 
         </div>
         <section className='content2' id='tecnologias'>
-          <h1 className='titleTec'><b>Habilidades</b></h1>   
+          <h1 className='titleTec'><b>{t('skills')}</b></h1>   
           <Tecnologies />
-          <Cards />
+          <Cards 
+          t1={t('cards.1')}
+          t2={t('cards.2')}
+          t3={t('cards.3')}
+          t4={t('cards.4')} 
+          />
           
     
         </section>
         <section className='content3' id='proyectos'>
           {/* <Cards /> */}
-            <h1 className='titleTec'><b>Proyectos</b></h1>
-            <Proyects />
+            <h1 className='titleTec'><b>{t('proyects')}</b></h1>
+            <Proyects 
+            t1={t('proyect.1.title')}
+            d1={t('proyect.1.des')}
+            t2={t('proyect.2.title')}
+            d2={t('proyect.2.des')}
+            t3={t('proyect.3.title')}
+            d3={t('proyect.3.des')}
+            t4={t('proyect.4.title')}
+            d4={t('proyect.4.des')}
+            />
             
             
           <div className='wave'></div>
@@ -57,7 +85,7 @@ function page({children}) {
       </div>
       <footer id='contacto'>
         
-        <h1 className='footerTitle'>Contacto</h1>
+        <h1 className='footerTitle'>{t('contact')}</h1>
         <div className='contactContainer'>
           <div className='boxIcon'>
             <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin fs-8 icono"></a>

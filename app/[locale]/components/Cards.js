@@ -7,31 +7,31 @@ import book from '../assets/Icons/book.svg'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
-function cards() {
+function cards({t1, t2, t3, t4}) {
   return (
     <div className='container cards'>
       <div className='row justify-content-center'>
         <div className='row justify-content-center'>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer cont'>
-              <Card title='Resolución de conflictos' cardImage={tool}/>
+              <Card title={t1} cardImage={tool}/>
             </div>
           </div>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer'>
-              <Card title='Trabajo en equipo' cardImage={team}/>
+              <Card title={t2} cardImage={team}/>
             </div>
           </div>
         </div>
         <div className='row justify-content-center'>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer cont pad'>
-              <Card title='Adaptación al cambio' cardImage={change}/>
+              <Card title={t3} cardImage={change}/>
             </div>
           </div>
           <div className='col-md-6 col-sm-12'>
             <div className='cardContainer pad'>
-              <Card title='Aprendizaje constante' cardImage={book}/>
+              <Card title={t4} cardImage={book}/>
             </div>
           </div>
         </div>

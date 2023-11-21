@@ -3,30 +3,30 @@
         "firstButton": "About me",
         "language": "Language: "
     },
-    "nav": {
-        "home": "<b>Home</b>",
-        "about": "<b>About me</b>",
-        "skills": "<b>Skills</b>",
-        "proyects": "<b>Projects</b>",
-        "contact": "<b>Contact</b>"
-    },
     "about": {
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "skills": "Skills",
+            "proyects": "Projects",
+            "contact": "Contact"
+        },
         "about_title": "<b>About me</b>",
         "about_me": "I am a <b>BACKEND DEVELOPER</b> and a <b>SYSTEM ENGINEERING</b> student with nearly <b>3 YEARS</b> of formal experience in software development, and I have been programming for 5. My journey has exposed me to a wide range of technologies, and I've honed my skills in solution creation, complex systems maintenance, user support, and the presentation of innovative product ideas. Throughout my career, I've used web technologies such as <b>REACT</b> and <b>PYTHON</b>, often in conjunction with Oracle Technologies like <b>PL/SQL</b>. In addition, I've worked with <b>AMAZON WEB SERVICES</b> (AWS), including EC2, Lambda, S3, ECR, and more. About my achievements, I have successfully deployed remarkable projects for the Argentininan government.",
-        "download_button": "<b>Download CV</b> <i class='bi bi-arrow-down'></i>", 
-        "contact": "<b>Contact</b>", 
-        "skills": "<b>Skills</b>", 
+        "download_button": "<b>Download CV ↓</b>", 
+        "contact": "Contact", 
+        "skills": "Skills", 
         "cards": {
             "1": "Conflict solving", 
             "2": "Teamwork", 
             "3": "Adaptation",
             "4": "Constantly learning"
         }, 
-        "proyects": "<b>Proyects</b>", 
+        "proyects": "Proyects", 
         "proyect": {
             "1": {
                 "title": "Expenses App", 
-                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express y PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
             }, 
             "2": {
                 "title": "Mauricio Pereyra blog", 

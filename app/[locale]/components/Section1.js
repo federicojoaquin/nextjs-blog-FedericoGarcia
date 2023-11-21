@@ -13,7 +13,7 @@ import { Trans } from 'react-i18next';
 
 const alata = Alata({ subsets: ['latin'], weight: ['400'] })
 
-function Section1({title}) {
+function Section1({title, about, download}) {
  const [downloadLink, setDownloadLink] = useState('');
  
  useEffect(() => {
@@ -38,9 +38,9 @@ function Section1({title}) {
    <div className='firstSec container' id='sobreMi'>
        <div className='row'>
            <div className='col-md-6 col-sm-12 textContainer'>
-           <h1 className={`titleAboutMe`}><b>Sobre mí</b></h1>
-           <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}} dangerouslySetInnerHTML={{__html: title}}></p>
-               <a className="btnNeon" href={downloadLink} id="enlaceDescargarPdf" download="FedericoGarcia.pdf"><b>Descargar CV</b> <i class="bi bi-arrow-down"></i></a>
+           <h1 className={`titleAboutMe`} dangerouslySetInnerHTML={{__html: title}}></h1>
+           <p className={`${alata.className} paragraph`} style={{marginTop: '1rem', lineHeight: '2rem'}} dangerouslySetInnerHTML={{__html: about}}></p>
+               <a className="btnNeon" href={downloadLink} id="enlaceDescargarPdf" download="FedericoGarcia.pdf" dangerouslySetInnerHTML={{__html: download}}></a>
            </div>
            <div className='col-md-6 col-sm-12'>
                

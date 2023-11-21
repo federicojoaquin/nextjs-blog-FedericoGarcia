@@ -8,7 +8,7 @@ import './Styles/Navbar.css'
 import reatraitNav from '../Federico.jpg'
 import LanguageDropdown from './LanguagesDropdown'
 
-function Navbar() {
+function Navbar({home, about, skills, proyects, contact}) {
 
   const [clientWindowHeight, setClientWindowHeight] = useState("");
 
@@ -70,20 +70,20 @@ function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" href={'/'}><b>Home</b></Link>
+              <Link className="nav-link" aria-current="page" href={'/'}><b>{home}</b></Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#sobreMi"><b>Sobre mí</b></a>
+              <a className="nav-link" href="#sobreMi"><b>{about}</b></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#tecnologias"><b>Habilidades</b></a>
+              <a className="nav-link" href="#tecnologias"><b>{skills}</b></a>
               
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#proyectos"><b>Proyectos</b></a>
+              <a className="nav-link" href="#proyectos"><b>{proyects}</b></a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#contacto"><b>Contacto</b></a>
+              <a className="nav-link" href="#contacto"><b>{contact}</b></a>
             </li>
           </ul>
         </div>
