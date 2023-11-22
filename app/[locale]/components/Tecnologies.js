@@ -22,33 +22,33 @@ import image16 from '../assets/Icons/prolog.svg'
 
 const Icons = [
   {
-    id: 8, 
+    id: 1, 
     name: 'Python',
     path: image8
   },
   {
-    id: 12, 
+    id: 2, 
     name: 'Django',
     path: image12
   }, 
   {
-    id: 10, 
-    name: 'Postgresql',
+    id: 3, 
+    name: 'Postgre',
     path: image10
   }, 
   {
-    id: 11, 
+    id: 4, 
     name: 'Docker',
     path: image11
   }, 
   {
-    id: 13, 
-    name: 'aws',
+    id: 5, 
+    name: 'Aws',
     path: image13
   },
   {
-    id: 9, 
-    name: 'PLSQL',
+    id: 6, 
+    name: 'Plsql',
     path: image9
   }, 
   {
@@ -57,48 +57,48 @@ const Icons = [
     path: image7
   }, 
   {
-    id: 14, 
-    name: 'linux',
+    id: 8, 
+    name: 'Terminal',
     path: image14
   },
   {
-    id: 1, 
-    name: 'CSS',
+    id: 9, 
+    name: 'Css',
     path: image1
   }, 
   {
-    id: 2, 
-    name: 'HTML',
+    id: 10, 
+    name: 'Html',
     path: image2
   }, 
   {
-    id: 3, 
-    name: 'JS',
+    id: 11, 
+    name: 'Js',
     path: image3
   }, 
   {
-    id: 6, 
+    id: 12, 
     name: 'React',
     path: image6
   }, 
   {
-    id: 4, 
+    id: 13, 
     name: 'Next',
     path: image4
   }, 
   {
-    id: 5, 
+    id: 14, 
     name: 'Node',
     path: image5
   }, 
   {
     id: 15, 
-    name: 'haskell',
+    name: 'Haskell',
     path: image15
   },
   {
-    id: 15, 
-    name: 'haskell',
+    id: 16, 
+    name: 'Prolog',
     path: image16
   },
 ]
@@ -107,6 +107,7 @@ const Icons = [
 function Tecnologies() {
   const myRef = useRef(); 
   const [myElementIsVisible, setMyElementIsVisible] = useState(); 
+  const [isHovering, setIsHovering] = useState(new Array(Icons.length).fill(false));
   
   useEffect(() => {
     
@@ -118,6 +119,22 @@ function Tecnologies() {
    
   }, [])
 
+  const handleMouseEnter = (index) => {
+    setIsHovering(prevState => {
+     const newState = [...prevState];
+     newState[index] = true;
+     return newState;
+    });
+   };
+   
+   const handleMouseLeave = (index) => {
+    setIsHovering(prevState => {
+     const newState = [...prevState];
+     newState[index] = false;
+     return newState;
+    });
+   };
+
 
   return (
     <div className='container tecnologies'>
@@ -126,8 +143,8 @@ function Tecnologies() {
         {
             Icons.map((icon, i) => (
             <div className='iconBox' key={i}>  
-                <Image className='tecIcons' src={icon.path} width={40} height={40}></Image>
-                <p style={{fontSize: '0.7rem'}}>python</p>
+                <Image className='tecIcons' src={icon.path} width={40} height={40} key={i} onMouseEnter={() => handleMouseEnter(i)} onMouseLeave={() => handleMouseLeave(i)}></Image>
+                <p style={{fontSize: '0.7rem', textAlign: 'center', marginTop: '5px', color: isHovering[i] ? '#08a9da' : 'black'}}>{icon.name}</p>
             </div>  
             )
 

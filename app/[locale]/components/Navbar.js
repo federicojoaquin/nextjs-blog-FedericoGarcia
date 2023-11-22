@@ -16,7 +16,7 @@ function Navbar({home, about, skills, proyects, contact}) {
   const [padding, setPadding] = useState(30);
   const [boxShadow, setBoxShadow] = useState(0);
   const [imgOpacity, setImgOpacity] = useState(0); 
-
+  const [locale, setLocale] = useState('');
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -51,6 +51,13 @@ function Navbar({home, about, skills, proyects, contact}) {
     
   }, [clientWindowHeight]);
 
+  useEffect(() => {
+    const currentUrl = window.location.href;
+    const segments = currentUrl.split('/');
+    const languagePrefix = segments[3]; // Get the language prefix from the URL
+    setLocale(languagePrefix);
+   }, []);
+
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top"
     style={{
@@ -70,7 +77,7 @@ function Navbar({home, about, skills, proyects, contact}) {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" href={'/'}><b>{home}</b></Link>
+              <Link className="nav-link" aria-current="page" href={`/${locale}`}><b>{home}</b></Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#sobreMi"><b>{about}</b></a>
