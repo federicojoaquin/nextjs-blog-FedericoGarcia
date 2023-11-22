@@ -8,11 +8,11 @@
             "home": "Home",
             "about": "Sobre mi",
             "skills": "Habilidades",
-            "proyects": "Projectos",
+            "proyects": "Proyectos",
             "contact": "Contacto"
         },
         "about_title": "<b>Sobre mí</b>",
-        "about_me": "Backend developer y estudiante de ingeriería en sistemas.Con casi 3 años de experiencia y más de 4 años programando,\nestuve trabajando con una variedad de  tecnologias e implementando soluciones tecnologicas para companias.\nMi primera experiencia fue en una compañía llamada 2GSoft manteniendo un software ERP y haciendo pequeñas apps web para acoplar al sistema, trabajando con tecnologías Oracle: PL/SQL, Oracle Apex, Oracle Forms, Reports y React con Python para las apps. Mis roles fueron: developer, sysadmin, database administrator y soporte a usuarios.\nLuego, cambié de compañía a una llamada  Servicios & consultoría, donde me specializé con Python en desarrollo backend, utilizando principalmente Django rest framework con muchas librerías, junto con amazon web services. Hemos puesto en marcha en producción importantes proyectos para varios municipios en provincias de Argentina, como Corrientes y Berazategui (Buenos Aires).",
+        "about_me": "<b>BACKEND DEVELOPER</b> y estudiante de <b>INGENIERÍA EN SISTEMAS</b>, con casi <b>3 AÑOS</b> de experiencia formal en desarrollo de software y 5 años de programación. Durante este tiempo he trabajado con una variedad de tecnologías y he enfrentado desafíos en cuanto a implementación de soluciones, mantenimiento de sistemas complejos, soporte de usuarios y presentación de nuevas ideas. Durante mi carrera, he usado tecnologías web como <b>REACT</b> y <b>PYTHON</b>, en conjunto con Oracle como <b>PL/SQL</b>. Además, he trabajado con productos de <b>Amazon Web Services</b> (AWS), como EC2, Lambda, S3, ECR y más. A cerca de mis logros, he implementado proyectos importantes e innovadores para el gobierno argentino.",
         "download_button": "<b>Descargar CV ↓</b> ",
         "contact": "Contacto", 
         "skills": "Habilidades", 

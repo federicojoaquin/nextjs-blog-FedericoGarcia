@@ -9,7 +9,7 @@
 .language-options {
   display: none;
   position: absolute;
-  top: 60px; /* Adjust this according to your layout */
+  /* top: 60px; Adjust this according to your layout */
   right: 0;
   background-color: #fff;
   border: 1px solid #ccc;
