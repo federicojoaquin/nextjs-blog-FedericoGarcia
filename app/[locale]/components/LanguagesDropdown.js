@@ -49,7 +49,7 @@ function LanguageDropdown(props) {
       className="language-selector-icon"
       onClick={() => setDropdownOpen(!isDropdownOpen)}
     >
-      <Image src={language} alt="Flag" className="flag-icon" width={50} height={50} />
+      <Image src={language} alt="icon fgarciadev.com federico garcia" className="flag-icon" width={50} height={50} />
     </div>
     {isDropdownOpen && (
       <div className="language-options">
@@ -58,7 +58,7 @@ function LanguageDropdown(props) {
             className={`language-link ${selectedLanguage === 'en' ? 'selected' : ''}`}
             onClick={() => handleLanguageChange('en')}
           >
-            <Image src={ArgentinaFlag} width={25} alt="Argentinian Flag" className="flag-icon" style={{ padding: '5px' }} />
+            <Image src={ArgentinaFlag} width={25} alt="Argentinian Flag fgarciadev.com federico garcia" className="flag-icon" style={{ padding: '5px' }} />
             English
         </Link>
         
@@ -67,7 +67,7 @@ function LanguageDropdown(props) {
           className={`language-link ${selectedLanguage === 'es' ? 'selected' : ''}`}
           onClick={() => handleLanguageChange('en')}
         >
-          <Image src={USAFlag} alt="USA Flag" width={25} className="flag-icon" style={{ padding: '5px' }} />
+          <Image src={USAFlag} alt="USA Flag fgarciadev.com federico garcia" width={25} className="flag-icon" style={{ padding: '5px' }} />
             Español
         </Link>
       </div>
