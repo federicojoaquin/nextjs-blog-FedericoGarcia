@@ -61,7 +61,7 @@ function page({children}) {
           t3={t('cards.3')}
           t4={t('cards.4')} 
           />
-          <Timeline />
+          {/* <Timeline /> */}
     
         </section>
         <section className='content3' id='proyectos'>
