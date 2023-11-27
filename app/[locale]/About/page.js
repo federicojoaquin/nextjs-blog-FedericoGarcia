@@ -13,6 +13,7 @@ import {Secular_One} from 'next/font/google'
 const secular = Secular_One({ subsets: ['latin'],  weight: ['400'] })
 import { NextIntlClientProvider } from 'next-intl';
 import {useTranslations} from 'next-intl'
+import Timeline from '../components/Timeline'
 
 
 function page({children}) {
@@ -60,7 +61,7 @@ function page({children}) {
           t3={t('cards.3')}
           t4={t('cards.4')} 
           />
-          
+          <Timeline />
     
         </section>
         <section className='content3' id='proyectos'>
