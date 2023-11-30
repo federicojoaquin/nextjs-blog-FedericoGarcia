@@ -19,6 +19,10 @@ import image13 from '../assets/Icons/aws.svg'
 import image14 from '../assets/Icons/linux.svg'
 import image15 from '../assets/Icons/haskell.svg'
 import image16 from '../assets/Icons/prolog.svg'
+import image17 from '../assets/Icons/apex.png'
+import image18 from '../assets/Icons/forms.svg'
+import image19 from '../assets/Icons/reports.svg'
+import image20 from '../assets/Icons/designer.svg'
 
 const Icons = [
   {
@@ -57,6 +61,26 @@ const Icons = [
     path: image7
   }, 
   {
+    id: 18, 
+    name: 'forms',
+    path: image18
+  },
+  {
+    id: 19, 
+    name: 'reports',
+    path: image19
+  },
+  {
+    id: 17, 
+    name: 'Apex',
+    path: image17
+  },
+  {
+    id: 20, 
+    name: 'Designer',
+    path: image20
+  },
+  {
     id: 8, 
     name: 'Terminal',
     path: image14
@@ -91,16 +115,16 @@ const Icons = [
     name: 'Node',
     path: image5
   }, 
-  {
-    id: 15, 
-    name: 'Haskell',
-    path: image15
-  },
-  {
-    id: 16, 
-    name: 'Prolog',
-    path: image16
-  },
+  // {
+  //   id: 15, 
+  //   name: 'Haskell',
+  //   path: image15
+  // },
+  // {
+  //   id: 16, 
+  //   name: 'Prolog',
+  //   path: image16
+  // },
 ]
 
 

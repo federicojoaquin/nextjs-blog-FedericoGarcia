@@ -5,7 +5,7 @@ import Proyect from './Proyect'
 // import proyectImage from '../assets/code_think.svg'
 import './Styles/Proyect.css'
 
-function Proyects({t1, d1, t2, d2, t3, d3, t4, d4}) {
+function projects({t1, d1, t2, d2, t3, d3, t4, d4}) {
 
   const myRef = useRef(); 
   const [myElementIsVisible, setMyElementIsVisible] = useState(); 
@@ -68,6 +68,6 @@ function Proyects({t1, d1, t2, d2, t3, d3, t4, d4}) {
   )
 }
 
-export default Proyects
+export default projects
 
 

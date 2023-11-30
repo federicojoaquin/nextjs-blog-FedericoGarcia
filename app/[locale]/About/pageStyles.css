@@ -58,6 +58,10 @@ section[id] {
     min-height: 220vh;
 }
 
+.content4 {
+    min-height: 100vh;
+}
+
 .contentProy {
     display: flex;
     justify-content: center;
@@ -100,7 +104,7 @@ margin: auto;
     font-size: 1.5rem;
 }
 
-.titleProyects {
+.titleprojects {
     color: #000; 
     text-align: center;
 } 

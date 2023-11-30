@@ -29,7 +29,7 @@ function page({children}) {
       home={t('nav.home')}
       about={t('nav.about')}
       skills={t('nav.skills')}
-      proyects={t('nav.proyects')}
+      projects={t('nav.projects')}
       contact={t('nav.contact')}
       
       />
@@ -61,13 +61,26 @@ function page({children}) {
           t3={t('cards.3')}
           t4={t('cards.4')} 
           />
-          {/* <Timeline /> */}
+          
     
+        </section>
+        <section className='content4' id='experiencia'>
+          <Timeline 
+          t1={t('companies.1.title')}
+          t2={t('companies.2.title')}
+          t3={t('companies.3.title')}
+          p1={t('companies.1.period')}
+          p2={t('companies.2.period')}
+          p3={t('companies.3.period')}
+          d1={t('companies.1.des')}
+          d2={t('companies.2.des')}
+          d3={t('companies.3.des')}
+          />
         </section>
         <section className='content3' id='proyectos'>
           {/* <Cards /> */}
-            <h1 className='titleTec'><b>{t('proyects')}</b></h1>
-            <Proyects 
+            <h1 className='titleTec'><b>{t('projects')}</b></h1>
+            <Proyects
             t1={t('proyect.1.title')}
             d1={t('proyect.1.des')}
             t2={t('proyect.2.title')}

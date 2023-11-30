@@ -8,7 +8,7 @@
             "home": "Home",
             "about": "About",
             "skills": "Skills",
-            "proyects": "Projects",
+            "projects": "Projects",
             "contact": "Contact"
         },
         "about_title": "<b>About me</b>",
@@ -22,7 +22,29 @@
             "3": "Adapting to change",
             "4": "Constant learning"
         }, 
-        "proyects": "Projects", 
+        "experience": "Experience", 
+        "companies": {
+            "tec": "Tecnologies: ", 
+            "1": {
+                "title": "Servicios y consultoria", 
+                "period": "July 2023 - Present",
+                "tec": "Tecnologies: ",
+                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+            }, 
+            "2": {
+                "title": "2GSoft", 
+                "period": "October 2021 - July 2023",
+                "tec": "Tecnologies: ",
+                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+            }, 
+            "3": {
+                "title": "Full stack freelance", 
+                "period": "January 2020 - Present",
+                "tec": "Tecnologies: ",
+                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+            }     
+        }, 
+        "projects": "Projects", 
         "proyect": {
             "1": {
                 "title": "Expenses App", 

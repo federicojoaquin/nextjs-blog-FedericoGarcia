@@ -5,28 +5,41 @@
     padding: 15px 0;
   }
   
-  .timeline::after {  
+  .timeline::after {
     content: '';
     position: absolute;
-    width: 6px;
-    background-color: #3F51B5;
+    width: 2px;
+    background-color: #3F51B5;  
+    height: 100%; /* Cambiado */
     top: 0;
-    bottom: 170px;
     left: 50%;
-    margin-left: -3px;  
+    margin-left: -3px; 
   }
   
-  /* .container {
-    padding: 10px 40px;    
-  } */
+  .timelineContainer {
+    padding: 10px 40px;
+    height: 100%; 
+    overflow: hidden;    
+  }
   
+  .tecContainer {
+    display: 'flex'; 
+    flex-direction: 'row'; 
+    justify-content: 'space-evenly';
+    width:'100%'; 
+    margin: 'auto';
+  }
   
   .timelineItem {
     margin-bottom: 50px;
     position: relative;   
+    overflow: hidden; 
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    padding: 15px;
   }
   
-  .timelineItem:after {
+  /* .timelineItem:after {
     content: '';
     position: absolute;
     left: 50%;
@@ -34,7 +47,7 @@
     height: 95%; 
     width: 30%;
     display: block;  
-  }
+  } */
   
   .timelineContent {
     width: 45%; 
@@ -44,7 +57,25 @@
     position: relative;
     float: left;  
     clear: both;  
+    overflow: hidden;
+    z-index: 1;
+    border: 2px solid #3F51B5;
+    top: 0px;
+    transition: box-shadow, top 0.4s;
   } 
+
+  .timelineItem.fade-in {
+    opacity: 1;
+   }
+
+  .linea-vertical {
+    height: 100%;
+    width: 2px; 
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
   
   .timelineItem:nth-child(even) .timelineContent {
     float: right;
@@ -54,16 +85,59 @@
     right: -15px;
     left: auto;
   } 
+
+  .timelineItem .circle {
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #3F51B5;
+    border-radius: 50%;
+    z-index: 1000;
+  }
+
+  .timelineContent:hover {
+    box-shadow: 1px 1px 10px #254dff;
+    top: -10px;
+  }
+   
+   .timelineItem:nth-child(even) .circle {
+    right: -15px;
+   }
+   
+   .timelineItem:nth-child(odd) .circle {
+    left: -15px;
+   }
+   
+   
+  .timelineItem:nth-child(even) .circle {
+    right: -15px;
+  }
+   
+  .timelineItem:nth-child(odd) .circle {
+    left: -15px;
+  }
+   
   
   @media(max-width: 600px) {
     
     .timeline::after {
-      bottom: 200px; 
+      display: none; 
     }
-  
-    .timelineItem,
+    
+    .timelineItem {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 50px;
+      position: relative;   
+      overflow: hidden; 
+      opacity: 0;
+      padding: 15px;
+    }
+    
     .timelineContent {
       width: 100%;
+      float: none; 
       text-align: center;  
     }
   
