@@ -27,7 +27,7 @@
     flex-direction: 'row'; 
     justify-content: 'space-evenly';
     width:'100%'; 
-    margin: 'auto';
+    gap: 5px; 
   }
   
   .timelineItem {
@@ -133,16 +133,26 @@
       overflow: hidden; 
       opacity: 0;
       padding: 15px;
+      display: flex; /* added this line */
+      flex-direction: column; /* added this line */
+      align-items: center; /* added this line */
     }
     
     .timelineContent {
       width: 100%;
       float: none; 
       text-align: center;  
+      display: flex; /* added this line */
+      flex-direction: column; /* added this line */
+      align-items: center; /* added this line */
     }
   
     .timelineContent:before {
       left: 50%;
     }
   
+    .tecContainer {
+      display: flex;
+      justify-content: center; /* added this line */
+    }
   }

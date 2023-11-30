@@ -2,18 +2,20 @@
 
 import React, { useEffect, useRef } from 'react';
 import image10 from '../assets/Icons/Postgresql.png'
-import image8 from '../assets/Icons/Python.png'
 import image11 from '../assets/Icons/Docker.svg'
 import image12 from '../assets/Icons/Django.svg'
 import image13 from '../assets/Icons/aws.svg'
 import image3 from '../assets/Icons/JS.png'
-import image5 from '../assets/Icons/Node.png'
 import image7 from '../assets/Icons/Oracle.svg'
 import image9 from '../assets/Icons/PLSQL.png'
 import image14 from '../assets/Icons/linux.svg'
 import image17 from '../assets/Icons/apex.png'
 import image18 from '../assets/Icons/forms.svg'
 import image19 from '../assets/Icons/reports.svg'
+import image4 from '../assets/Icons/Next.png'
+import image5 from '../assets/Icons/Node.png'
+import image6 from '../assets/Icons/React.png'
+import image8 from '../assets/Icons/Python.png'
 
 import Image from 'next/image';
 import './Styles/Timeline.css'; 
@@ -67,7 +69,7 @@ function Timeline({tec, t1, p1, d1, t2, p2, d2, t3, p3, d3}) {
             </div>
            </div>
            
-           <p>{d1}</p>
+           <p style={{marginTop: '15px'}}>{d1}</p>
          </div>
        </div>
 
@@ -91,7 +93,7 @@ function Timeline({tec, t1, p1, d1, t2, p2, d2, t3, p3, d3}) {
               
             </div>
            </div>
-           <p>{d2}</p>
+           <p style={{marginTop: '15px'}}>{d2}</p>
          </div>
        </div>
       
@@ -103,16 +105,14 @@ function Timeline({tec, t1, p1, d1, t2, p2, d2, t3, p3, d3}) {
            <div style={{display: 'flex', flexDirection: 'row'}}>
             <p><b>{tec}</b></p>
             <div className='tecContainer'>
+              <Image className='tecIcons' src={image4} width={25} height={25}/>
+              <Image className='tecIcons' src={image6} width={25} height={25}/>
+              <Image className='tecIcons' src={image5} width={25} height={25}/>
               <Image className='tecIcons' src={image8} width={25} height={25}/>
-              <Image className='tecIcons' src={image10} width={25} height={25}/>
-              <Image className='tecIcons' src={image11} width={25} height={25}/>
-              <Image className='tecIcons' src={image12} width={25} height={25}/>
-              <Image className='tecIcons' src={image13} width={25} height={25}/>
-              <Image className='tecIcons' src={image14} width={25} height={25}/>
             </div>
            </div>
            
-           <p>{d3}</p>
+           <p style={{marginTop: '15px'}}>{d3}</p>
          </div>
        </div>
 
