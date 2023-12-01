@@ -154,10 +154,10 @@ margin: auto;
 
 @media only screen and (max-height: 738px) and (max-width: 980px) {
     .content {
-        min-height: 160vh;
+        min-height: 170vh;
     }
     
     .content3 {
-        min-height: 300vh;
+        min-height: 310vh;
     }
 }
