@@ -8,7 +8,7 @@ import './Styles/Navbar.css'
 import reatraitNav from '../Federico.jpg'
 import LanguageDropdown from './LanguagesDropdown'
 
-function Navbar({home, about, skills, projects, contact}) {
+function Navbar({home, about, skills, experience, projects, contact}) {
 
   const [clientWindowHeight, setClientWindowHeight] = useState("");
 
@@ -84,6 +84,10 @@ function Navbar({home, about, skills, projects, contact}) {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#tecnologias"><b>{skills}</b></a>
+              
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#experiencia"><b>{experience}</b></a>
               
             </li>
             <li className="nav-item">

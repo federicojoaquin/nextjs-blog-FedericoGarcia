@@ -25,7 +25,7 @@ export default function Home() {
             <h2 className='subTitle'>{'Python backend developer'}</h2>
             <Image className='tecPyIcon' src={pyIcon} width={25} height={25}></Image>
             <h4 style={{marginTop: '10px', fontSize: '1rem'}}>
-              {t('language')}
+              Languaje / idioma: 
             </h4>
             <LanguageDropdown reflink='/'/>
             <div className='iconsContactContainer'>

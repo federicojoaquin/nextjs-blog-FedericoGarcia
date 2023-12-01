@@ -29,9 +29,10 @@ function page({children}) {
       home={t('nav.home')}
       about={t('nav.about')}
       skills={t('nav.skills')}
+      experience={t('nav.experience')}
       projects={t('nav.projects')}
       contact={t('nav.contact')}
-      
+          
       />
       <div className='About'>
         
