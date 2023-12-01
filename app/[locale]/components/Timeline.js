@@ -55,7 +55,7 @@ function Timeline({tec, t1, p1, d1, t2, p2, d2, t3, p3, d3}) {
        <div className="timelineItem" ref={el => timelineItems.current[0] = el}>
          <div className="circle"></div>
          <div className="timelineContent">
-           <h3>{t1}</h3>
+           <h3><b>{t1}</b></h3>
            <p><b>{p1}</b></p>
            <div style={{display: 'flex', flexDirection: 'row'}}>
             <p><b>{tec}</b></p>
@@ -76,7 +76,7 @@ function Timeline({tec, t1, p1, d1, t2, p2, d2, t3, p3, d3}) {
        <div className="timelineItem" ref={el => timelineItems.current[1] = el}>
          <div className="circle"></div>
          <div className="timelineContent">
-           <h3>{t2}</h3>
+           <h3><b>{t2}</b></h3>
            <p><b>{p2}</b></p>
            
            <div style={{display: 'flex', flexDirection: 'row'}}>
@@ -100,7 +100,7 @@ function Timeline({tec, t1, p1, d1, t2, p2, d2, t3, p3, d3}) {
        <div className="timelineItem" ref={el => timelineItems.current[2] = el}>
          <div className="circle"></div>
          <div className="timelineContent">
-           <h3>{t3}</h3>
+           <h3><b>{t3}</b></h3>
            <p><b>{p3}</b></p>
            <div style={{display: 'flex', flexDirection: 'row'}}>
             <p><b>{tec}</b></p>

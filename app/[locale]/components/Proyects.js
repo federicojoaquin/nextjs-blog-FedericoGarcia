@@ -28,18 +28,6 @@ function projects({t1, d1, t2, d2, t3, d3, t4, d4}) {
     <div className={`proysContainer ${myElementIsVisible ? 'proysVis' : 'proysNotVis'}`} ref={myRef}>
       {/* Map */}
 
-      <Proyect proy={"https://i.ibb.co/XLY4YK7/Gastos-app.jpg"} 
-      titleProy={t1}
-      descProy={d1}
-      linkProy='https://github.com/federicojoaquin/Nextjs-gastos'
-      btn1={true}
-      link1={'https://github.com/federicojoaquin/gastosdemo_api'}
-      textBtn1='Front'
-      textBtn2='API'
-      btn2={true}
-      link2={'https://nextjs-gastos.vercel.app/'}
-      />
-
       <Proyect proy={"https://i.ibb.co/61bx4hX/Mauri-app.jpg"} 
       titleProy={t2}
       descProy={d2}
@@ -55,6 +43,18 @@ function projects({t1, d1, t2, d2, t3, d3, t4, d4}) {
       textBtn1='Visitar'
       link2={'https://agronixsrl.web.app/'}
       btn2={true}
+      />
+
+      <Proyect proy={"https://i.ibb.co/XLY4YK7/Gastos-app.jpg"} 
+      titleProy={t1}
+      descProy={d1}
+      linkProy='https://github.com/federicojoaquin/Nextjs-gastos'
+      btn1={true}
+      link1={'https://github.com/federicojoaquin/gastosdemo_api'}
+      textBtn1='Front'
+      textBtn2='API'
+      btn2={true}
+      link2={'https://nextjs-gastos.vercel.app/'}
       />
 
       <Proyect proy={"https://i.ibb.co/KWJdr26/Administrador.jpg"} 

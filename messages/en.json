@@ -29,19 +29,19 @@
                 "title": "Servicios y consultoria", 
                 "period": "July 2023 - Present",
                 "tec": "Tecnologies: ",
-                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+                "des": "Developing software products from scratch for the Argentinian government using Django Rest Framework and AWS libraries, such as textract, as well as other Amazon products, like RDS, EC2, Lambdas, API Gateways and more. Project names: Scanxtract and Smith-bot."
             }, 
             "2": {
                 "title": "2GSoft", 
                 "period": "October 2021 - July 2023",
                 "tec": "Tecnologies: ",
-                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+                "des": "I have mainly developed new modules and features for an ERP software called Hermes Gestión. Using Oracle PL/SQL, Forms, Reports and Apex. Furthermore, I have made some APIs to connect external apps to this software's database, with Node JS."
             }, 
             "3": {
                 "title": "Full stack freelance", 
                 "period": "January 2020 - Present",
                 "tec": "Tecnologies: ",
-                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+                "des": "I have developed some static webpages for clients, such as Agronix SRL and musician Mauricio Preyra, using Next js and also Vanilla JS. Nowadays, I am in the process to develop an entire app for Agronix SRL to manage client debts. Moreover, I am still making apps for personal use, such as my Personal Administrator."
             }     
         }, 
         "projects": "Projects", 

@@ -65,6 +65,7 @@ function page({children}) {
     
         </section>
         <section className='content4' id='experiencia'>
+          <h1 className='titleTec' style={{marginTop: '10px'}}><b>{t('experience')}</b></h1>  
           <Timeline 
           t1={t('companies.1.title')}
           t2={t('companies.2.title')}

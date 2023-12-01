@@ -28,17 +28,17 @@
             "1": {
                 "title": "Servicios y consultoria", 
                 "period": "Julio 2023 - Actualidad",
-                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+                "des": "Desarrollo de productos de software desde cero para el gobierno argentino utilizando Django Rest Framework y bibliotecas de AWS, como textract, así como otros productos de Amazon, como RDS, EC2, Lambdas, API Gateways y más. Nombres de proyectos: Scanxtract y Smith-bot."
             }, 
             "2": {
                 "title": "2GSoft", 
                 "period": "Octubre 2021 - Julio 2023",
-                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+                "des": "Principalmente he desarrollado nuevos módulos y funciones para un software ERP llamado Hermes Gestión. Utilizando Oracle PL/SQL, Forms, Reports y Apex. Además, he creado algunas APIs para conectar aplicaciones externas a la base de datos de este software, con Node JS."
             }, 
             "3": {
                 "title": "Full stack freelance", 
                 "period": "Enero 2020 - Actualidad",
-                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+                "des": "Desarrollé páginas web estáticas para clientes, como Agronix SRL y Mauricio Preyra, utilizando Next js y también Vanilla JS. Hoy en día, estoy en proceso de armado de una aplicación completa para Agronix SRL en lo que respecta a administración de deudas. Además, sigo haciendo aplicaciones para uso personal, como mi proyecto: Administrador Personal."
             }     
         }, 
         "projects": "Proyectos", 
