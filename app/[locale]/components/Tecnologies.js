@@ -62,12 +62,12 @@ const Icons = [
   }, 
   {
     id: 18, 
-    name: 'forms',
+    name: 'Forms',
     path: image18
   },
   {
     id: 19, 
-    name: 'reports',
+    name: 'Reports',
     path: image19
   },
   {
@@ -115,16 +115,16 @@ const Icons = [
     name: 'Node',
     path: image5
   }, 
-  // {
-  //   id: 15, 
-  //   name: 'Haskell',
-  //   path: image15
-  // },
-  // {
-  //   id: 16, 
-  //   name: 'Prolog',
-  //   path: image16
-  // },
+  {
+    id: 15, 
+    name: 'Haskell',
+    path: image15
+  },
+  {
+    id: 16, 
+    name: 'Prolog',
+    path: image16
+  },
 ]
 
 
