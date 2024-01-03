@@ -15,7 +15,6 @@ import { NextIntlClientProvider } from 'next-intl';
 import {useTranslations} from 'next-intl'
 import Timeline from '../components/Timeline'
 
-
 function page({children}) {
   
   const t = useTranslations('about');
