@@ -55,7 +55,7 @@ section[id] {
     /* background: rgb(211,229,241);
     background: linear-gradient(180deg, rgba(211,229,241,1) 1%, rgba(217,232,243,1) 5%, rgba(221,235,245,1) 21%, rgba(225,237,246,1) 30%, rgba(233,242,248,1) 36%, rgba(238,245,250,1) 45%, rgba(243,248,251,1) 52%, rgba(246,250,252,1) 55%, rgba(255,255,255,1) 61%, rgba(255,255,255,1) 72%, rgba(255,255,255,1) 85%, rgba(255,255,255,1) 85%); */
     width: 100%;
-    min-height: 250vh;
+    min-height: 280vh;
 }
 
 .content4 {
@@ -148,7 +148,7 @@ margin: auto;
     }
     
     .content3 {
-        min-height: 410vh;
+        min-height: 430vh;
     }
 }
 
@@ -158,6 +158,6 @@ margin: auto;
     }
     
     .content3 {
-        min-height: 400vh;
+        min-height: 430vh;
     }
 }
