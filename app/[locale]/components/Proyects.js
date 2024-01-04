@@ -5,7 +5,7 @@ import Proyect from './Proyect'
 // import proyectImage from '../assets/code_think.svg'
 import './Styles/Proyect.css'
 
-function projects({t1, d1, t2, d2, t3, d3, t4, d4}) {
+function projects({t1, d1, t2, d2, t3, d3, t4, d4, t5, d5, t6, d6}) {
 
   const myRef = useRef(); 
   const [myElementIsVisible, setMyElementIsVisible] = useState(); 
@@ -28,19 +28,33 @@ function projects({t1, d1, t2, d2, t3, d3, t4, d4}) {
     <div className={`proysContainer ${myElementIsVisible ? 'proysVis' : 'proysNotVis'}`} ref={myRef}>
       {/* Map */}
 
+      <Proyect proy={"https://i.ibb.co/68N81Kx/Untitled-design-2.png"} 
+      titleProy={t5}
+      descProy={d5}
+      linkProy='https://github.com/federicojoaquin/backend-scanxtract-demo-v1'
+      textBtn1='GitHub'
+      btn2={false} />
+
+      <Proyect proy={"https://i.ibb.co/68N81Kx/Untitled-design-2.png"} 
+      titleProy={t6}
+      descProy={d6}
+      linkProy='https://github.com/federicojoaquin/backend-sonia-demo-v1'
+      textBtn1='GitHub'
+      btn2={false} />
+
       <Proyect proy={"https://i.ibb.co/61bx4hX/Mauri-app.jpg"} 
       titleProy={t2}
       descProy={d2}
       linkProy='https://gitlab.com/federicojoaquin/mauriciopereyra-nextjs-blog'
       link2={'https://mauriciopereyra-nextjs-blog.vercel.app/'}
-      textBtn1='Visitar'
+      textBtn1='GitHub'
       btn2={true} />
 
       <Proyect proy={"https://i.ibb.co/0nYffsW/Agronix-app.jpg"} 
       titleProy={t3}
       descProy={d3}
       linkProy='https://github.com/federicojoaquin/Agronix-S.R.L'
-      textBtn1='Visitar'
+      textBtn1='GitHub'
       link2={'https://agronixsrl.web.app/'}
       btn2={true}
       />
@@ -61,7 +75,7 @@ function projects({t1, d1, t2, d2, t3, d3, t4, d4}) {
       titleProy={t4}
       descProy={d4}
       linkProy='https://github.com/federicojoaquin/Administrador-Personal'
-      textBtn1='Visitar'
+      textBtn1='GitHub'
       /> 
 
     </div>

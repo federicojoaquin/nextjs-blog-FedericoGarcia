@@ -50,7 +50,7 @@
             }, 
             "2": {
                 "title": "Mauricio Pereyra blog", 
-                "des": "Página web estática de presentación de músico Mauricio Pereyra, con sus álbumes, biografía y contacto. Plantilla HTML editada, Next.js y deploy en Vercel."
+                "des": "La página web estática dedicada al músico argentino Mauricio Pereyra ofrece una perspectiva cautivadora de su trayectoria musical, presentando una extensa colección de álbumes, una biografía detallada y datos de contacto de fácil acceso. Elaborada utilizando Next.js."
             }, 
             "3": {
                 "title": "Agronix S.R.L", 
@@ -59,6 +59,14 @@
             "4":{
                 "title": "Administrador Personal", 
                 "des": "En desarrollo, gestor de gastos, finanzas, y tiempos para uso personal. Tecnologías: React, Node.Js, Express y PostgreSql."
+            }, 
+            "5":{
+                "title": "Scanxtract backend demo v1", 
+                "des": "Nuestra versión demo inicial de Scanxtract tiene como objetivo extraer información relevante de lotes de archivos del gobierno utilizando el servicio Amazon Textract. Esta información se almacena posteriormente en un RDS (Servicio de Base de Datos Relacional), reduciendo la necesidad de investigaciones y extracciones manuales extensas. Tecnologías utilizadas incluyen Django, PostgreSQL, Docker y AWS."
+            }, 
+            "6":{
+                "title": "SonIA backend demo v1", 
+                "des": "Nuestra demo inicial del backend para la aplicación SonIA está destinada a configurar un chatbot de WhatsApp con un contexto empresarial según las preferencias del usuario. Además, integra estadísticas para medir las interacciones del chatbot, como la satisfacción del usuario, los objetivos de la conversación, el sentimiento del usuario y más. Las tecnologías del backend utilizadas incluyen PostgreSQL, Docker y AWS."
             }
         }
     }

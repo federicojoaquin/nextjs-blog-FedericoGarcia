@@ -53,7 +53,7 @@
             }, 
             "2": {
                 "title": "Mauricio Pereyra blog", 
-                "des": "Static web page for an argentinian musician Mauricio Pereyra, presenting his albums, biography and contacts. Made with Next.js and deployed in Vercel."
+                "des": "The static web page dedicated to Argentinian musician Mauricio Pereyra provides a captivating insight into his musical journey, featuring an extensive collection of albums, a detailed biography, and easy-to-access contact information. Crafted using Next.js. "
             }, 
             "3": {
                 "title": "Agronix S.R.L", 
@@ -62,6 +62,14 @@
             "4":{
                 "title": "Personal administrator", 
                 "des": "Developing an app to manage expenses, finances, and productivity. Tecnologies: React, Node.Js, Express and PostgreSql."
+            },
+            "5":{
+                "title": "Scanxtract backend demo v1", 
+                "des": "Our initial demo version of Scanxtract aims to extract pertinent information from government file batches using the Amazon Textract service. This data is subsequently stored in an RDS (Relational Database Service), reducing the need for extensive manual research and extraction. Technologies (backend): , PostgreSQL, Docker, and AWS."
+            },
+            "6":{
+                "title": "SonIA backend demo v1", 
+                "des": "Our initial backend demo for the SonIA app is designed to configure a WhatsApp chatbot within a business context, tailored by the user. Additionally, it integrates statistical analysis to measure chatbot interactions, including user satisfaction, conversation objectives, user sentiment, and more. Backend technologies employed include PostgreSQL, Docker, and AWS."
             }
         }
     }

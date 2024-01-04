@@ -82,6 +82,10 @@ function page({children}) {
           {/* <Cards /> */}
             <h1 className='titleTec'><b>{t('projects')}</b></h1>
             <Proyects
+            t5={t('proyect.5.title')}
+            d5={t('proyect.5.des')}
+            t6={t('proyect.6.title')}
+            d6={t('proyect.6.des')}
             t1={t('proyect.1.title')}
             d1={t('proyect.1.des')}
             t2={t('proyect.2.title')}
