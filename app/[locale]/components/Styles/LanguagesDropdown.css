@@ -1,0 +1,88 @@
+.language-dropdown {
+<<<<<<< HEAD:app/components/Styles/LanguagesDropdown.css
+    position: relative;
+    display: inline-block;
+  }
+  
+  .language-selector-icon {
+    cursor: pointer;
+  }
+  
+  .language-options {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    max-width: 450px; /* Set a maximum width for responsiveness */
+  }
+  
+  .language-button {
+    display: flex;
+    align-items: center;
+    padding: 5px; /* Adjust padding as needed */
+    cursor: pointer;
+    text-align: center; /* Center the text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+  }
+  
+  .language-button:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+  
+  .selected {
+    font-weight: bold; /* Style for the selected language */
+  }
+  
+  .language-selector-icon.open + .language-options {
+    display: flex; /* Show the options when the dropdown is open */
+  }
+  
+=======
+  position: relative;
+}
+
+.language-selector-icon {
+  cursor: pointer;
+}
+
+.language-options {
+  display: none;
+  position: absolute;
+  /* top: 60px; Adjust this according to your layout */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.language-dropdown.open .language-options {
+  display: block;
+}
+
+.language-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.language-link:hover {
+  background-color: #f0f0f0;
+}
+
+.flag-icon {
+  margin-right: 5px;
+}
+>>>>>>> feature/new-projects:app/[locale]/components/Styles/LanguagesDropdown.css

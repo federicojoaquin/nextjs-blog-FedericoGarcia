@@ -1,0 +1,77 @@
+{
+    "main": {
+        "firstButton": "About me",
+        "language": "Language: "
+    },
+    "about": {
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "skills": "Skills",
+            "experience": "Experience",
+            "projects": "Projects",
+            "contact": "Contact"
+        },
+        "about_title": "<b>About me</b>",
+        "about_me": "I am a <b>BACKEND DEVELOPER</b> and a <b>SYSTEMS ENGINEERING</b> student with nearly <b>3 YEARS</b> of formal work experience in software development, and 5 years programming. My journey has exposed me to a wide range of technologies, and I've honed my skills in solution creation, complex systems maintenance, user support, and the presentation of innovative product ideas. Throughout my career, I've used web technologies such as <b>REACT</b> and <b>PYTHON</b>, often in conjunction with Oracle Technologies like <b>PL/SQL</b>. In addition, I've worked with <b>AMAZON WEB SERVICES</b> (AWS), including EC2, Lambda, S3, ECR, and more. About my achievements, I have successfully deployed remarkable projects for the Argentininan government.",
+        "download_button": "<b>Download CV ↓</b>", 
+        "contact": "Contact", 
+        "skills": "Skills", 
+        "cards": {
+            "1": "Conflict Resolution", 
+            "2": "Teamwork", 
+            "3": "Adapting to change",
+            "4": "Constant learning"
+        }, 
+        "experience": "Experience", 
+        "companies": {
+            "tec": "Tecnologies: ", 
+            "1": {
+                "title": "Servicios y consultoria", 
+                "period": "July 2023 - Present",
+                "tec": "Tecnologies: ",
+                "des": "Developing software products from scratch for the Argentinian government using Django Rest Framework and AWS libraries, such as textract, as well as other Amazon products, like RDS, EC2, Lambdas, API Gateways and more. Project names: Scanxtract and Smith-bot."
+            }, 
+            "2": {
+                "title": "2GSoft", 
+                "period": "October 2021 - July 2023",
+                "tec": "Tecnologies: ",
+                "des": "I have mainly developed new modules and features for an ERP software called Hermes Gestión. Using Oracle PL/SQL, Forms, Reports and Apex. Furthermore, I have made some APIs to connect external apps to this software's database, with Node JS."
+            }, 
+            "3": {
+                "title": "Full stack freelance", 
+                "period": "January 2020 - Present",
+                "tec": "Tecnologies: ",
+                "des": "I have developed some static webpages for clients, such as Agronix SRL and musician Mauricio Preyra, using Next js and also Vanilla JS. Nowadays, I am in the process to develop an entire app for Agronix SRL to manage client debts. Moreover, I am still making apps for personal use, such as my Personal Administrator."
+            }     
+        }, 
+        "projects": "Projects", 
+        "proyect": {
+            "1": {
+                "title": "Expenses App", 
+                "des": "CRUD app to manage expenses. Front-end made with React, Next.js and Bootstrap. Back-end made with Node.js, Express and PostgreSQL. Deploys: Vercel (front), Render (back) and Neon(PG database)"
+            }, 
+            "2": {
+                "title": "Mauricio Pereyra blog", 
+                "des": "The static web page dedicated to Argentinian musician Mauricio Pereyra provides a captivating insight into his musical journey, featuring an extensive collection of albums, a detailed biography, and easy-to-access contact information. Crafted using Next.js. "
+            }, 
+            "3": {
+                "title": "Agronix S.R.L", 
+                "des": "Static web page for presenting Agronix S.R.L, company which provides agriculture technological solutions. Html, Css and vanilla Javascript."
+            }, 
+            "4":{
+                "title": "Personal administrator", 
+                "des": "Developing an app to manage expenses, finances, and productivity. Tecnologies: React, Node.Js, Express and PostgreSql."
+            },
+            "5":{
+                "title": "Scanxtract backend demo v1", 
+                "des": "Our initial demo version of Scanxtract aims to extract pertinent information from government file batches using the Amazon Textract service. This data is subsequently stored in an RDS (Relational Database Service), reducing the need for extensive manual research and extraction. Technologies (backend): , PostgreSQL, Docker, and AWS."
+            },
+            "6":{
+                "title": "SonIA backend demo v1", 
+                "des": "Our initial backend demo for the SonIA app is designed to configure a WhatsApp chatbot within a business context, tailored by the user. Additionally, it integrates statistical analysis to measure chatbot interactions, including user satisfaction, conversation objectives, user sentiment, and more. Backend technologies employed include PostgreSQL, Docker, and AWS."
+            }
+        }
+    }
+    
+}

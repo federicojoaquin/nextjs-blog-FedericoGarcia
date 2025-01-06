@@ -1,0 +1,107 @@
+.firstSec { 
+    margin: auto;
+}
+
+
+.imageDev {
+    z-index: 3;
+    animation: movement 2.5s linear infinite;
+}
+
+.titleAboutMe {
+    color: #000; 
+    font-size: 2.5rem;
+    animation: title 0.7s linear;
+}
+.paragraph {
+    color: #000;
+    animation: text 0.7s linear;
+}
+
+.btnNeon {
+    font-size: 0.76rem;
+    background-color: #fff;
+    padding: 15px 35px;
+    text-decoration: none;
+    color: darkblue; 
+    transition: .4 ease;
+    border-radius: 25px;
+<<<<<<< HEAD:app/components/Styles/Section1.css
+    width: 45%;
+=======
+    width: 50%;
+>>>>>>> feature/new-projects:app/[locale]/components/Styles/Section1.css
+    text-align: center;
+}
+
+.btnNeon:hover {
+    box-shadow: 0 0 10px rgb(154, 154, 190),
+                0 0 30px rgb(154, 154, 190),
+                0 0 70px rgb(154, 154, 190), 
+                0 0 130px rgb(154, 154, 190); 
+
+    color: #fff; 
+    background-color: rgb(154, 154, 190);
+}
+
+.textContainer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes movement {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 400px) and (max-height: 700px) {
+    .content {
+<<<<<<< HEAD:app/components/Styles/Section1.css
+        min-height: 110vh;
+=======
+        min-height: 130vh;
+>>>>>>> feature/new-projects:app/[locale]/components/Styles/Section1.css
+    }
+}
+
+@media only screen and (max-width: 1024px) { 
+    #download {
+        width: 45%;
+    }
+}
+
+@keyframes title { 
+    0% {
+        opacity: 0; 
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        /* bottom: 100vh;  */
+        opacity: 1;
+    }
+}
+
+@keyframes text {
+    0% {
+        opacity: 0; 
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        /* bottom: 100vh;  */
+        opacity: 1;
+    }
+}
