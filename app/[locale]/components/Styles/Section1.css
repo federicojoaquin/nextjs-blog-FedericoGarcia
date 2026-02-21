@@ -1,6 +1,8 @@
 .firstSec {
-    background-color: var(--bg-secondary);
+    background-color: #161923;
     padding: 5rem 0;
+    margin: 0;
+    width: 100%;
 }
 
 .textContainer {

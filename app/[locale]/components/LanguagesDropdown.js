@@ -49,7 +49,7 @@ function LanguageDropdown(props) {
       className="language-selector-icon"
       onClick={() => setDropdownOpen(!isDropdownOpen)}
     >
-      <Image src={language} alt="icon fgarciadev.com federico garcia" className="flag-icon" width={50} height={50} />
+      <Image src={language} alt="icon fgarciadev.com federico garcia" className="language-icon" width={50} height={50} />
     </div>
     {isDropdownOpen && (
       <div className="language-options">
