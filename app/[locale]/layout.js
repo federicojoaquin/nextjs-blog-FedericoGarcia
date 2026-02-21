@@ -1,23 +1,34 @@
-import { useLocale } from 'next-intl'
-import { notFound } from 'next/navigation'
 import '../globals.css'
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import { notFound } from 'next/navigation';
 
-const locales = ['en', 'de'];
+const locales = ['en', 'es'];
 
-export default function RootLayout({children, params: {locale}}) {
-  
-  // Validate that the incoming `locale` parameter is valid
-  // if (!locales.includes(locale)) notFound();
+export const metadata = {
+  title: 'Federico Garcia',
+  description: 'Federico Garcia - Backend Developer Portfolio',
+  icons: { icon: '/favicon.ico' },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
+
+export default async function RootLayout({ children, params }) {
+  const { locale } = await params;  // async params — Next.js 15 breaking change
+
+  if (!locales.includes(locale)) notFound();
+
+  const messages = await getMessages();
 
   return (
-    <html lang={locales}>
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
+    <html lang={locale}>
       <body>
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   )

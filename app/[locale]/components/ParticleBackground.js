@@ -1,26 +1,18 @@
 "use client"
-
-import React, { useCallback } from 'react'
-import Particles from "react-tsparticles"
-import {loadFull} from 'tsparticles'
+import React, { useEffect, useState } from 'react'
+import Particles, { initParticlesEngine } from "@tsparticles/react"
+import { loadSlim } from "@tsparticles/slim"
 import particlesConfig from '../Js/Particles-config'
 
-function ParticleBackground() {
-  
-    const particlesInit = useCallback((engine) => { 
-        loadFull(engine)
-    }, [])
+export default function ParticleBackground() {
+  const [init, setInit] = useState(false);
 
-  return (
-    <Particles
-            id="tsparticles"
-            init={particlesInit}
-            options={particlesConfig}
-        />
-  )
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => setInit(true));
+  }, []);
+
+  if (!init) return null;
+  return <Particles id="tsparticles" options={particlesConfig} />;
 }
-
-export default ParticleBackground
-
-
-

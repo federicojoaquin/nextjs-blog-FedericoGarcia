@@ -4,7 +4,7 @@ const particlesConfig = {
       value: 20,
       density: {
         enable: true,
-        value_area: 1202.559045649142
+        area: 1202.559045649142  // v3: value_area → area
       }
     },
     color: {
@@ -28,24 +28,24 @@ const particlesConfig = {
     opacity: {
       value: 0.5,
       random: false,
-      anim: {
+      animation: {           // v3: anim → animation
         enable: false,
         speed: 1,
-        opacity_min: 0.1,
+        minimumValue: 0.1,   // v3: opacity_min → minimumValue
         sync: false
       }
     },
     size: {
       value: 7,
       random: true,
-      anim: {
+      animation: {           // v3: anim → animation
         enable: false,
         speed: 40,
-        size_min: 0.1,
+        minimumValue: 0.1,   // v3: size_min → minimumValue
         sync: false
       }
     },
-    line_linked: {
+    links: {                 // v3: line_linked → links
       enable: true,
       distance: 150,
       color: "#ffffff",
@@ -58,7 +58,7 @@ const particlesConfig = {
       direction: "top",
       random: false,
       straight: false,
-      out_mode: "out",
+      outModes: { default: "out" },  // v3: out_mode → outModes
       bounce: false,
       attract: {
         enable: false,
@@ -68,22 +68,22 @@ const particlesConfig = {
     }
   },
   interactivity: {
-    detect_on: "canvas",
+    detectsOn: "canvas",     // v3: detect_on → detectsOn
     events: {
-      onhover: {
+      onHover: {             // v3: onhover → onHover
         enable: false,
         mode: "repulse"
       },
-      onclick: {
+      onClick: {             // v3: onclick → onClick
         enable: false,
         mode: "push"
       },
-      resize: true
+      resize: { enable: true }  // v3: resize boolean → object
     },
     modes: {
       grab: {
         distance: 400,
-        line_linked: {
+        links: {             // v3: line_linked → links
           opacity: 1
         }
       },
@@ -99,16 +99,14 @@ const particlesConfig = {
         duration: 0.4
       },
       push: {
-        particles_nb: 4
+        quantity: 4          // v3: particles_nb → quantity
       },
       remove: {
-        particles_nb: 2
+        quantity: 2          // v3: particles_nb → quantity
       }
     }
   },
-  retina_detect: true
+  detectRetina: true         // v3: retina_detect → detectRetina
 }
 
-
-
-export default particlesConfig; 
+export default particlesConfig;

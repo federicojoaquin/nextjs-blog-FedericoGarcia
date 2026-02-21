@@ -18,107 +18,107 @@ import image6 from '../assets/Icons/React.png'
 import image8 from '../assets/Icons/Python.png'
 
 import Image from 'next/image';
-import './Styles/Timeline.css'; 
+import './Styles/Timeline.css';
 
-function Timeline({tec, t1, p1, d1, t2, p2, d2, t3, p3, d3}) {
- const timelineItems = useRef([]);
+function Timeline({ tec, t1, p1, d1, t2, p2, d2, t3, p3, d3 }) {
+  const timelineItems = useRef([]);
 
- useEffect(() => {
-   const observer = new IntersectionObserver(entries => {
-     entries.forEach(entry => {
-       if (entry.isIntersecting) {
-         entry.target.classList.add('fade-in');
-       } else {
-         entry.target.classList.remove('fade-in');
-       }
-     });
-   }, {
-     threshold: 0.1
-   });
+  useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in');
+        } else {
+          entry.target.classList.remove('fade-in');
+        }
+      });
+    }, {
+      threshold: 0.1
+    });
 
-   timelineItems.current.forEach(item => {
-     observer.observe(item);
-   });
+    timelineItems.current.forEach(item => {
+      observer.observe(item);
+    });
 
-   return () => {
-     timelineItems.current.forEach(item => {
-      if (item) {
-        observer.unobserve(item);
-      }
-     });
-   };
- }, []);
+    return () => {
+      timelineItems.current.forEach(item => {
+        if (item) {
+          observer.unobserve(item);
+        }
+      });
+    };
+  }, []);
 
- return (
-   <div className="timeline">
-     <div className="timelineContainer">
-       <div className="timelineItem" ref={el => timelineItems.current[0] = el}>
-         <div className="circle"></div>
-         <div className="timelineContent">
-           <h3><b>{t1}</b></h3>
-           <p><b>{p1}</b></p>
-           <div style={{display: 'flex', flexDirection: 'row'}}>
-            <p><b>{tec}</b></p>
-            <div className='tecContainer'>
-              <Image className='tecIcons' src={image8} width={25} height={25}/>
-              <Image className='tecIcons' src={image10} width={25} height={25}/>
-              <Image className='tecIcons' src={image11} width={25} height={25}/>
-              <Image className='tecIcons' src={image12} width={25} height={25}/>
-              <Image className='tecIcons' src={image13} width={25} height={25}/>
-              <Image className='tecIcons' src={image14} width={25} height={25}/>
+  return (
+    <div className="timeline">
+      <div className="timelineContainer">
+        <div className="timelineItem" ref={el => timelineItems.current[0] = el}>
+          <div className="circle"></div>
+          <div className="timelineContent">
+            <h3><b>{t1}</b></h3>
+            <p><b>{p1}</b></p>
+            <div style={{ display: 'flex', flexDirection: 'row' }}>
+              <p><b>{tec}</b></p>
+              <div className='tecContainer'>
+                <Image className='tecIcons' src={image8} width={25} height={25} alt='Python' />
+                <Image className='tecIcons' src={image10} width={25} height={25} alt='PostgreSQL' />
+                <Image className='tecIcons' src={image11} width={25} height={25} alt='Docker' />
+                <Image className='tecIcons' src={image12} width={25} height={25} alt='Django' />
+                <Image className='tecIcons' src={image13} width={25} height={25} alt='AWS' />
+                <Image className='tecIcons' src={image14} width={25} height={25} alt='Linux' />
+              </div>
             </div>
-           </div>
-           
-           <p style={{marginTop: '15px'}}>{d1}</p>
-         </div>
-       </div>
 
-       <div className="timelineItem" ref={el => timelineItems.current[1] = el}>
-         <div className="circle"></div>
-         <div className="timelineContent">
-           <h3><b>{t2}</b></h3>
-           <p><b>{p2}</b></p>
-           
-           <div style={{display: 'flex', flexDirection: 'row'}}>
-            <p><b>{tec}</b></p>
-            <div className='tecContainer'>
-              <Image className='tecIcons' src={image9} width={25} height={25}/>
-              <Image className='tecIcons' src={image17} width={25} height={25}/>
-              <Image className='tecIcons' src={image18} width={25} height={25}/>
-              <Image className='tecIcons' src={image19} width={25} height={25}/>
-              <Image className='tecIcons' src={image7} width={25} height={25}/>
-              <Image className='tecIcons' src={image3} width={25} height={25}/>
-              <Image className='tecIcons' src={image5} width={25} height={25}/>
-              <Image className='tecIcons' src={image14} width={25} height={25}/>
-              
-            </div>
-           </div>
-           <p style={{marginTop: '15px'}}>{d2}</p>
-         </div>
-       </div>
-      
-       <div className="timelineItem" ref={el => timelineItems.current[2] = el}>
-         <div className="circle"></div>
-         <div className="timelineContent">
-           <h3><b>{t3}</b></h3>
-           <p><b>{p3}</b></p>
-           <div style={{display: 'flex', flexDirection: 'row'}}>
-            <p><b>{tec}</b></p>
-            <div className='tecContainer'>
-              <Image className='tecIcons' src={image4} width={25} height={25}/>
-              <Image className='tecIcons' src={image6} width={25} height={25}/>
-              <Image className='tecIcons' src={image5} width={25} height={25}/>
-              <Image className='tecIcons' src={image8} width={25} height={25}/>
-            </div>
-           </div>
-           
-           <p style={{marginTop: '15px'}}>{d3}</p>
-         </div>
-       </div>
+            <p style={{ marginTop: '15px' }}>{d1}</p>
+          </div>
+        </div>
 
-     </div>
-   </div>
- );
+        <div className="timelineItem" ref={el => timelineItems.current[1] = el}>
+          <div className="circle"></div>
+          <div className="timelineContent">
+            <h3><b>{t2}</b></h3>
+            <p><b>{p2}</b></p>
+
+            <div style={{ display: 'flex', flexDirection: 'row' }}>
+              <p><b>{tec}</b></p>
+              <div className='tecContainer'>
+                <Image className='tecIcons' src={image9} width={25} height={25} alt='PL/SQL' />
+                <Image className='tecIcons' src={image17} width={25} height={25} alt='Oracle Apex' />
+                <Image className='tecIcons' src={image18} width={25} height={25} alt='Oracle Forms' />
+                <Image className='tecIcons' src={image19} width={25} height={25} alt='Oracle Reports' />
+                <Image className='tecIcons' src={image7} width={25} height={25} alt='Oracle' />
+                <Image className='tecIcons' src={image3} width={25} height={25} alt='JavaScript' />
+                <Image className='tecIcons' src={image5} width={25} height={25} alt='Node.js' />
+                <Image className='tecIcons' src={image14} width={25} height={25} alt='Linux' />
+
+              </div>
+            </div>
+            <p style={{ marginTop: '15px' }}>{d2}</p>
+          </div>
+        </div>
+
+        <div className="timelineItem" ref={el => timelineItems.current[2] = el}>
+          <div className="circle"></div>
+          <div className="timelineContent">
+            <h3><b>{t3}</b></h3>
+            <p><b>{p3}</b></p>
+            <div style={{ display: 'flex', flexDirection: 'row' }}>
+              <p><b>{tec}</b></p>
+              <div className='tecContainer'>
+                <Image className='tecIcons' src={image4} width={25} height={25} alt='Next.js' />
+                <Image className='tecIcons' src={image6} width={25} height={25} alt='React' />
+                <Image className='tecIcons' src={image5} width={25} height={25} alt='Node.js' />
+                <Image className='tecIcons' src={image8} width={25} height={25} alt='Python' />
+              </div>
+            </div>
+
+            <p style={{ marginTop: '15px' }}>{d3}</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
 }
 
 export default Timeline;
