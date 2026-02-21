@@ -1,7 +1,5 @@
 {
-  "sortedMiddleware": [
-    "/"
-  ],
+  "version": 3,
   "middleware": {
     "/": {
       "files": [
@@ -12,14 +10,23 @@
       "page": "/",
       "matchers": [
         {
-          "regexp": "^/.*$",
-          "originalSource": "/:path*"
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|_next|.*\\..*).*))(\\.json)?[\\/#\\?]?$",
+          "originalSource": "/((?!api|_next|.*\\..*).*)"
         }
       ],
       "wasm": [],
-      "assets": []
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "LI2s-1ZFCt5ha3sID0-xF",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "fkwCRF/DgQVivLi+npSiErceBD9HS1XycDNSIMoRGmM=",
+        "__NEXT_PREVIEW_MODE_ID": "a85513a943edc10f5e34814c58393530",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "42152434f6701dc5416807cd0f5f05f29a15e1d75bacaf1a63c9bd309333e8ab",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "4c8ba68b7f035afa32cd0683feae6ed5ea1915d0b61c2bfde84878af64227796"
+      }
     }
   },
   "functions": {},
-  "version": 2
+  "sortedMiddleware": [
+    "/"
+  ]
 }
