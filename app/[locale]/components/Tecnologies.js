@@ -22,160 +22,80 @@ import image16 from '../assets/Icons/prolog.svg'
 import image17 from '../assets/Icons/apex.png'
 import image18 from '../assets/Icons/forms.svg'
 import image19 from '../assets/Icons/reports.svg'
-import image20 from '../assets/Icons/designer.svg'
 
-const Icons = [
+const categories = [
   {
-    id: 1,
-    name: 'Python',
-    path: image8
+    label: 'Backend',
+    icons: [
+      { name: 'Python', path: image8 },
+      { name: 'Django', path: image12 },
+      { name: 'PostgreSQL', path: image10 },
+      { name: 'PL/SQL', path: image9 },
+      { name: 'Oracle', path: image7 },
+      { name: 'Apex', path: image17 },
+      { name: 'Forms', path: image18 },
+      { name: 'Reports', path: image19 },
+    ]
   },
   {
-    id: 2,
-    name: 'Django',
-    path: image12
+    label: 'Cloud & DevOps',
+    icons: [
+      { name: 'AWS', path: image13 },
+      { name: 'Docker', path: image11 },
+      { name: 'Linux', path: image14 },
+    ]
   },
   {
-    id: 3,
-    name: 'Postgre',
-    path: image10
+    label: 'Frontend',
+    icons: [
+      { name: 'React', path: image6 },
+      { name: 'Next.js', path: image4 },
+      { name: 'Node.js', path: image5 },
+      { name: 'JavaScript', path: image3 },
+      { name: 'HTML', path: image2 },
+      { name: 'CSS', path: image1 },
+    ]
   },
   {
-    id: 4,
-    name: 'Docker',
-    path: image11
-  },
-  {
-    id: 5,
-    name: 'Aws',
-    path: image13
-  },
-  {
-    id: 6,
-    name: 'Plsql',
-    path: image9
-  },
-  {
-    id: 7,
-    name: 'Oracle',
-    path: image7
-  },
-  {
-    id: 18,
-    name: 'Forms',
-    path: image18
-  },
-  {
-    id: 19,
-    name: 'Reports',
-    path: image19
-  },
-  {
-    id: 17,
-    name: 'Apex',
-    path: image17
-  },
-  {
-    id: 20,
-    name: 'Designer',
-    path: image20
-  },
-  {
-    id: 8,
-    name: 'Terminal',
-    path: image14
-  },
-  {
-    id: 9,
-    name: 'Css',
-    path: image1
-  },
-  {
-    id: 10,
-    name: 'Html',
-    path: image2
-  },
-  {
-    id: 11,
-    name: 'Js',
-    path: image3
-  },
-  {
-    id: 12,
-    name: 'React',
-    path: image6
-  },
-  {
-    id: 13,
-    name: 'Next',
-    path: image4
-  },
-  {
-    id: 14,
-    name: 'Node',
-    path: image5
-  },
-  {
-    id: 15,
-    name: 'Haskell',
-    path: image15
-  },
-  {
-    id: 16,
-    name: 'Prolog',
-    path: image16
-  },
+    label: 'Academic',
+    icons: [
+      { name: 'Haskell', path: image15 },
+      { name: 'Prolog', path: image16 },
+    ]
+  }
 ]
-
 
 function Tecnologies() {
   const myRef = useRef();
   const [myElementIsVisible, setMyElementIsVisible] = useState();
-  const [isHovering, setIsHovering] = useState(new Array(Icons.length).fill(false));
 
   useEffect(() => {
-
     const observer = new IntersectionObserver((entries) => {
       const entry = entries[0];
       setMyElementIsVisible(entry.isIntersecting)
     })
     observer.observe(myRef.current);
-
   }, [])
 
-  const handleMouseEnter = (index) => {
-    setIsHovering(prevState => {
-      const newState = [...prevState];
-      newState[index] = true;
-      return newState;
-    });
-  };
-
-  const handleMouseLeave = (index) => {
-    setIsHovering(prevState => {
-      const newState = [...prevState];
-      newState[index] = false;
-      return newState;
-    });
-  };
-
-
   return (
-    <div className='container tecnologies'>
-
-      <div className={`iconsContainer ${myElementIsVisible ? 'vis izq' : 'notVis'}`} ref={myRef}>
-        {
-          Icons.map((icon, i) => (
-            <div className='iconBox' key={i}>
-              <Image className='tecIcons' src={icon.path} width={40} height={40} key={i} alt={icon.name} onMouseEnter={() => handleMouseEnter(i)} onMouseLeave={() => handleMouseLeave(i)} />
-              <p style={{ fontSize: '0.7rem', textAlign: 'center', marginTop: '5px', color: isHovering[i] ? '#08a9da' : 'black' }}>{icon.name}</p>
+    <div className='tecnologies-section' id='tecnologias'>
+      <div className='container'>
+        <div className={`tec-grid ${myElementIsVisible ? 'vis' : 'notVis'}`} ref={myRef}>
+          {categories.map((cat, ci) => (
+            <div className='tec-category' key={ci}>
+              <h3 className='category-title'>{cat.label}</h3>
+              <div className='pills-row'>
+                {cat.icons.map((icon, i) => (
+                  <div className='pill-card' key={i}>
+                    <Image className='pill-icon' src={icon.path} width={28} height={28} alt={icon.name} />
+                    <span className='pill-name'>{icon.name}</span>
+                  </div>
+                ))}
+              </div>
             </div>
-          )
-
-          )
-        }
+          ))}
+        </div>
       </div>
-
     </div>
   )
 }

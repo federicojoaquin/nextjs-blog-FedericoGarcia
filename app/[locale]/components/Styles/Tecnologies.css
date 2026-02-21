@@ -1,68 +1,93 @@
-.tecIcons {
-    border-radius: 50%;
-    box-shadow: none;
-    top: 0px;
-    transition: box-shadow, top 0.4s;
+/* Section wrapper */
+.tecnologies-section {
+    background-color: var(--bg-primary);
+    padding: 4rem 0 5rem;
 }
 
-.iconsContainer {
+/* Animation */
+.tec-grid {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.tec-grid.vis {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tec-grid.notVis {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+/* Category block */
+.tec-category {
+    margin-bottom: 2.5rem;
+}
+
+.category-title {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+/* Pills row */
+.pills-row {
     display: flex;
     flex-wrap: wrap;
-    flex-flow: column wrap; 
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
-    justify-content: space-around;
-    width: 40%;
-
-    transform: scale(1) translateX(-100px);
-    transition: 1.2s ease-in-out all;
-
+    gap: 0.65rem;
 }
 
-.vis {
-    opacity: 1; 
-    transform: scale(1) translateX(0);
-}
-
-.notVis {
-    opacity: 0;
-}
-
-.tecIcons:hover {
-    /* border-radius: 50%; */
-    top: -10px;
-    box-shadow: 1px 1px 10px #254dff;
-}
-
-.tecnologies {
+/* Pill card */
+.pill-card {
     display: flex;
-    justify-content: center;
-    /* margin-top: 3rem; */
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.9rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    cursor: default;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
 }
 
-.iconBox {
-    padding: 1rem; 
+.pill-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 0 12px rgba(108, 99, 255, 0.25);
+    transform: translateY(-2px);
 }
 
-@media only screen and (max-width: 435px) {
-    .iconBox {
-        padding: 0.5rem; 
+.pill-icon {
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.pill-name {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.pill-card:hover .pill-name {
+    color: var(--text-primary);
+}
+
+@media only screen and (max-width: 600px) {
+    .pill-card {
+        padding: 0.4rem 0.7rem;
+    }
+
+    .pill-name {
+        font-size: 0.78rem;
     }
 }
-
-@media only screen and (max-width: 435px) and (max-height: 790) {
-    .iconBox {
-        padding: none; 
-    }
-
-}
-
-@media only screen and (max-width: 764px) {
-    .iconBox {
-        padding: 0.5rem; 
-    }
-
-}
-

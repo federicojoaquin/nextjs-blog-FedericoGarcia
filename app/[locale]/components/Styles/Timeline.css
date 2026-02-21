@@ -1,158 +1,195 @@
 .timeline {
-    position: relative;  
-    max-width: 1200px;
-    margin: 0 auto; 
-    padding: 15px 0;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: var(--bg-primary);
+}
+
+/* Vertical accent line */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: rgba(108, 99, 255, 0.35);
+  height: 100%;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timelineContainer {
+  padding: 10px 40px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.tecContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.tecRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 0.5rem;
+}
+
+.timelineItem {
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+  padding: 15px;
+}
+
+/* Dark card with left accent border */
+.timelineContent {
+  width: 45%;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  position: relative;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  z-index: 1;
+  top: 0px;
+  transition: box-shadow 0.3s ease, top 0.3s ease;
+}
+
+.timelineContent h3 {
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+}
+
+.timelineContent p {
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+.descText {
+  margin-top: 14px !important;
+  color: var(--text-secondary) !important;
+  line-height: 1.6;
+}
+
+.timelineItem.fade-in {
+  opacity: 1;
+}
+
+/* Date chip */
+.dateChip {
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  padding: 0.2rem 0.65rem;
+  background: rgba(108, 99, 255, 0.15);
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+/* Pulse dot */
+.circle {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: var(--accent);
+  border-radius: 50%;
+  z-index: 1000;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(108, 99, 255, 0.6);
   }
-  
+
+  70% {
+    box-shadow: 0 0 0 8px rgba(108, 99, 255, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(108, 99, 255, 0);
+  }
+}
+
+.pulse-dot {
+  animation: pulse 2s infinite;
+}
+
+.timelineContent:hover {
+  box-shadow: 0 4px 24px rgba(108, 99, 255, 0.2);
+  top: -4px;
+}
+
+.timelineItem:nth-child(even) .timelineContent {
+  float: right;
+}
+
+.timelineItem:nth-child(even) .circle {
+  right: -15px;
+}
+
+.timelineItem:nth-child(odd) .circle {
+  left: -15px;
+}
+
+.tecIcons {
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@media(max-width: 600px) {
+
   .timeline::after {
-    content: '';
-    position: absolute;
-    width: 2px;
-    background-color: #3F51B5;  
-    height: 100%; /* Cambiado */
-    top: 0;
-    left: 50%;
-    margin-left: -3px; 
+    display: none;
   }
-  
-  .timelineContainer {
-    padding: 10px 40px;
-    height: 100%; 
-    overflow: hidden;    
-  }
-  
-  .tecContainer {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-evenly;
-    width:'100%'; 
-    gap: 5px; 
-  }
-  
+
   .timelineItem {
-    margin-bottom: 50px;
-    position: relative;   
-    overflow: hidden; 
-    opacity: 0;
-    transition: opacity 1.5s ease-in-out;
-    padding: 15px;
-  }
-  
-  /* .timelineItem:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    border-left: 2px solid #e3e3e3;
-    height: 95%; 
-    width: 30%;
-    display: block;  
-  } */
-  
-  .timelineContent {
-    width: 45%; 
-    padding: 25px 30px;   
-    background: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
     position: relative;
-    float: left;  
-    clear: both;  
     overflow: hidden;
-    z-index: 1;
-    border: 2px solid #3F51B5;
-    top: 0px;
-    transition: box-shadow, top 0.4s;
-  } 
-
-  .timelineItem.fade-in {
-    opacity: 1;
-   }
-
-  .linea-vertical {
-    height: 100%;
-    width: 2px; 
-    background-color: black;
-    position: absolute;
-    top: 0;
-    left: 50%;
-  }
-  
-  .timelineItem:nth-child(even) .timelineContent {
-    float: right;
-  }
-  
-  .timelineItem:nth-child(even) .timelineContent:before {  
-    right: -15px;
-    left: auto;
-  } 
-
-  .timelineItem .circle {
-    position: absolute;
-    top: 50%;
-    width: 10px;
-    height: 10px;
-    background-color: #3F51B5;
-    border-radius: 50%;
-    z-index: 1000;
+    opacity: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .timelineContent:hover {
-    box-shadow: 1px 1px 10px #254dff;
-    top: -10px;
+  .timelineContent {
+    width: 100%;
+    float: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: none;
+    border-top: 3px solid var(--accent);
   }
-   
-   .timelineItem:nth-child(even) .circle {
-    right: -15px;
-   }
-   
-   .timelineItem:nth-child(odd) .circle {
-    left: -15px;
-   }
-   
-   
-  .timelineItem:nth-child(even) .circle {
-    right: -15px;
+
+  .tecRow {
+    flex-direction: column;
+    align-items: center;
   }
-   
-  .timelineItem:nth-child(odd) .circle {
-    left: -15px;
+
+  .tecContainer {
+    justify-content: center;
+    flex-wrap: wrap;
   }
-   
-  
-  @media(max-width: 600px) {
-    
-    .timeline::after {
-      display: none; 
-    }
-    
-    .timelineItem {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 50px;
-      position: relative;   
-      overflow: hidden; 
-      opacity: 0;
-      padding: 15px;
-      display: flex; /* added this line */
-      flex-direction: column; /* added this line */
-      align-items: center; /* added this line */
-    }
-    
-    .timelineContent {
-      width: 100%;
-      float: none; 
-      text-align: center;  
-      display: flex; /* added this line */
-      flex-direction: column; /* added this line */
-      align-items: center; /* added this line */
-    }
-  
-    .timelineContent:before {
-      left: 50%;
-    }
-  
-    .tecContainer {
-      display: flex;
-      justify-content: center; /* added this line */
-    }
-  }
+}

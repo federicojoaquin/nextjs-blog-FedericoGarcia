@@ -1,64 +1,59 @@
 const particlesConfig = {
   particles: {
     number: {
-      value: 20,
+      value: 15,
       density: {
         enable: true,
-        area: 1202.559045649142  // v3: value_area → area
+        area: 1200
       }
     },
     color: {
-      value: "#000000"
+      value: "#6C63FF"
     },
     shape: {
       type: "circle",
       stroke: {
-        width: 1,
-        color: "#000000"
+        width: 0,
+        color: "#6C63FF"
       },
       polygon: {
         nb_sides: 5
-      },
-      image: {
-        src: "img/github.svg",
-        width: 100,
-        height: 100
       }
     },
     opacity: {
-      value: 0.5,
+      value: 0.15,
       random: false,
-      animation: {           // v3: anim → animation
+      animation: {
         enable: false,
         speed: 1,
-        minimumValue: 0.1,   // v3: opacity_min → minimumValue
+        minimumValue: 0.05,
         sync: false
       }
     },
     size: {
-      value: 7,
+      value: 5,
       random: true,
-      animation: {           // v3: anim → animation
+      animation: {
         enable: false,
         speed: 40,
-        minimumValue: 0.1,   // v3: size_min → minimumValue
+        minimumValue: 0.1,
         sync: false
       }
     },
-    links: {                 // v3: line_linked → links
+    links: {
       enable: true,
       distance: 150,
-      color: "#ffffff",
-      opacity: 0.4,
+      color: "#6C63FF",
+      opacity: 0.12,
       width: 1
     },
     move: {
       enable: true,
-      speed: 4,
+      speed: 2,
       direction: "top",
-      random: false,
+      random: true,
       straight: false,
-      outModes: { default: "out" },  // v3: out_mode → outModes
+      outModes: { default: "out" },
       bounce: false,
       attract: {
         enable: false,
@@ -68,22 +63,22 @@ const particlesConfig = {
     }
   },
   interactivity: {
-    detectsOn: "canvas",     // v3: detect_on → detectsOn
+    detectsOn: "canvas",
     events: {
-      onHover: {             // v3: onhover → onHover
+      onHover: {
         enable: false,
         mode: "repulse"
       },
-      onClick: {             // v3: onclick → onClick
+      onClick: {
         enable: false,
         mode: "push"
       },
-      resize: { enable: true }  // v3: resize boolean → object
+      resize: { enable: true }
     },
     modes: {
       grab: {
         distance: 400,
-        links: {             // v3: line_linked → links
+        links: {
           opacity: 1
         }
       },
@@ -99,14 +94,14 @@ const particlesConfig = {
         duration: 0.4
       },
       push: {
-        quantity: 4          // v3: particles_nb → quantity
+        quantity: 4
       },
       remove: {
-        quantity: 2          // v3: particles_nb → quantity
+        quantity: 2
       }
     }
   },
-  detectRetina: true         // v3: retina_detect → detectRetina
+  detectRetina: true
 }
 
 export default particlesConfig;
