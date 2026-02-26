@@ -1,21 +1,9 @@
 .timeline {
   position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 15px 0;
-  background-color: var(--bg-primary);
-}
-
-/* Vertical accent line */
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 2px;
-  background-color: rgba(108, 99, 255, 0.35);
-  height: 100%;
-  top: 0;
-  left: 50%;
-  margin-left: -1px;
+  max-width: 100%;
+  margin: 0;
+  padding: 15px 2rem;
+  background-color: transparent;
 }
 
 .timelineContainer {

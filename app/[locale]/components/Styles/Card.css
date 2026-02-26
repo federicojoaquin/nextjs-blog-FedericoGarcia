@@ -1,17 +1,79 @@
 .cardPresOne {
     display: flex; 
     flex-direction: column;
-    background-color: #fff;
-    width: 40%; 
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-card) !important;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
     top: 0px;
     transition: box-shadow, top 0.4s;
+    position: relative;
+    overflow: visible;
+}
+
+.cardPresOne::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    background: linear-gradient(135deg, #6C63FF, #8B85FF, #6C63FF) !important;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.orbit-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 220px;
+    height: 220px;
+    border: 1px dashed var(--accent);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    animation: spin 20s linear infinite;
+    pointer-events: none;
+}
+
+.orbit-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 280px;
+    height: 280px;
+    border: 1px dashed var(--accent);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.15;
+    animation: spin-reverse 30s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes spin {
+    from { transform: translate(-50%, -50%) rotate(0deg); }
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes spin-reverse {
+    from { transform: translate(-50%, -50%) rotate(360deg); }
+    to { transform: translate(-50%, -50%) rotate(0deg); }
 }
 
 .cardContainer {
-    padding-top: 2rem;
+    padding: 1rem;
+    position: relative;
 }
+
 .cards {
     padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6rem;
 }
 
 .card:hover {
@@ -21,8 +83,18 @@
 
 .imageCard {
     display: flex;
-    flex-direction: row;
-    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.imageCard img {
+    margin-bottom: 0.25rem;
+}
+
+[data-theme="dark"] .imageCard img {
+    filter: brightness(0) invert(1);
 }
 
 .cont {
@@ -39,9 +111,11 @@
 }
 
 .titleCard {
-    color: #000; 
-    font-size: 1.2rem;
-    margin-left: 1.5rem;
+    color: var(--text-primary) !important; 
+    font-size: 0.85rem;
+    text-align: center;
+    margin: 0;
+    line-height: 1.2;
 }
 
 /* .cardContainer {
@@ -61,6 +135,56 @@
         justify-content: center;
     }
     
+    .cardPresOne {
+        width: 150px;
+        height: 150px;
+    }
+
+    .cardPresOne::before {
+        width: 165px;
+        height: 165px;
+    }
+
+    .orbit-1 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .orbit-2 {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cardPresOne {
+        width: 120px;
+        height: 120px;
+    }
+
+    .cardPresOne::before {
+        width: 130px;
+        height: 130px;
+    }
+
+    .orbit-1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .orbit-2 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .imageCard img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .titleCard {
+        font-size: 0.9rem;
+    }
 }
 
 @media only screen and (max-width: 767px) {

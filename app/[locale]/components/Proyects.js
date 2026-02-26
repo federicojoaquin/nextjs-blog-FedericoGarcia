@@ -59,17 +59,12 @@ function projects({t1, d1, t2, d2, t3, d3, t4, d4, t5, d5, t6, d6}) {
       btn2={true}
       />
 
-      <Proyect proy={"https://i.ibb.co/XLY4YK7/Gastos-app.jpg"} 
+<Proyect proy={"https://i.ibb.co/bg0JR7L7/petlink.jpg"} 
       titleProy={t1}
       descProy={d1}
-      linkProy='https://github.com/federicojoaquin/Nextjs-gastos'
-      btn1={true}
-      link1={'https://github.com/federicojoaquin/gastosdemo_api'}
-      textBtn1='Front'
-      textBtn2='API'
-      btn2={true}
-      link2={'https://nextjs-gastos.vercel.app/'}
-      />
+      linkProy='https://github.com/federicojoaquin/petlink'
+      textBtn1='GitHub'
+      btn2={false} />
 
       <Proyect proy={"https://i.ibb.co/KWJdr26/Administrador.jpg"} 
       titleProy={t4}

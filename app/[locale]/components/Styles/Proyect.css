@@ -2,10 +2,12 @@
 .titleProy {
     text-align: center;
     font-size: 1.5rem;
+    color: var(--text-primary) !important;
 }
 
 .textProy {
     font-size: 0.9rem;
+    color: var(--text-secondary) !important;
 }
 
 .imageContainer {
@@ -17,7 +19,7 @@
 }
 
 .nameProy {
-    color: #000; 
+    color: var(--text-primary) !important; 
     text-align: center;
 }
 
@@ -40,7 +42,7 @@
 }
 
 .descriptionProy {
-    color: #000; 
+    color: var(--text-secondary); 
     font-size: 0.8rem;
 }
 
@@ -53,24 +55,24 @@
 
 .btnNeonCard {
     font-size: 0.8rem;
-    background-color: #fff;
+    background-color: var(--bg-card);
     padding: 15px 25px;
     text-decoration: none;
-    color: darkblue; 
+    color: var(--text-primary); 
     transition: .4 ease;
     border-radius: 25px;
-    border: 0.5px solid #000;
+    border: 1px solid var(--accent);
 }
 
 .btnNeonCard2 {
     font-size: 0.8rem;
-    background-color: #fff;
+    background-color: var(--bg-card);
     padding: 10px 15px;
     text-decoration: none;
-    color: darkblue; 
+    color: var(--text-primary); 
     transition: .4 ease;
     border-radius: 25px;
-    border: 0.5px solid #000;
+    border: 1px solid var(--accent);
 }
 
 .btnFalse {
@@ -78,23 +80,19 @@
 }
 
 .btnNeonCard:hover {
-    box-shadow: 0 0 10px rgb(235, 235, 255),
-                0 0 30px rgb(235, 235, 255),
-                0 0 70px rgb(235, 235, 255), 
-                0 0 130px rgb(235, 235, 255); 
-
-    color: #000; 
-    background-color: rgb(235, 235, 255);
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.5),
+                0 0 30px rgba(108, 99, 255, 0.3),
+                0 0 70px rgba(108, 99, 255, 0.2); 
+    color: var(--text-primary); 
+    background-color: var(--bg-card);
 }
 
 .btnNeonCard2:hover {
-    box-shadow: 0 0 10px rgb(235, 235, 255),
-                0 0 30px rgb(235, 235, 255),
-                0 0 70px rgb(235, 235, 255), 
-                0 0 130px rgb(235, 235, 255); 
-
-    color: #000; 
-    background-color: rgb(235, 235, 255);
+    box-shadow: 0 0 10px rgba(108, 99, 255, 0.5),
+                0 0 30px rgba(108, 99, 255, 0.3),
+                0 0 70px rgba(108, 99, 255, 0.2); 
+    color: var(--text-primary); 
+    background-color: var(--bg-card);
 }
 
 #visit {
@@ -120,18 +118,19 @@
     width: 18rem;
     margin: 3rem;
     transition: box-shadow, top 0.4s;
-    border: 1px solid #254dff;
+    border: 1px solid var(--border);
     top: 0px; 
     transition: box-shadow, top 0.4s;
+    background-color: var(--bg-card) !important;
 }
 
 
 .card-title {
-    color: #000;
+    color: var(--text-primary) !important;
 }
 
 .card-text { 
-    color: #000;
+    color: var(--text-secondary) !important;
 }
 
 @media only screen and (max-width: 762px) {

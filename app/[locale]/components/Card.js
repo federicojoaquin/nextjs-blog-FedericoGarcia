@@ -11,29 +11,22 @@ const secular = Secular_One({ subsets: ['latin'], weight: ['400'] })
 function Card({ title, cardImage, cardText }) {
 
   const myRef = useRef();
-  const [myElementIsVisible, setMyElementIsVisible] = useState();
+  const [myElementIsVisible, setMyElementIsVisible] = useState(false);
 
   useEffect(() => {
-
-    const observer = new IntersectionObserver((entries) => {
-      const entry = entries[0];
-      setMyElementIsVisible(entry.isIntersecting)
-    }, {
-      root: null,
-      rootMargin: '-170px 0px -170px 0px',
-      threshold: 1,
-    })
-    observer.observe(myRef.current);
-
+    setMyElementIsVisible(true);
   }, [])
 
   return (
-    <div className={`card cardPresOne ${myElementIsVisible ? 'ligth' : ''}`} ref={myRef}>
-      <div className='imageCard'>
-        <Image src={cardImage} width={35} height={35} alt={title} />
+    <div className='cardContainer'>
+      <div className={`card cardPresOne ${myElementIsVisible ? 'ligth' : ''}`} ref={myRef}>
+        <div className='orbit-1'></div>
+        <div className='orbit-2'></div>
+        <div className='imageCard'>
+          <Image src={cardImage} width={32} height={32} alt={title} />
+        </div>
         <h1 className={`${secular.className} titleCard`}>{title}</h1>
       </div>
-      <p>{cardText}</p>
     </div>
   )
 }

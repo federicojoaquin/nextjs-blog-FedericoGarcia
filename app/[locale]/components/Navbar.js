@@ -7,16 +7,18 @@ import Link from 'next/link'
 import './Styles/Navbar.css'
 import reatraitNav from '../Federico.jpg'
 import LanguageDropdown from './LanguagesDropdown'
+import ThemeToggle from './ThemeToggle'
+import { useTheme } from './providers/ThemeProvider'
 
 function Navbar({ home, about, skills, experience, projects, contact }) {
+  const { theme } = useTheme();
 
   const [clientWindowHeight, setClientWindowHeight] = useState("");
-
+  const [locale, setLocale] = useState('');
   const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
   const [padding, setPadding] = useState(30);
   const [boxShadow, setBoxShadow] = useState(0);
   const [imgOpacity, setImgOpacity] = useState(0);
-  const [locale, setLocale] = useState('');
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -58,10 +60,15 @@ function Navbar({ home, about, skills, experience, projects, contact }) {
     setLocale(languagePrefix);
   }, []);
 
+  const navbarBg = theme === 'dark' 
+    ? `rgba(13, 15, 20, ${Math.min(backgroundTransparacy + 0.1, 0.92)})`
+    : `rgba(245, 247, 250, ${Math.min(backgroundTransparacy + 0.1, 0.92)})`;
+
   return (
     <nav className="navbar navbar-expand-lg fixed-top"
       style={{
-        background: `rgba(13, 15, 20, ${Math.min(backgroundTransparacy + 0.1, 0.92)})`,
+        background: navbarBg,
+        backgroundColor: navbarBg,
         backdropFilter: backgroundTransparacy > 0.05 ? 'blur(12px)' : 'none',
         WebkitBackdropFilter: backgroundTransparacy > 0.05 ? 'blur(12px)' : 'none',
         padding: `${padding}px 0px`,
@@ -73,6 +80,7 @@ function Navbar({ home, about, skills, experience, projects, contact }) {
 
         <Image src={reatraitNav} width={40} height={40} className='retraitNav' style={{ opacity: `${imgOpacity}` }} alt='Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer' />
         <LanguageDropdown reflink='/About' />
+        <ThemeToggle />
         <button className="navbar-toggler navbar-toggler-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

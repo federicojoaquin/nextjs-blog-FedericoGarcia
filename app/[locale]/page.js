@@ -8,6 +8,7 @@ import Image from 'next/image'
 import Script from 'next/script'
 import federico from './Federico.jpg'
 import LanguageDropdown from './components/LanguagesDropdown';
+import ThemeToggle from './components/ThemeToggle';
 import { Link } from '../../navigation';
 import { useTranslations } from 'next-intl'
 
@@ -30,7 +31,8 @@ export default function Home() {
           <h4 style={{ marginTop: '10px', fontSize: '0.85rem', color: 'var(--text-secondary)', fontFamily: 'var(--font-mono)' }}>
             Language / idioma:
           </h4>
-          <LanguageDropdown reflink='/' />
+<LanguageDropdown reflink='/' />
+          <ThemeToggle />
           <Link className="ctaBtn showMore" href={'/About'}>
             {t('firstButton')}
           </Link>

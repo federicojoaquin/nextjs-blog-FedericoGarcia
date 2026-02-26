@@ -9,6 +9,7 @@ import Section1 from '../components/Section1'
 import Burbles from '../components/Burbles'
 import Cards from '../components/Cards'
 import Tecnologies from '../components/Tecnologies'
+import ParticleBackgroundAbout from '../components/ParticleBackgroundAbout'
 import Image from 'next/image'
 import Proyects from '../components/Proyects'
 import { Secular_One } from 'next/font/google'
@@ -34,7 +35,11 @@ export default function AboutPage({ children }) {
         contact={t('nav.contact')}
 
       />
-      <div className='About'>
+      <div className='About' style={{ position: 'relative' }}>
+        <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', pointerEvents: 'none', zIndex: 0 }}>
+          <ParticleBackgroundAbout />
+        </div>
+        <div style={{ position: 'relative', zIndex: 1 }}>
 
         <div className='content'>
           <section id='sobreMi'>
@@ -53,15 +58,17 @@ export default function AboutPage({ children }) {
             <Burbles />
           </section>
         </div>
-        <section className='content2' id='tecnologias'>
-          <h1 className='titleTec'><b>{t('skills')}</b></h1>
-          <Tecnologies />
-          <Cards
-            t1={t('cards.1')}
-            t2={t('cards.2')}
-            t3={t('cards.3')}
-            t4={t('cards.4')}
-          />
+        <section id='tecnologias'>
+          <div className='tecnologies-section' style={{ width: '100%' }}>
+            <h1 className='titleTec'><b>{t('skills')}</b></h1>
+            <Tecnologies />
+            <Cards
+              t1={t('cards.1')}
+              t2={t('cards.2')}
+              t3={t('cards.3')}
+              t4={t('cards.4')}
+            />
+          </div>
 
 
         </section>
@@ -98,12 +105,11 @@ export default function AboutPage({ children }) {
           />
 
 
-          <div className='wave'></div>
-
         </section>
 
+        </div>
       </div>
-      <footer id='contacto'>
+      <footer id='contacto' style={{ position: 'relative', zIndex: 10 }}>
 
         <h1 className='footerTitle'>{t('contact')}</h1>
         <div className='contactContainer'>

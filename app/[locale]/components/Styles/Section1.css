@@ -1,5 +1,5 @@
 .firstSec {
-    background-color: #161923;
+    background-color: var(--bg-secondary);
     padding: 5rem 0;
     margin: 0;
     width: 100%;
@@ -58,7 +58,6 @@
     background: var(--accent-light);
     box-shadow: 0 4px 20px rgba(108, 99, 255, 0.4);
     transform: translateY(-2px);
-    color: #fff !important;
 }
 
 /* Profile photo */

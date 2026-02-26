@@ -80,7 +80,6 @@
     background: var(--accent-light);
     box-shadow: 0 4px 20px rgba(108, 99, 255, 0.4);
     transform: translateY(-2px);
-    color: #fff;
 }
 
 #particles-js {

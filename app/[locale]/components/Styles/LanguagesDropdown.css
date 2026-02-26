@@ -19,9 +19,9 @@
   position: absolute;
   /* top: 60px; Adjust this according to your layout */
   right: 0;
-  background-color: rgba(13, 15, 20, 0.97);
+  background-color: var(--bg-primary);
   padding: 5px;
-  box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+  box-shadow: 0 0 5px var(--shadow-color);
   z-index: 1000;
 }
 
@@ -33,13 +33,13 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #fff;
+  color: var(--text-primary);
   padding: 5px;
   transition: background-color 0.3s ease;
 }
 
 .language-link:hover {
-  background-color: rgba(108, 99, 255, 0.3);
+  background-color: var(--shadow-color);
 }
 
 .flag-icon {
@@ -50,4 +50,8 @@
 
 .language-icon {
   filter: brightness(0) invert(1);
+}
+
+[data-theme="light"] .language-icon {
+  filter: none;
 }

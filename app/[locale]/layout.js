@@ -2,6 +2,7 @@ import '../globals.css'
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { ThemeProvider } from './components/providers/ThemeProvider';
 
 const locales = ['en', 'es'];
 
@@ -17,18 +18,20 @@ export const viewport = {
 };
 
 export default async function RootLayout({ children, params }) {
-  const { locale } = await params;  // async params — Next.js 15 breaking change
+  const { locale } = await params;
 
   if (!locales.includes(locale)) notFound();
 
   const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} suppressHydrationWarning>
       <body>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <ThemeProvider>
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   )
