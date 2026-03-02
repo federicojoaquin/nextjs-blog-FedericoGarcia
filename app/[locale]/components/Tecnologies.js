@@ -22,6 +22,9 @@ import image16 from '../assets/Icons/prolog.svg'
 import image17 from '../assets/Icons/apex.png'
 import image18 from '../assets/Icons/forms.svg'
 import image19 from '../assets/Icons/reports.svg'
+import imageN8n from '../assets/Icons/n8n.svg'
+import imageRedux from '../assets/Icons/redux.svg'
+import imageTerraform from '../assets/Icons/terraform.svg'
 
 const categories = [
   {
@@ -31,6 +34,7 @@ const categories = [
       { name: 'Django', path: image12 },
       { name: 'PostgreSQL', path: image10 },
       { name: 'PL/SQL', path: image9 },
+      { name: 'n8n', path: imageN8n },
       { name: 'Oracle', path: image7 },
       { name: 'Apex', path: image17 },
       { name: 'Forms', path: image18 },
@@ -43,6 +47,7 @@ const categories = [
       { name: 'AWS', path: image13 },
       { name: 'Docker', path: image11 },
       { name: 'Linux', path: image14 },
+      { name: 'Terraform', path: imageTerraform },
     ]
   },
   {
@@ -54,6 +59,7 @@ const categories = [
       { name: 'JavaScript', path: image3 },
       { name: 'HTML', path: image2 },
       { name: 'CSS', path: image1 },
+      { name: 'Redux', path: imageRedux },
     ]
   },
   {

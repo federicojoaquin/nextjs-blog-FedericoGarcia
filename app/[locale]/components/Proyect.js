@@ -30,7 +30,9 @@ function Proyect({ proy, titleProy, descProy, linkProy, btn1, btn2, link1, link2
 
   return (
     <div className={`card cardPersTwo ${myElementIsVisible ? 'ligthProy' : ''}`} ref={myRef}>
-      <Image src={proy} className="card-img-top my-3" width={700} height={200} style={{ width: '100%', height: 'auto' }} alt='Imagen proyecto, portafolio Federico Garcia Full Stack developer' />
+      <div style={{ width: '100%', height: '160px', position: 'relative', overflow: 'hidden', borderRadius: '6px' }} className="my-3">
+        <Image src={proy} fill style={{ objectFit: 'cover', objectPosition: 'top' }} alt='Imagen proyecto, portafolio Federico Garcia Full Stack developer' />
+      </div>
       <div className="card-body">
         <h5 className={`${secular.className} card-title titleProy`}>{titleProy}</h5>
         <p className={`${alata.className} card-text textProy`}>{descProy}</p>
