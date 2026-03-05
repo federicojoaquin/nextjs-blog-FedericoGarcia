@@ -121,4 +121,21 @@
         align-items: center;
         text-align: center;
     }
+
+    .profilePhoto {
+        max-width: 220px !important;
+        width: 220px !important;
+    }
+
+    .photoContainer {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .profilePhoto {
+        max-width: 180px !important;
+        width: 180px !important;
+    }
 }
