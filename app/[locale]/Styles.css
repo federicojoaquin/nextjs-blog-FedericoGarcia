@@ -14,9 +14,22 @@
 .subTitle {
     font-size: 1.8rem;
     font-weight: 400;
-    color: var(--accent);
     font-family: var(--font-sans);
     letter-spacing: 0.5px;
+}
+
+.python-text {
+    background: linear-gradient(90deg, #3776AB, #FFD43B, #3776AB, #FFD43B);
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: pythonColors 4s linear infinite;
+}
+
+@keyframes pythonColors {
+    0%   { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
 }
 
 .main-section {

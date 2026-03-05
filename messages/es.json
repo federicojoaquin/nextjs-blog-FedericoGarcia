@@ -17,6 +17,7 @@
         "download_button": "<b>Descargar CV ↓</b> ",
         "contact": "Contacto",
         "skills": "Habilidades",
+        "ai_label": "IA, Herramientas & Automatización",
         "cards": {
             "1": "Resolución de conflictos",
             "2": "Trabajo en equipo",
@@ -29,21 +30,35 @@
             "1": {
                 "title": "Servicios y consultoria",
                 "period": "Julio 2023 - Actualidad",
-                "des": "Desarrollo de productos de software desde cero para el gobierno argentino utilizando Django Rest Framework y bibliotecas de AWS, como textract, así como otros productos de Amazon, como RDS, EC2, Lambdas, API Gateways y más. Nombres de proyectos: Scanxtract y Smith-bot."
+                "des": "Desarrollo de soluciones de software a medida para numerosas entidades públicas y municipios a lo largo de todo el país, como también importantes empresas en la ciudad de Córdoba, liderando el diseño e implementación de sistemas backend con Django REST Framework e integración profunda con AWS. Responsable de arquitectura cloud utilizando servicios como Textract, RDS, EC2, Lambda, API Gateway y Cognito. Proyectos destacados: Scanxtract (extracción automatizada de datos de documentos oficiales) y Smith-bot (chatbot inteligente para gestión de consultas institucionales)."
             },
             "2": {
                 "title": "2GSoft",
                 "period": "Octubre 2021 - Julio 2023",
-                "des": "Principalmente he desarrollado nuevos módulos y funciones para un software ERP llamado Hermes Gestión. Utilizando Oracle PL/SQL, Forms, Reports y Apex. Además, he creado algunas APIs para conectar aplicaciones externas a la base de datos de este software, con Node JS."
+                "des": "Desarrollo y extensión de módulos críticos para el ERP Hermes Gestión, trabajando para importantes empresas del sector privado en Córdoba. Implementación de nuevas funcionalidades utilizando Oracle PL/SQL, Oracle Forms, Reports y Apex. Diseño e implementación de APIs REST con Node.js para la integración de aplicaciones externas con la base de datos central del sistema, mejorando la interoperabilidad con plataformas de terceros."
             },
             "3": {
                 "title": "Full stack freelance",
                 "period": "Enero 2020 - Actualidad",
-                "des": "Desarrollé páginas web estáticas para clientes, como Agronix SRL y Mauricio Preyra, utilizando Next js y también Vanilla JS. Hoy en día, estoy en proceso de armado de una aplicación completa para Agronix SRL en lo que respecta a administración de deudas. Además, sigo haciendo aplicaciones para uso personal, como mi proyecto: Administrador Personal."
+                "des": "Desarrollo de aplicaciones web para clientes del sector privado, incluyendo sitios institucionales y plataformas a medida. Proyectos destacados: sitio web corporativo para Agronix S.R.L (tecnología agrícola) y web oficial del músico Mauricio Pereyra, ambos desarrollados con Next.js. Actualmente en desarrollo de una aplicación de gestión financiera personal con React, Node.js y PostgreSQL."
+            }
+        },
+        "education": "Educación",
+        "edu": {
+            "1": {
+                "title": "Universidad Siglo XXI",
+                "degree1": "Título — Analista en Sistemas",
+                "degree2": "Ingeniería de Software (en curso)",
+                "period": "2020 – Actualidad"
+            },
+            "2": {
+                "title": "Universidad Tecnológica Nacional (UTN)",
+                "degree1": "Ingeniería en Sistemas",
+                "period": "2020 – 2023"
             }
         },
         "projects": "Proyectos",
-"proyect": {
+        "proyect": {
             "1": {
                 "title": "PetLink",
                 "des": "Plataforma de matcheo de mascotas, similar a Tinder pero para mascotas. Permite a hogares y cuidadores encontrar, publicar y realizar intercambios de mascotas de forma segura. Desarrollado con Django (Python) y PostgreSQL."

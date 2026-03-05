@@ -13,65 +13,79 @@
             "contact": "Contact"
         },
         "about_title": "<b>About me</b>",
-        "about_me": "🇺🇸 English Full Stack Developer with 4+ years of experience, with a strong focus on backend development using Python/Django and cloud infrastructure on AWS. I've built and shipped end-to-end applications — from designing REST APIs and real-time systems with WebSockets and PostgreSQL, to setting up cloud architecture using services like Lambda, EC2, S3, Textract, and Cognito. I also bring solid experience with relational databases and PL/SQL/Oracle, having delivered business-critical solutions for ERP software across multiple clients and government agencies. On the frontend, I work with Next.js and React, which lets me own full projects from top to bottom while keeping the backend as the foundation. I care about clean architecture, pragmatic decisions, and code that holds up at scale.",
-        "download_button": "<b>Download CV ↓</b>", 
-        "contact": "Contact", 
-        "skills": "Skills", 
+        "about_me": "Full Stack Developer with 4+ years of experience, with a strong focus on backend development using Python/Django and cloud infrastructure on AWS. I've built and shipped end-to-end applications — from designing REST APIs and real-time systems with WebSockets and PostgreSQL, to setting up cloud architecture using services like Lambda, EC2, S3, Textract, and Cognito. I also bring solid experience with relational databases and PL/SQL/Oracle, having delivered business-critical solutions for ERP software across multiple clients and government agencies. On the frontend, I work with Next.js and React, which lets me own full projects from top to bottom while keeping the backend as the foundation. I care about clean architecture, pragmatic decisions, and code that holds up at scale.",
+        "download_button": "<b>Download CV ↓</b>",
+        "contact": "Contact",
+        "skills": "Skills",
+        "ai_label": "AI, Tools & Automation",
         "cards": {
-            "1": "Conflict Resolution", 
-            "2": "Teamwork", 
+            "1": "Conflict Resolution",
+            "2": "Teamwork",
             "3": "Adapting to change",
             "4": "Constant learning"
-        }, 
-        "experience": "Experience", 
+        },
+        "experience": "Experience",
         "companies": {
-            "tec": "Tecnologies: ", 
+            "tec": "Tecnologies: ",
             "1": {
-                "title": "Servicios y consultoria", 
+                "title": "Servicios y consultoria",
                 "period": "July 2023 - Present",
                 "tec": "Tecnologies: ",
-                "des": "Developing software products from scratch for the Argentinian government using Django Rest Framework and AWS libraries, such as textract, as well as other Amazon products, like RDS, EC2, Lambdas, API Gateways and more. Project names: Scanxtract and Smith-bot."
-            }, 
+                "des": "Designed and built custom software solutions for numerous public entities and municipalities across the country, as well as major companies in the city of Córdoba, leading backend architecture and development with Django REST Framework and deep AWS integration. Responsible for cloud infrastructure using services such as Textract, RDS, EC2, Lambda, API Gateway, and Cognito. Key projects: Scanxtract (automated extraction of data from official government documents) and Smith-bot (intelligent chatbot for institutional query management)."
+            },
             "2": {
-                "title": "2GSoft", 
+                "title": "2GSoft",
                 "period": "October 2021 - July 2023",
                 "tec": "Tecnologies: ",
-                "des": "I have mainly developed new modules and features for an ERP software called Hermes Gestión. Using Oracle PL/SQL, Forms, Reports and Apex. Furthermore, I have made some APIs to connect external apps to this software's database, with Node JS."
-            }, 
+                "des": "Developed and extended critical modules for the Hermes Gestión ERP system, serving major private sector companies in Córdoba. Implemented new business features using Oracle PL/SQL, Oracle Forms, Reports, and Apex. Designed and built REST APIs with Node.js to integrate external applications with the system's core database, improving interoperability with third-party platforms."
+            },
             "3": {
-                "title": "Full stack freelance", 
+                "title": "Full stack freelance",
                 "period": "January 2020 - Present",
                 "tec": "Tecnologies: ",
-                "des": "I have developed some static webpages for clients, such as Agronix SRL and musician Mauricio Preyra, using Next js and also Vanilla JS. Nowadays, I am in the process to develop an entire app for Agronix SRL to manage client debts. Moreover, I am still making apps for personal use, such as my Personal Administrator."
-            }     
-        }, 
-        "projects": "Projects", 
-"proyect": {
+                "des": "Delivered web applications for private sector clients, including institutional websites and custom platforms. Notable projects: corporate website for Agronix S.R.L (agricultural technology company) and the official site for musician Mauricio Pereyra, both built with Next.js. Currently developing a personal finance management application using React, Node.js, and PostgreSQL."
+            }
+        },
+        "education": "Education",
+        "edu": {
             "1": {
-                "title": "PetLink", 
+                "title": "Universidad Siglo XXI",
+                "degree1": "Bachelor's Degree — Software Analyst",
+                "degree2": "Software Engineering (in progress)",
+                "period": "2020 – Present"
+            },
+            "2": {
+                "title": "Universidad Tecnológica Nacional (UTN)",
+                "degree1": "Systems Engineering",
+                "period": "2020 – 2023"
+            }
+        },
+        "projects": "Projects",
+        "proyect": {
+            "1": {
+                "title": "PetLink",
                 "des": "Pet matching platform, like Tinder but for pets. Allows households and caregivers to find, publish, and safely exchange pets. Built with Django (Python) and PostgreSQL."
             },
             "2": {
-                "title": "Mauricio Pereyra blog", 
-                "des": "The static web page dedicated to Argentinian musician Mauricio Pereyra provides a captivating insight into his musical journey, featuring an extensive collection of albums, a detailed biography, and easy-to-access contact information. Crafted using Next.js. "
-            }, 
+                "title": "Mauricio Pereyra blog",
+                "des": "The static web page dedicated to Argentinian musician Mauricio Pereyra provides a captivating insight into his musical journey, featuring an extensive collection of albums, a detailed biography, and easy-to-access contact information. Crafted using Next.js."
+            },
             "3": {
-                "title": "Agronix S.R.L", 
+                "title": "Agronix S.R.L",
                 "des": "Static web page for presenting Agronix S.R.L, company which provides agriculture technological solutions. Html, Css and vanilla Javascript."
-            }, 
-            "4":{
-                "title": "Personal administrator", 
+            },
+            "4": {
+                "title": "Personal administrator",
                 "des": "Developing an app to manage expenses, finances, and productivity. Tecnologies: React, Node.Js, Express and PostgreSql."
             },
-            "5":{
-                "title": "Scanxtract backend demo v1", 
-                "des": "Our initial demo version of Scanxtract aims to extract pertinent information from government file batches using the Amazon Textract service. This data is subsequently stored in an RDS (Relational Database Service), reducing the need for extensive manual research and extraction. Technologies (backend): , PostgreSQL, Docker, and AWS."
+            "5": {
+                "title": "Scanxtract backend demo v1",
+                "des": "Our initial demo version of Scanxtract aims to extract pertinent information from government file batches using the Amazon Textract service. This data is subsequently stored in an RDS (Relational Database Service), reducing the need for extensive manual research and extraction. Technologies (backend): PostgreSQL, Docker, and AWS."
             },
-            "6":{
-                "title": "SonIA backend demo v1", 
+            "6": {
+                "title": "SonIA backend demo v1",
                 "des": "Our initial backend demo for the SonIA app is designed to configure a WhatsApp chatbot within a business context, tailored by the user. Additionally, it integrates statistical analysis to measure chatbot interactions, including user satisfaction, conversation objectives, user sentiment, and more. Backend technologies employed include PostgreSQL, Docker, and AWS."
             }
         }
     }
-    
 }

@@ -1,0 +1,203 @@
+.edu-section {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Fila: dot + card */
+.edu-row {
+  display: flex;
+  align-items: center;
+  position: relative;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+
+.edu-row.edu-visible {
+  opacity: 1;
+}
+
+/* Primera card a la izquierda */
+.edu-row-left {
+  justify-content: flex-start;
+}
+
+/* Segunda card a la derecha */
+.edu-row-right {
+  justify-content: flex-end;
+}
+
+/* Dot animado */
+.edu-dot {
+  width: 12px;
+  height: 12px;
+  background-color: var(--accent);
+  border-radius: 50%;
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(33% + 24px);
+}
+
+.edu-row-right .edu-dot {
+  left: auto;
+  right: calc(33% + 24px);
+}
+
+/* Card */
+.edu-card {
+  width: 33%;
+  padding: 20px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  box-sizing: border-box;
+}
+
+.edu-card:hover {
+  box-shadow: 0 4px 24px rgba(108, 99, 255, 0.2);
+  transform: translateY(-4px);
+}
+
+.edu-card h3 {
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  margin-bottom: 0.25rem;
+}
+
+.edu-card p {
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Layout interno: texto + logo */
+.edu-card-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0;
+}
+
+.edu-card-text {
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.edu-logo-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.edu-logo {
+  object-fit: contain;
+  border-radius: 4px;
+  opacity: 0.92;
+  width: 120px !important;
+  height: auto !important;
+}
+
+.edu-logo-utn {
+  width: 110px !important;
+  height: auto !important;
+}
+
+[data-theme="dark"] .edu-logo-utn {
+  filter: invert(1) brightness(1.8);
+}
+
+/* Pulse animation */
+@keyframes pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(108, 99, 255, 0.6); }
+  70%  { box-shadow: 0 0 0 8px rgba(108, 99, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(108, 99, 255, 0); }
+}
+
+.pulse-dot {
+  animation: pulse 2s infinite;
+}
+
+/* ── Responsive ───────────────────────────────── */
+
+/* Pantallas medianas: reducir padding lateral y agrandar tarjetas */
+@media (max-width: 1200px) {
+  .edu-section {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .edu-section {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .edu-card {
+    width: 48%;
+  }
+
+  .edu-dot {
+    left: calc(48% + 16px);
+  }
+
+  .edu-row-right .edu-dot {
+    left: auto;
+    right: calc(48% + 16px);
+  }
+}
+
+/* Mobile: sin padding lateral, tarjeta full width, layout apilado */
+@media (max-width: 600px) {
+  .edu-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 10px;
+  }
+
+  .edu-row {
+    justify-content: center !important;
+  }
+
+  .edu-card {
+    width: 100%;
+    border-left: none;
+    border-top: 3px solid var(--accent);
+  }
+
+  .edu-dot {
+    display: none;
+  }
+
+  .edu-card-inner {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .edu-card-text {
+    flex: 1;
+  }
+
+  .edu-logo-wrap {
+    flex: 0 0 auto;
+    padding-left: 0.5rem;
+  }
+
+  .edu-logo {
+    width: 80px !important;
+  }
+
+  .edu-logo-utn {
+    width: 70px !important;
+  }
+}

@@ -102,6 +102,21 @@ section[id] {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Cpath d='M200 0 Q 180 80, 200 160 Q 220 240, 200 320 Q 180 400, 200 480 Q 220 560, 200 600' stroke='%23fff' stroke-width='1.5' fill='none' opacity='0.18' stroke-linecap='round' stroke-dasharray='10 6'/%3E%3Cpath d='M260 0 Q 240 80, 260 160 Q 280 240, 260 320 Q 240 400, 260 480 Q 280 560, 260 600' stroke='%23fff' stroke-width='1.5' fill='none' opacity='0.22' stroke-linecap='round' stroke-dasharray='10 6'/%3E%3Cpath d='M540 0 Q 520 80, 540 160 Q 560 240, 540 320 Q 520 400, 540 480 Q 560 560, 540 600' stroke='%23fff' stroke-width='1.5' fill='none' opacity='0.22' stroke-linecap='round' stroke-dasharray='10 6'/%3E%3Cpath d='M600 0 Q 580 80, 600 160 Q 620 240, 600 320 Q 580 400, 600 480 Q 620 560, 600 600' stroke='%23fff' stroke-width='1.5' fill='none' opacity='0.18' stroke-linecap='round' stroke-dasharray='10 6'/%3E%3C/svg%3E");
 }
 
+/* Sección Educación: fondo transparente, altura ajustada al contenido */
+.content-edu {
+  min-height: unset !important;
+  padding-bottom: 2rem !important;
+  background: transparent !important;
+}
+
+.content-edu::before {
+  display: none !important;
+}
+
+[data-theme="dark"] .content-edu::before {
+  display: none !important;
+}
+
 .contentProy {
     display: flex;
     justify-content: center;

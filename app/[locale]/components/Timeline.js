@@ -16,6 +16,7 @@ import image4 from '../assets/Icons/Next.png'
 import image5 from '../assets/Icons/Node.png'
 import image6 from '../assets/Icons/React.png'
 import image8 from '../assets/Icons/Python.png'
+import imageAR from '../assets/Icons/usa.svg'
 
 import Image from 'next/image';
 import './Styles/Timeline.css';
@@ -57,7 +58,7 @@ function Timeline({ tec, t1, p1, d1, date1, t2, p2, d2, date2, t3, p3, d3, date3
           <div className="circle pulse-dot"></div>
           <div className="timelineContent">
             {date1 && <span className="dateChip">{date1}</span>}
-            <h3><b>{t1}</b></h3>
+            <h3><b>{t1}</b> <Image src={imageAR} width={20} height={20} alt='Argentina' style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '6px' }} /></h3>
             <p><b>{p1}</b></p>
             <div className='tecRow'>
               <p><b>{tec}</b></p>
@@ -78,7 +79,7 @@ function Timeline({ tec, t1, p1, d1, date1, t2, p2, d2, date2, t3, p3, d3, date3
           <div className="circle pulse-dot"></div>
           <div className="timelineContent">
             {date2 && <span className="dateChip">{date2}</span>}
-            <h3><b>{t2}</b></h3>
+            <h3><b>{t2}</b> <Image src={imageAR} width={20} height={20} alt='Argentina' style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '6px' }} /></h3>
             <p><b>{p2}</b></p>
             <div className='tecRow'>
               <p><b>{tec}</b></p>
@@ -101,7 +102,7 @@ function Timeline({ tec, t1, p1, d1, date1, t2, p2, d2, date2, t3, p3, d3, date3
           <div className="circle pulse-dot"></div>
           <div className="timelineContent">
             {date3 && <span className="dateChip">{date3}</span>}
-            <h3><b>{t3}</b></h3>
+            <h3><b>{t3}</b> <Image src={imageAR} width={20} height={20} alt='Argentina' style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '6px' }} /></h3>
             <p><b>{p3}</b></p>
             <div className='tecRow'>
               <p><b>{tec}</b></p>

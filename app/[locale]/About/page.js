@@ -17,6 +17,7 @@ import Script from 'next/script'
 const secular = Secular_One({ subsets: ['latin'], weight: ['400'] })
 import { useTranslations } from 'next-intl'
 import Timeline from '../components/Timeline'
+import Education from '../components/Education'
 
 export default function AboutPage({ children }) {
 
@@ -61,7 +62,7 @@ export default function AboutPage({ children }) {
         <section id='tecnologias'>
           <div className='tecnologies-section' style={{ width: '100%' }}>
             <h1 className='titleTec'><b>{t('skills')}</b></h1>
-            <Tecnologies />
+            <Tecnologies aiLabel={t('ai_label')} />
             <Cards
               t1={t('cards.1')}
               t2={t('cards.2')}
@@ -84,6 +85,18 @@ export default function AboutPage({ children }) {
             d1={t('companies.1.des')}
             d2={t('companies.2.des')}
             d3={t('companies.3.des')}
+          />
+        </section>
+        <section className='content4 content-edu' id='educacion'>
+          <h1 className='titleTec'><b>{t('education')}</b></h1>
+          <Education
+            title1={t('edu.1.title')}
+            degree1_1={t('edu.1.degree1')}
+            degree1_2={t('edu.1.degree2')}
+            period1={t('edu.1.period')}
+            title2={t('edu.2.title')}
+            degree2_1={t('edu.2.degree1')}
+            period2={t('edu.2.period')}
           />
         </section>
         <section className='content3' id='proyectos'>

@@ -25,8 +25,13 @@ import image19 from '../assets/Icons/reports.svg'
 import imageN8n from '../assets/Icons/n8n.svg'
 import imageRedux from '../assets/Icons/redux.svg'
 import imageTerraform from '../assets/Icons/terraform.svg'
+import imageAnthropic from '../assets/Icons/anthropic.svg'
+import imageGemini from '../assets/Icons/gemini.svg'
+import imageCodex from '../assets/Icons/codex.svg'
+import imageOpenCode from '../assets/opencode-logo.png'
+import imageAntigravity from '../assets/antigravity-color.png'
 
-const categories = [
+const getCategories = (aiLabel) => [
   {
     label: 'Backend',
     icons: [
@@ -34,7 +39,6 @@ const categories = [
       { name: 'Django', path: image12 },
       { name: 'PostgreSQL', path: image10 },
       { name: 'PL/SQL', path: image9 },
-      { name: 'n8n', path: imageN8n },
       { name: 'Oracle', path: image7 },
       { name: 'Apex', path: image17 },
       { name: 'Forms', path: image18 },
@@ -63,6 +67,17 @@ const categories = [
     ]
   },
   {
+    label: aiLabel,
+    icons: [
+      { name: 'Claude Code', path: imageAnthropic },
+      { name: 'Codex', path: imageCodex },
+      { name: 'Gemini', path: imageGemini },
+      { name: 'OpenCode', path: imageOpenCode },
+      { name: 'Antigravity', path: imageAntigravity },
+      { name: 'n8n', path: imageN8n },
+    ]
+  },
+  {
     label: 'Academic',
     icons: [
       { name: 'Haskell', path: image15 },
@@ -71,9 +86,10 @@ const categories = [
   }
 ]
 
-function Tecnologies() {
+function Tecnologies({ aiLabel }) {
   const myRef = useRef();
   const [myElementIsVisible, setMyElementIsVisible] = useState();
+  const categories = getCategories(aiLabel || 'AI & Automation')
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {

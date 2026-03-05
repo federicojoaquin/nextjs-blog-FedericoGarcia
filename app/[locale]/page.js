@@ -23,7 +23,7 @@ export default function Home() {
         <div className="text" style={{ position: 'relative', overflow: 'hidden' }}>
           <Image className='portrait-ring' src={federico} width={150} height={150} alt='Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer' />
           <h1 className='mainTitle'><b className='mainTitle'>Federico Garcia</b></h1>
-          <h2 className='subTitle'>{'Python backend developer'}</h2>
+          <h2 className='subTitle'><span className='python-text'>Full Stack Developer</span></h2>
           <div className='iconsContactContainer'>
             <a href='https://www.linkedin.com/in/federico-garcia-9614a6236/' className="bi bi-linkedin iconoContacto" aria-label="LinkedIn"></a>
             <a href='https://github.com/federicojoaquin?tab=repositories' className="bi bi-github iconoContacto" aria-label="GitHub"></a>
