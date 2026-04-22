@@ -83,20 +83,19 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 0;
+  gap: 16px;
 }
 
 .edu-card-text {
-  flex: 0 0 auto;
+  flex: 1 1 0;
   min-width: 0;
 }
 
 .edu-logo-wrap {
-  flex: 1;
+  flex: 0 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 0;
 }
 
 .edu-logo {
@@ -180,24 +179,20 @@
   }
 
   .edu-card-inner {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .edu-card-text {
-    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
   }
 
   .edu-logo-wrap {
-    flex: 0 0 auto;
-    padding-left: 0.5rem;
+    align-self: center;
   }
 
   .edu-logo {
-    width: 80px !important;
+    width: 90px !important;
   }
 
   .edu-logo-utn {
-    width: 70px !important;
+    width: 80px !important;
   }
 }

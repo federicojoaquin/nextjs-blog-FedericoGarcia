@@ -36,13 +36,23 @@
     box-shadow: 0 0 10px rgba(108, 99, 255, 0.3);
 }
 
-/* Toggler override for dark bg */
+/* Toggler override */
 .navbar-toggler-dark {
     border-color: var(--border);
 }
 
-.navbar-toggler-dark .navbar-toggler-icon {
+[data-theme="dark"] .navbar-toggler-dark .navbar-toggler-icon {
     filter: invert(1);
+}
+
+[data-theme="light"] .navbar-toggler-dark .navbar-toggler-icon {
+    filter: invert(0);
+}
+
+.navbar-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -50,4 +60,10 @@
         background: var(--bg-primary) !important;
         backdrop-filter: blur(12px);
     }
+
+    /* Mobile order: ☰  →  Photo | Lang | Theme */
+    .navbar-toggler  { order: 1; }
+    .retraitNav      { order: 2; margin-left: auto; }
+    .navbar-controls { order: 3; gap: 16px; margin-left: 16px; }
+    #navbarNav       { order: 4; width: 100%; }
 }

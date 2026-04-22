@@ -79,11 +79,13 @@ function Navbar({ home, about, skills, experience, projects, contact }) {
       <div className="container-fluid">
 
         <Image src={reatraitNav} width={40} height={40} className='retraitNav' style={{ opacity: `${imgOpacity}` }} alt='Retrato Federico Garcia, portafolio Federico Garcia Full Stack developer' />
-        <LanguageDropdown reflink='/About' />
-        <ThemeToggle />
         <button className="navbar-toggler navbar-toggler-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
+        <div className="navbar-controls">
+          <LanguageDropdown reflink='/About' />
+          <ThemeToggle />
+        </div>
 
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
